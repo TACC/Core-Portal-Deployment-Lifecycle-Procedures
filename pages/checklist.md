@@ -3,9 +3,9 @@
 _Last Updated: 2022.02.07_
 
 <div class="persistent-nav-links">
-
-[<< Return to Index](../index.md)
-
+  <ul>
+    <li>[Return to Index](../index.md)</li>
+  </ul>
 </div>
 
 ## Checklist Purpose

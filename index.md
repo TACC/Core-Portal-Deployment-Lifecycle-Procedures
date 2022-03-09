@@ -1,6 +1,6 @@
 # Core Portal Deployment Procedures
 
-Detailed documentation and checklists for the comprehensive workflow required to establish, provision, configure and deploy a TACC ACI-WMA Core v2 Portal.
+Detailed documentation and checklist for the comprehensive workflow required to establish, provision, configure and deploy a TACC ACI-WMA Core v2 Portal.
 
 ## Description
 
