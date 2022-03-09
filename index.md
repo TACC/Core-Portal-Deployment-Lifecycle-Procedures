@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
+# Core Portal Deployment Procedures
 
-You can use the [editor on GitHub](https://github.com/TACC/Core-Portal-Deployment-Procedures/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Detailed documentation and checklists for the comprehensive workflow required to establish, provision, configure and deploy a TACC ACI-WMA Core v2 Portal.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Description
 
-### Markdown
+- What the application does.
+- Why we used the technologies we used.
+- Some of the challenges faced and features we hope to implement in the future.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Quick Start
 
-```markdown
-Syntax highlighted code block
+**TL;DR** - Take me to the [Deployment Checklist](#checklist) now!
 
-# Header 1
-## Header 2
-### Header 3
+## Table of Contents
 
-- Bulleted
-- List
+- [How To use this Documentation](#usage)
+- [Core Portal Deployment Checklist](#checklist)
+- [Versioning Information](#versioning)
+- [Prerequisites](#prerequisites)
+- [Contributors](#contributors)
+- [How to Contribute](#contributions)
+- [Licensing](#licensing)
 
-1. Numbered
-2. List
+<a id="usage"></a>
 
-**Bold** and _Italic_ and `Code` text
+## How to use this Documentation
 
-[Link](url) and ![Image](src)
-```
+Descrption of intended use and relation to live codebases and JIRA task tracking.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+<a id="checklist"></a>
 
-### Jekyll Themes
+## Core Portal Deployment Chedklist
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TACC/Core-Portal-Deployment-Procedures/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Description of the checklist and [link](#checklist) to get started using it.
 
-### Support or Contact
+<a id="versioning"></a>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Versioning Information
+
+Description of how documentation is maintained in parallel with the related codebases.
+
+<a id="prerequisites"></a>
+
+## Prerequisites
+
+- List of things.
+
+<a id="contributors"></a>
+
+## Contributors
+
+List of TACC team members who have contributed to these projects.
+
+<a id="contributions"></a>
+
+## How to Contribute
+
+Instructions on how to contribute to these projects.
+
+<a id="licensing"></a>
+
+## Licensing
+
+Discuss the details of if and how TACC licenses this codebase.
+
+
+_OPTIONAL: Add in some badges for... something?_
