@@ -10,7 +10,9 @@ Detailed documentation and checklists for the comprehensive workflow required to
 
 ## Quick Start
 
-**TL;DR** - Take me to the [Deployment Checklist](#checklist) now!
+**TL;DR** - Take me to the [Deployment Checklist](pages/checklist.md) now!
+
+
 
 ## Table of Contents
 
@@ -32,7 +34,7 @@ Descrption of intended use and relation to live codebases and JIRA task tracking
 
 ## Core Portal Deployment Chedklist
 
-Description of the checklist and [link](#checklist) to get started using it.
+Description of the checklist and how to get started using it. [Deployment Checklist](pages/checklist.md)
 
 <a id="versioning"></a>
 
