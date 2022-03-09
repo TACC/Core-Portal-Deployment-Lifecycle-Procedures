@@ -1,7 +1,5 @@
 # CEP v2 Core Portal Deployment Checklist
 
-_Last Updated: 2022.02.07_
-
 [Return to Index](../index.md)
 
 ## Checklist Purpose
