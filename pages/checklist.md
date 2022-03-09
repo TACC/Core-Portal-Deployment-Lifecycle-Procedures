@@ -2,11 +2,7 @@
 
 _Last Updated: 2022.02.07_
 
-<div class="persistent-nav-links">
-  <ul>
-    <li>[Return to Index](../index.md)</li>
-  </ul>
-</div>
+[Return to Index](../index.md)
 
 ## Checklist Purpose
 
@@ -499,3 +495,6 @@ DNS propagation status can be checked using this site: https://dnschecker.org/#C
 ---
 
 ### Other Actions
+
+[Return to Index](../index.md)
+
