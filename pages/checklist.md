@@ -2,7 +2,9 @@
 
 _Last Updated: 2022.02.07_
 
-[<< Return to Index](../index.md)
+<p class="persistent-nav-links">
+  - [<< Return to Index](../index.md)
+</p>
 
 ## Checklist Purpose
 
