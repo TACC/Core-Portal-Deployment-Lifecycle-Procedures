@@ -2,6 +2,8 @@
 
 _Last Updated: 2022.02.07_
 
+[<< Return to Index](../index.md)
+
 ## Checklist Purpose
 
 - Used for new Portal planning, provisioning, setup, configuration and deployment.
