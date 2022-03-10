@@ -14,7 +14,7 @@ This documentation should be referenced throughout all phases of the portal's li
 
 ## Quick Start
 
-**TL;DR** - I just want to setup a new portal. Take me to the [Deployment Checklist](pages/checklist.md) now!
+**TL;DR** - Got it. Take me to the [Deployment Checklist](pages/checklist.md) now!
 
 ## Table of Contents
 
