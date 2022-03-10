@@ -30,7 +30,7 @@ This documentation should be referenced throughout all phases of a portal's life
     - [Phase 10: Backups & Archiving](pages/phase_10.md)
     - [Phase 11: Sunsetting & Retirement](pages/phase_11.md)
 - [JIRA Usage](pages/jira-usage.md)
-- [Deployment Checklist](pages/checklist.md)
+- [Lifecycle Procedures Checklist](pages/checklist.md)
 - [Customization](pages/customization.md)
 - [Resources](pages/resources.md)
 - [Versioning Information](pages/versioning-information.md)

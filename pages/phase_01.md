@@ -1,6 +1,6 @@
 # CPLDP Phase 1: Administrative Prerequisite Actions
 
->> [Index](../index.md) > [Overview](../overview.md)
+- [Index](../index.md) > [Overview](../overview.md)
 
 In order to succesfully deploy a Core v2 Portal, you will need the following:
 
@@ -27,4 +27,4 @@ In order to succesfully deploy a Core v2 Portal, you will need the following:
 
 ---
 
->> [Index](../index.md) > [Overview](../overview.md)
+- [Index](../index.md) > [Overview](../overview.md)
