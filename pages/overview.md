@@ -1,6 +1,8 @@
-# CPLDP: Overview
-
 - [Index](../index.md)
+
+---
+
+# CPLDP: Overview
 
 This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Each phase is an aggregation of steps that must be completed to succesfully complete the phase objectives.
 

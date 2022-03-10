@@ -13,7 +13,7 @@ This documentation should be referenced throughout all phases of a portal's life
 
 ## Quick Start
 
-**TL;DR** - Got it. Take me to the [Deployment Checklist](pages/checklist.md) now!
+**TL;DR** - Take me to the [Lifecycle Procedures Checklist](pages/checklist.md).
 
 ## Table of Contents
 
@@ -29,8 +29,8 @@ This documentation should be referenced throughout all phases of a portal's life
     - [Phase 9: Maintenance](pages/phase_09.md)
     - [Phase 10: Backups & Archiving](pages/phase_10.md)
     - [Phase 11: Sunsetting & Retirement](pages/phase_11.md)
-- [JIRA Usage](pages/jira-usage.md)
 - [Lifecycle Procedures Checklist](pages/checklist.md)
+- [JIRA Usage](pages/jira-usage.md)
 - [Customization](pages/customization.md)
 - [Resources](pages/resources.md)
 - [Versioning Information](pages/versioning-information.md)
