@@ -17,8 +17,8 @@ Instructions on the intended use of the checklist and its relation to deploying 
 ## Table of Contents
 
 - [Getting Started](pages/getting-started.md)
-- [Resources](pages/resources.md)
 - [Deployment Checklist](pages/checklist.md)
+- [Resources](pages/resources.md)
 - [Versioning Information](pages/versioning-information.md)
 - [Contributors](pages/contributors.md)
 - [How to Contribute](pages/how-to-contribute.md)

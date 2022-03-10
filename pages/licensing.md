@@ -4,4 +4,4 @@
 
 ## Description
 
-Identify _if and how_ TACC licenses this codebase.
+Identify _if and how_ TACC licenses these codebases.
