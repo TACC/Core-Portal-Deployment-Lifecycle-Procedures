@@ -1,10 +1,10 @@
-# CPLDP Phase 3: OAuth Tenant
+# CPLDP Phase 3: OAuth Tenants
 
 [Return to Index](../index.md)
 
 TBD...
 
-### _Phase 3: OAuth Tenant_
+### _Phase 3: OAuth Tenants_
 
 <a id="phase3optA"></a>
 

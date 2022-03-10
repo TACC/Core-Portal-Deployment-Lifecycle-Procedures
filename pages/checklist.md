@@ -11,7 +11,7 @@ _Do the same for all credentials and internal URLs/IPs/Resources._
 
 <!-- - [Phase 1: Administrative Prerequisite Actions](phase_01.md)
 - [Phase 2: Resource Requests, SSH Certs & CPS Exceptions](phase_02.md)
-- [Phase 3: OAuth Tenant](phase_03.md)
+- [Phase 3: OAuth Tenants](phase_03.md)
 - [Phase 4: Related Services & Systems](phase_04.md)
 - [Phase 5: Deployment Target Host Provisioning](phase_05.md)
 - [Phase 6: Branding, Content Preparation & Image Publication](phase_06.md)
