@@ -36,11 +36,11 @@ Descrption of intended use and relation to live codebases and JIRA task tracking
 ## Getting Started
 
 Description of the Getting Started documents purpose.
-[Getting Started](pages/getting_started.md)
+[Getting Started](pages/getting-started.md)
 
 <a id="checklist"></a>
 
-## Core Portal Deployment Chedklist
+## Core Portal Deployment Checklist
 
 Description of the checklist and how to get started using it. [Deployment Checklist](pages/checklist.md)
 
@@ -49,7 +49,7 @@ Description of the checklist and how to get started using it. [Deployment Checkl
 ## Versioning Information
 
 Description of how documentation is maintained in parallel with the related codebases.
-[Versioning Information](pages/versioning.md)
+[Versioning Information](pages/versioning-information.md)
 
 <a id="contributors"></a>
 
@@ -63,7 +63,7 @@ List of TACC team members who have contributed to these projects.
 ## How to Contribute
 
 Instructions on how to contribute to these projects.
-[How to Contribute](pages/contributing.md)
+[How to Contribute](pages/how-to-contribute.md)
 
 <a id="licensing"></a>
 
