@@ -1,8 +1,16 @@
 # Core Portal Lifecycle & Deployment Procedures (CPLDP)
 
-Documentation on the comprehensive lifecycle of a TACC ACI-WMA Core v2 Portal.
+Documentation about the complete TACC ACI-WMA Core v2 Portal lifecycle.
 
-This documentation includes detailed procedures used in planning, resourcing, provisioning, configuring and deploying the portal codebases on TACC infrastructure. The documentation also establishes a checklist of explicit, discrete actions to convert into JIRA tasks during a new portal setup. Detailed procedures for portal customization via use of container and application publishing mechanisms are also included. The procceses used for maintenance, backups, archiving and sunsetting of a portal project are described as well. This documentation should be referenced throughout all phases of the portal's lifecycle.
+This documentation includes detailed procedures used in planning, resourcing, provisioning, configuring and deploying the portal codebases on TACC infrastructure.
+
+The documentation also establishes a checklist of explicit, discrete actions to convert into JIRA tasks during a new portal setup.
+
+Detailed procedures for portal customization via use of container and application publishing mechanisms are also included.
+
+The processes used for maintenance, backups, archiving and sunsetting of a portal project are described as well.
+
+This documentation should be referenced throughout all phases of the portal's lifecycle.
 
 ## Quick Start
 
