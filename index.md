@@ -34,8 +34,6 @@ This documentation should be referenced throughout all phases of the portal's li
     - [Phase 10: Backup & Archiving](pages/phase_10.md)
     - [Phase 11: Sunsetting & Retirement](pages/phase_11.md)
 - [Customization ](pages/customization.md)
-    <!-- - [Container Integration](pages/containers.md) -->
-    <!-- - [Publishing Applications](pages/applications.md) -->
 - [Resources](pages/resources.md)
 - [Versioning Information](pages/versioning-information.md)
 - [Contributors](pages/contributors.md)
