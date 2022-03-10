@@ -1,6 +1,8 @@
-# CPLDP Phase 11: Sunsetting & Retirement
+- [Index](../index.md) > [Overview](overview.md)
 
-[Return to Index](../index.md)
+---
+
+# CPLDP Phase 11: Sunsetting & Retirement
 
 Describe the procedures to follow for permanently sunsetting a portal and retiring its content.
 
@@ -10,4 +12,4 @@ Describe the procedures to follow for permanently sunsetting a portal and retiri
 
 ---
 
-[Return to Index](../index.md)
+- [Index](../index.md) > [Overview](overview.md)

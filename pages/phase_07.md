@@ -1,8 +1,8 @@
+- [Index](../index.md) > [Overview](overview.md)
+
+---
+
 # CPLDP Phase 7: Secrets & CI/CD Setup
-
-[Return to Index](../index.md)
-
-## Description
 
 TBD...
 
@@ -41,4 +41,4 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 
 ---
 
-[Return to Index](../index.md)
+- [Index](../index.md) > [Overview](overview.md)
