@@ -1,12 +1,10 @@
-# Core Portal Deployment Procedure: Phase 3
+# CPDP Phase 3: OAuth Tenant
 
 [Return to Index](../index.md)
 
-## Description
-
 TBD...
 
-### _Phase 3: Portal Tenant Setup_
+### _Phase 3: OAuth Tenant_
 
 <a id="phase3optA"></a>
 
@@ -35,9 +33,6 @@ _After Option A or Option B..._
   - Condition 1: Using a dedicated tenant with a custom PROD domain, ensure the CPS exception is added to the tenant for the portal and its domain: `Content-Security-Policy: frame-ancestors 'self' *.tacc.utexas.edu NEWDOMAIN.COM *.NEWDOMAIN.COM;`
   - Condition 2: If using the shared tenant with a custom PROD domain, ensure the custom PROD domain is appended to the CPS frame-ancestors exceptions list for the portals-api.tacc.utexas.edu tenant: `Content-Security-Policy: frame-ancestors 'self' *.tacc.utexas.edu (...entries...) NEWDOMAIN.COM *.NEWDOMAIN.COM;`
   - Condition 3: If using the shared tenant with a standard `PORTAL.tacc.utexas.edu` domian, you do not need to take any action. The existing \*.tacc.utexas.edu value picks up all tacc subdomains automatically.
-
-
-
 
 ---
 

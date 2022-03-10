@@ -2,25 +2,6 @@
 
 [Return to Index](../index.md)
 
-## Checklist Purpose
-
-- Used for new Portal planning, provisioning, setup, configuration and deployment.
-- For all new CEP v2 portal deployments, this checklist should be duplicated (and renamed appropriately) in Confluence.
-- Convert each task on the checklist into a JIRA ticket under the correct JIRA Project, Epic Sprint, etc.
-- Document the JIRA ticket ID for each task on the checklist as you create the ticket.
-- Add the JIRA ticket integration plugin in the Confluence tracking document for the given portal.
-
-The JIRA integration will display for each ticketed task:
-
-- The link to the relevant JIRA ticket
-- Completion status
-- Due date
-- The reporter/assigned dev for each task
-- The priority of the task
-- Other task details as populated in JIRA.
-
-## Deployment Phases
-
 There are several phases in the portal deployment lifecycle. Each phase is an aggregation of steps required to prepare for subsequent phases. This is the complete list of steps (referred to as a `Task`) needed to prepare, setup, configure and deploy a CEP v2 Core Portal.
 
 **TODO: Link to phase details pages.** 
@@ -43,7 +24,7 @@ There are several phases in the portal deployment lifecycle. Each phase is an ag
 - [Phase 11: Portal Sunsetting & Retirement](phase-11.md)
 - [Custom Portal Development (Optional)](customization.md)
 
-For a detailed list of all Tasks required to deploy a portal, see the [Deployment Procedures Checklist](pages/checklist.md)].
+For the detailed list of each Task required to deploy a portal, see the [Deployment Procedures Checklist](pages/checklist.md)].
 
 ---
 

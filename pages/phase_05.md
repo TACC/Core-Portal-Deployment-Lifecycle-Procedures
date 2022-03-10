@@ -1,12 +1,10 @@
-# Core Portal Deployment Procedure: Phase 5
+# CPDP Phase 5: Deployment Target Host Provisioning
 
 [Return to Index](../index.md)
 
-## Description
-
 TBD...
 
-### _Phase 5: Portal Deployment Target Host Provisioning_
+### _Phase 5: Deployment Target Host Provisioning_
 
 _Note: Repeat these steps for both PPRD & PROD._
 
@@ -53,9 +51,6 @@ _Note: Repeat these steps for both PPRD & PROD._
   - Same steps as PPRD.
 - **Task:** Request SSH access for user `portal` from the Jenkins VM IP Address into the PPRD host from NSO.
 - **Task:** Request SSH access for user `portal` from the Jenkins VM IP Address into the PROD host from NSO.
-
-
-
 
 ---
 

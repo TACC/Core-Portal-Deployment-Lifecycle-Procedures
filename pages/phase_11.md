@@ -1,17 +1,12 @@
-# Core Portal Deployment Procedure: Phase 11
+# CPDP Phase 11: Sunsetting & Retirement
 
 [Return to Index](../index.md)
 
-## Description
+Describe the procedures to follow for permanently sunsetting a portal and retiring its content.
 
-TBD...
-
-### _Phase 11: Portal Sunsetting & Retirement_
+### _Phase 11: Sunsetting & Retirement_
 
 - **Task:** TBD
-
-
-
 
 ---
 

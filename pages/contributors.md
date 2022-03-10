@@ -2,13 +2,19 @@
 
 [Return to Index](../index.md)
 
-## Description
+List of those who have contributed to this documentation project.
 
-List of TACC team members who have contributed to these projects.
+## TACCsters
 
+- John Gentle
+- Sal Tijerina
+- Joonyee Chuah
+- Jake Rosenberg
+- Wesley Bomar
 
+## External Contributors
 
-
+- None.
 
 ---
 

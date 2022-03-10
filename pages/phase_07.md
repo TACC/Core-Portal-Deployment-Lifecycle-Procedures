@@ -1,4 +1,4 @@
-# Core Portal Deployment Procedure: Phase 7
+# CPDP Phase 7: Secrets & CI/CD Setup
 
 [Return to Index](../index.md)
 
@@ -6,7 +6,7 @@
 
 TBD...
 
-### _Phase 7: Portal Secrets & Deployment Setup_
+### _Phase 7: Secrets & CI/CD Setup_
 
 - **Reminder:** The secret values that should be contained in each stache entry:
   - `PORTAL_NAME v2 ADMIN Secrets` (TAPIS Tenant tokens/keys, PostgreSQL DB Cluster credentials, ElasticSearch cluster credentials, Rabbitmq credentials, Analytics, Site verification, reCAPTCH).
@@ -38,9 +38,6 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 - **Task:** SCP `rabbitmq.env` into the PROD host `/opt/portal/Camino/conf/rabbitmq/` subdir.
 
 - **Task:** Configure Portal Project Jenkins CI job.
-
-
-
 
 ---
 

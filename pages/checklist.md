@@ -2,6 +2,11 @@
 
 [Return to Index](../index.md)
 
+**TODO: SANITIZE THESE DOCUMENTS OF ANY SENSITIVE CREDENTIALS!!!! ENSURE THIS IS SAFE FOR PUBLIC CONSUMPTION.**
+
+_Example. Replace all instances of `wma_prtl` with `ACI-WMA Portal TACC Service Account`._
+_Do the same for all credentials and internal URLs/IPs/Resources._
+
 ## Portal Deployment Phases
 
 - [Phase 1: Portal Administrative Prerequisite Actions](#phase1)

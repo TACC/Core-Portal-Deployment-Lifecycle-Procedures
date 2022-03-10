@@ -2,14 +2,7 @@
 
 [Return to Index](../index.md)
 
-## Description
-
-Instructions on how to contribute to these projects.
-
-
-
-
-
+Instructions on how to contribute to ths project are pending.
 
 ---
 

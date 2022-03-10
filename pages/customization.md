@@ -2,8 +2,6 @@
 
 [Return to Index](../index.md)
 
-## Description
-
 Description of how we add customizations (features, apps, etc.) to the Core Portal using CMS iframes + containers.
 
 Link from here to the documents detailing:
@@ -14,10 +12,6 @@ Link from here to the documents detailing:
 ### _Custom Portal Development_ (Optional)
 
 - **Task:** TBD
-
-
-
-
 
 ---
 

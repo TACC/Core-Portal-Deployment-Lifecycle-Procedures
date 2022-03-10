@@ -2,15 +2,22 @@
 
 [Return to Index](../index.md)
 
-## Description
+Resources, repos and any other useful items or links related to or referenced by the procedures.
 
-Resources, repos and any other useful items or links related to the process.
+## Resources
 
+- TBD
+- TBD
 
+## Repositories
 
+- TBD
+- TBD
 
+## Documentation
 
-
+- TBD
+- TBD
 
 ---
 

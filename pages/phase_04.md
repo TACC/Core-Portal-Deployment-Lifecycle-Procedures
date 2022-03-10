@@ -1,12 +1,10 @@
-# Core Portal Deployment Procedure: Phase 4
+# CPDP Phase 4: Related Services & Systems
 
 [Return to Index](../index.md)
 
-## Description
-
 TBD...
 
-### _Phase 4: Portal Related Services & Systems Setup_
+### _Phase 4: Related Services & Systems_
 
 - **Task:** Establish a new UT Stache entry to store project credentials and secret settings (`https://stache.utexas.edu`).
   - Each portal will require (at a minimum) the following stache entries:
@@ -42,9 +40,6 @@ TBD...
 - **Task:** Create Pre-production Portal Default Storage Systems.
   - Need details on these steps.
 - **Task:** Create Production Portal Default Storage Systems.
-
-
-
 
 ---
 

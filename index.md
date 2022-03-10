@@ -1,28 +1,20 @@
 # Core Portal Deployment Procedures (CPDP)
 
-**TODO: SANITIZE THESE DOCUMENTS OF ANY SENSITIVE CREDENTIALS!!!! ENSURE THIS IS SAFE FOR PUBLIC CONSUMPTION.**
-
-_Example. Replace all instances of `wma_prtl` with `ACI-WMA Portal TACC Service Account`._
-_Do the same for all credentials and internal URLs/IPs/Resources._
-
-Detailed documentation and checklist for the comprehensive workflow required to establish, provision, configure and deploy a TACC ACI-WMA Core v2 Portal.
+Detailed documentation on the comprehensive lifecycle of a TACC ACI-WMA Core v2 Portal. This includes the workflows required to plan, establish, provision, configure and deploy a portal (with a checklist of explicit, discrete actions to convert into JIRA tasks) as well as detailed procedures for portal customization (via container and application integration), maintenance, backups, archiving and sunsetting.
 
 ## Quick Start
 
 **TL;DR** - Take me to the [Deployment Checklist](pages/checklist.md) now!
 
-## Description
+## Purpose
 
-What the application does. Why we used the technologies we used. Some of the challenges faced. Features we hope to implement in the future.
-
-## Using this Documentation
-
-Instructions on the intended use of the checklist and its relation to deploying the codebases and JIRA task tracking.
+This documentation describes every step that should be taken before, during and after a new portal is established. It should be referenced throughout all phases of the portal's lifecycle.
 
 ## Table of Contents
 
-- [Getting Started](pages/getting-started.md)
 - [Procedure Overview](pages/overview.md)
+- [Prerequisites](pages/prerequisites.md)
+- [JIRA Usage](pages/jira-usage.md)
 - [Deployment Checklist](pages/checklist.md)
 - [Resources](pages/resources.md)
 - [Versioning Information](pages/versioning-information.md)

@@ -1,16 +1,12 @@
-# Core Portal Deployment Procedure: Phase 9
+# CPDP Phase 9: Maintenance
 
 [Return to Index](../index.md)
 
-## Description
+Describe the procedures to follow for portal updates, upgrades, and bug-fixes.
 
-TBD...
-
-### _Phase 9: Portal Maintenance_
+### _Phase 9: Maintenance_
 
 - **Task:** TBD
-
-
 
 ---
 

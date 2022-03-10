@@ -1,12 +1,10 @@
-# Core Portal Deployment Procedure: Phase 2
+# CPDP Phase 2: Resource Requests, SSH Certs & CPS Exceptions
 
 [Return to Index](../index.md)
 
-## Description
-
 TBD...
 
-### _Phase 2: Portal Resource Requests, SSH Certs & CPS Exceptions_
+### _Phase 2: Resource Requests, SSH Certs & CPS Exceptions_
 
 - **Task:** Request the deployment hosts for `PPRD` via KB.
 - **Task:** Request the deployment hosts for `PROD` via KB.
@@ -15,9 +13,6 @@ TBD...
 - **Task:** Request SSL Certificates for the `PROD` deployment host via KB (required to deploy the portal codebase).
   - _Note: This step **cannot** be completed until the vanity URL is controlled by TACC NSO and UT EIS._
 - **Task:** If used, request SSL Certificates for the `DEV` deployment host via KB (required to deploy the portal codebase).
-
-
-
 
 ---
 

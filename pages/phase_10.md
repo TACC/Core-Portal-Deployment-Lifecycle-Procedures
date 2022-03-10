@@ -1,17 +1,12 @@
-# Core Portal Deployment Procedure: Phase 10
+# CPDP Phase 10: Backup & Archiving
 
 [Return to Index](../index.md)
 
-## Description
+Describe the procedures to follow for portal backups (both Django and DjangoCMS databases) and archiving.
 
-TBD...
-
-### _Phase 10: Portal Backup & Archiving_
+### _Phase 10: Backup & Archiving_
 
 - **Task:** TBD
-
-
-
 
 ---
 

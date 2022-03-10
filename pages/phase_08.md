@@ -1,12 +1,10 @@
-# Core Portal Deployment Procedure: Phase 8
+# CPDP Phase 8: Deployments
 
 [Return to Index](../index.md)
 
-## Description
-
 TBD...
 
-### _Phase 8: Portal Deployments_
+### _Phase 8: Deployments_
 
 - **Initial Deployment Workflow**: For brand new portals, complete these procedures for all deployment targets (e.g. PROD, PPRD).
 - **Reqular Deployment Workflow**: Follow these procedures for existing portals.
@@ -45,9 +43,6 @@ TBD...
 
 - **Task:** Deploy the Portal via Jenkins CI job to the target host system.
 - **Task:** Schedule a QA Review for the deployment target host.
-
-
-
 
 ---
 

@@ -1,12 +1,10 @@
-# Core Portal Deployment Procedure: Phase 6
+# CPDP Phase 6: Branding, Content Preparation & Image Publication
 
 [Return to Index](../index.md)
 
-## Description
-
 TBD...
 
-### _Phase 6: Portal Branding, Content Preparation & Image Publication_
+### _Phase 6: Branding, Content Preparation & Image Publication_
 
 - **Task:** Setup the custom branding and navigation bar in Core-CMS-Resources.
   - Use the process detailed in the `Core-CMS` (https://github.com/TACC/Core-CMS) repo `README`.
@@ -29,9 +27,6 @@ TBD...
     2. Click the numbered link for the current job to open the job details view.
     3. Under the jpb details view, click the _Console Output_ link in the top-leftmenu.
     4. You can now monitor (or review) the console log output for the Jenkins job (used for troubleshooting and debugging build issues).
-
-
-
 
 ---
 
