@@ -1,4 +1,4 @@
-# CPDP: Licensing
+# CPLDP: Licensing
 
 [Return to Index](../index.md)
 

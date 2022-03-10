@@ -1,4 +1,4 @@
-# CPDP Phase 8: Deployments
+# CPLDP Phase 8: Deployments
 
 [Return to Index](../index.md)
 

@@ -1,4 +1,4 @@
-# CPDP Phase 1: Administrative Prerequisite Actions
+# CPLDP Phase 1: Administrative Prerequisite Actions
 
 [Return to Index](../index.md)
 

@@ -1,8 +1,8 @@
-# Core Portal Deployment Procedure Overview
+# CPLDP: Overview
 
 [Return to Index](../index.md)
 
-There are several phases in the portal deployment lifecycle. Each phase is an aggregation of steps required to prepare for subsequent phases. This is the complete list of steps (referred to as a `Task`) needed to prepare, setup, configure and deploy a CEP v2 Core Portal.
+This is a list of the _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Each phase is an aggregation of steps required to prepare for subsequent phases.
 
 **TODO: Link to phase details pages.** 
 
@@ -24,7 +24,7 @@ There are several phases in the portal deployment lifecycle. Each phase is an ag
 - [Phase 11: Portal Sunsetting & Retirement](phase-11.md)
 - [Custom Portal Development (Optional)](customization.md)
 
-For the detailed list of each Task required to deploy a portal, see the [Deployment Procedures Checklist](pages/checklist.md)].
+For the detailed list of each Task required to deploy the portal, see the [Deployment Procedures Checklist](pages/checklist.md)].
 
 ---
 

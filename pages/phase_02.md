@@ -1,4 +1,4 @@
-# CPDP Phase 2: Resource Requests, SSH Certs & CPS Exceptions
+# CPLDP Phase 2: Resource Requests, SSH Certs & CPS Exceptions
 
 [Return to Index](../index.md)
 

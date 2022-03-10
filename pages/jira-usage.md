@@ -1,4 +1,4 @@
-# CPDP: Recommended JIRA Usage
+# CPLDP: Recommended JIRA Usage
 
 [Return to Index](../index.md)
 

@@ -1,4 +1,4 @@
-# CPDP Phase 6: Branding, Content Preparation & Image Publication
+# CPLDP Phase 6: Branding, Content Preparation & Image Publication
 
 [Return to Index](../index.md)
 

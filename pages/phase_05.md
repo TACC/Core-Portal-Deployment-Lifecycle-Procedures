@@ -1,4 +1,4 @@
-# CPDP Phase 5: Deployment Target Host Provisioning
+# CPLDP Phase 5: Deployment Target Host Provisioning
 
 [Return to Index](../index.md)
 

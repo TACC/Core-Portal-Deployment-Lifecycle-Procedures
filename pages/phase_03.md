@@ -1,4 +1,4 @@
-# CPDP Phase 3: OAuth Tenant
+# CPLDP Phase 3: OAuth Tenant
 
 [Return to Index](../index.md)
 

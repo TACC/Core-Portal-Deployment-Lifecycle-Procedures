@@ -1,4 +1,4 @@
-# CPDP Phase 7: Secrets & CI/CD Setup
+# CPLDP Phase 7: Secrets & CI/CD Setup
 
 [Return to Index](../index.md)
 

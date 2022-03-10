@@ -1,4 +1,4 @@
-# CPDP Phase 11: Sunsetting & Retirement
+# CPLDP Phase 11: Sunsetting & Retirement
 
 [Return to Index](../index.md)
 
