@@ -4,4 +4,4 @@
 
 ## Description
 
-TBD...
+Description of the Getting Started documents purpose.

@@ -4,4 +4,4 @@
 
 ## Description
 
-TBD...
+Instructions on how to contribute to these projects.

@@ -4,4 +4,4 @@
 
 ## Description
 
-TBD...
+Identify _if and how_ TACC licenses this codebase.
