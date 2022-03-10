@@ -2,7 +2,7 @@
 
 [Return to Index](../index.md)
 
-## Checklist Phases
+## Portal Deployment Phases
 
 - [Phase 1: Portal Administrative Prerequisite Actions](#phase1)
 - [Phase 2: Portal Resource Requests, SSH Certs & CPS Exceptions](#phase2)
@@ -27,24 +27,7 @@
 
 <a id="deploymentPhases"></a>
 
-## Portal Deployment Phases
-
-There are several phases in the portal deployment lifecycle. Each phase is an aggregation of steps required to prepare for subsequent phases. This is the complete list of steps (referred to as a `Task`) needed to prepare, setup, configure and deploy a CEP v2 Core Portal at TACC.
-
-_Usage_
-
-When deploying a new portal:
-
-- Create a JIRA `Epic` for the project (e.g. `$PORTAL_PROJECT_NAME Deployment Host Systems`).
-- Create a JIRA `Task` under the new `Epic` for each _Phase_ of the portal deployment lifecycle.
-- Link each _Phase_ `Task` to the project `Epic` (e.g. `is a subtask of`) in JIRA.
-- Create a JIRA `Task` for each _Task_ listed under each _Phase_ of the Portal Deployment Checklist.
-- Link each _Task_ `Task` to the _Phase_ `Task` (e.g. `is a subtask of`) in JIRA.
-- Track the details of each _task_ `Task` in the portal deployment lifecycle using JIRA.
-
-Detailed instructions can be found further down this page. You can quickly access them by clicking the [`link`](https://#) at the end of each task's summary description.
-
-_TBD: Break this monolithic document into a private TACC github docs repo with pages for each Phase, with Tasks detailed there (as well as related systems architectures, etc.)._
+## Deployment Phase Tasks
 
 <a id="phase1"></a>
 
@@ -336,14 +319,6 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 <a id="custom"></a>
 
 ### _Custom Portal Development_ (Optional)
-
-- **Task:** TBD
-
----
-
-<a id="other"></a>
-
-### _Other Actions_
 
 - **Task:** TBD
 

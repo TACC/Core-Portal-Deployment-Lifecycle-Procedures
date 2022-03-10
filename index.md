@@ -1,5 +1,10 @@
 # Core Portal Deployment Procedures (CPDP)
 
+**TODO: SANITIZE THESE DOCUMENTS OF ANY SENSITIVE CREDENTIALS!!!! ENSURE THIS IS SAFE FOR PUBLIC CONSUMPTION.**
+
+_Example. Replace all instances of `wma_prtl` with `ACI-WMA Portal TACC Service Account`._
+_Do the same for all credentials and internal URLs/IPs/Resources._
+
 Detailed documentation and checklist for the comprehensive workflow required to establish, provision, configure and deploy a TACC ACI-WMA Core v2 Portal.
 
 ## Quick Start
