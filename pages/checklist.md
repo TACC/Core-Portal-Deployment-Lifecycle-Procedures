@@ -2,28 +2,7 @@
 
 [Return to Index](../index.md)
 
-## Checklist Purpose
-
-- Used for new Portal planning, provisioning, setup, configuration and deployment.
-- For all new CEP v2 portal deployments, this checklist should be duplicated (and renamed appropriately) in Confluence.
-- Convert each task on the checklist into a JIRA ticket under the correct JIRA Project, Epic Sprint, etc.
-- Document the JIRA ticket ID for each task on the checklist as you create the ticket.
-- Add the JIRA ticket integration plugin in the Confluence tracking document for the given portal.
-
-The JIRA integration will display for each ticketed task:
-
-- The link to the relevant JIRA ticket
-- Completion status
-- Due date
-- The reporter/assigned dev for each task
-- The priority of the task
-- Other task details as populated in JIRA.
-
----
-
-## How To Use This Checklist
-
-There are a number of phases that need to be succesfully implemented in order to deploy a CEP v2 Portal.
+## Checklist Phases
 
 - [Phase 1: Portal Administrative Prerequisite Actions](#phase1)
 - [Phase 2: Portal Resource Requests, SSH Certs & CPS Exceptions](#phase2)
@@ -447,52 +426,6 @@ To request a new domain be acquired for a portal, submit a new ticket to the TAC
 DNS propagation status can be checked using this site: https://dnschecker.org/#CNAME/
 
 ---
-
-### Phase 2: Portal Resource Requests, SSH Certs & CPS Exceptions
-
----
-
-### Phase 3
-
----
-
-### Phase 4
-
----
-
-### Phase 5
-
----
-
-### Phase 6
-
----
-
-### Phase 7
-
----
-
-### Phase 8
-
----
-
-### Phase 9
-
----
-
-### Phase 10
-
----
-
-### Phase 11
-
----
-
-### Custom Portal Development
-
----
-
-### Other Actions
 
 [Return to Index](../index.md)
 
