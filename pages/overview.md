@@ -1,12 +1,12 @@
 # CPLDP: Overview
 
-[Return to Index](../index.md)
+>> [Index](../index.md)
 
 This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Each phase is an aggregation of steps that must be completed to succesfully complete the phase objectives.
 
 **Lifecycle Phases**
 
-- [Phase 1: Administrative Prerequisite Actions](phase_01.md)
+- [Phase 1: Administrative Prerequisites & Actions](phase_01.md)
 - [Phase 2: Resource Requests, SSH Certs & CPS Exceptions](phase_02.md)
 - [Phase 3: OAuth Tenants](phase_03.md)
 - [Phase 4: Related Services & Systems](phase_04.md)
@@ -24,4 +24,4 @@ See the [Customization](customization.md) page for instructions on how to extend
 
 ---
 
-[Return to Index](../index.md)
+>> [Index](../index.md)

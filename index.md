@@ -17,11 +17,8 @@ This documentation should be referenced throughout all phases of a portal's life
 
 ## Table of Contents
 
-- [Procedure Overview](pages/overview.md)
-- [Prerequisites](pages/prerequisites.md)
-- [JIRA Usage](pages/jira-usage.md)
-- [Deployment Checklist](pages/checklist.md)
-    - [Phase 1: Administrative Prerequisite Actions](pages/phase_01.md)
+- [Lifecycle Overview](pages/overview.md)
+    - [Phase 1: Administrative Prerequisites & Actions](pages/phase_01.md)
     - [Phase 2: Resource Requests, SSH Certs & CPS Exceptions](pages/phase_02.md)
     - [Phase 3: OAuth Tenants](pages/phase_03.md)
     - [Phase 4: Related Services & Systems](pages/phase_04.md)
@@ -32,6 +29,8 @@ This documentation should be referenced throughout all phases of a portal's life
     - [Phase 9: Maintenance](pages/phase_09.md)
     - [Phase 10: Backups & Archiving](pages/phase_10.md)
     - [Phase 11: Sunsetting & Retirement](pages/phase_11.md)
+- [JIRA Usage](pages/jira-usage.md)
+- [Deployment Checklist](pages/checklist.md)
 - [Customization](pages/customization.md)
 - [Resources](pages/resources.md)
 - [Versioning Information](pages/versioning-information.md)

@@ -1,8 +1,20 @@
 # CPLDP Phase 1: Administrative Prerequisite Actions
 
-[Return to Index](../index.md)
+>> [Index](../index.md) > [Overview](../overview.md)
 
-TBD...
+In order to succesfully deploy a Core v2 Portal, you will need the following:
+
+- Access to these Resources:
+    - TBD
+    - TBD
+
+- Access to these Repositories:
+    - TBD
+    - TBD
+
+- Access to these account credentials:
+    - TACC ACI-WMA Portal Service Account
+    - TBD
 
 ### _Phase 1: Administrative Prerequisite Actions_
 
@@ -15,4 +27,4 @@ TBD...
 
 ---
 
-[Return to Index](../index.md)
+>> [Index](../index.md) > [Overview](../overview.md)
