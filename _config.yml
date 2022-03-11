@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-# title: Core Portal Deployment Procedures
+title: Core Portal Lifecycle Procedures
 logo: /assets/img/TACC_400x400.png
-description: Detailed documentation and checklists for deploying the TACC ACI-WMA Core v2 Portal.
+description: DDocumentation on the complete TACC ACI-WMA Core v2 Portal lifecycle.
 show_downloads: true
