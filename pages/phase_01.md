@@ -16,7 +16,7 @@ Describe the objectives of this phase of the lifecycle.
 
 - **Action:** [Identify the portal project PI.](#action1)
 - **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#action2)
-- **Action:** [Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#action3)
+- **Action:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#action3)
 - **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](#action4)
 - **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#action5)
 - **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](#action6)
@@ -46,7 +46,7 @@ Description pending.
 
 <a id="action3"></a>
 
-**Action: Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities**
+**Action: Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities**
 
 Any new portal being established must be charged against a project that is officially recognized by TACC. Additionally, any computational or storage resources used by the portal on behalf of its users must be charged against a resource allocation associated with the project. TACC users who qualify for PI status can initiate new projects in the TACC User Portal and request resource allocations.
 

@@ -32,7 +32,7 @@
 
 - **Action:** [Identify the portal project PI.](phase_01#action1)
 - **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_01#action2)
-- **Action:** [Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](phase_01#action3)
+- **Action:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](phase_01#action3)
 - **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](phase_01#action4)
 - **Action:** [Ensure the correct users have admin and access to the `TAS` project.](phase_01#action5)
 - **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](phase_01#action6)
@@ -96,7 +96,7 @@
 
 ### [Phase 5: Deployment Target Host Provisioning](phase_05)
 
-_Note: Repeat these steps for both PPRD & PROD._
+_Note: Repeat these steps for each deployment target host._
 
 - **Action:** [Generate the `dhparam.pem` file on the deployment target host.](phase_05#action1)
 - **Action:** [On the deployment target host create the user `portal`.](phase_05#action2)

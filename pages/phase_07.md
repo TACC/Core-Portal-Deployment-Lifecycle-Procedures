@@ -2,6 +2,8 @@
 
 ---
 
+<a id="phase7"></a>
+
 # Phase 7: Secrets, CI/CD Jobs & Backend Setup
 
 ## Objective
@@ -10,18 +12,18 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-### Secrets, CI/CD Jobs & Backend Systems Actions
+## Secrets, CI/CD Jobs & Backend Systems Actions
 
-#### [Secrets](#secrets)
+### [Secrets](#secrets)
 
-##### [Documenting](#documenting)
+#### [Documenting](#documenting)
 
 - **Action:** [Populate UT Stache with the secret values specific to the PPRD CMS.](#action1)
 - **Action:** [Populate UT Stache with the secret values specific to the PPRD Portal.](#action2)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD CMS.](#action3)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD Portal.](#action4)
 
-##### [Assembling](#assembling)
+#### [Assembling](#assembling)
 
 - **Action:** [Create `secrets.py` for the PPRD django CMS container.](#action5)
 - **Action:** [Create `settings_secret.py` for the PPRD django portal container.](#action6)
@@ -30,7 +32,7 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [Create `rabbitmq.env` for the PPRD host.](#action9)
 - **Action:** [Create `rabbitmq.env` for the PROD host.](#action10)
 
-##### [Placing](#placing)
+#### [Placing](#placing)
 
 - **Action:** [SCP `secrets.py` into the PPRD host.](#action11)
 - **Action:** [SCP `settings_secret.py` into the PPRD host.](#action12)
@@ -39,11 +41,11 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [SCP `rabbitmq.env` into the PPRD host.](#action15)
 - **Action:** [SCP `rabbitmq.env` into the PROD host.](#action16)
 
-#### [CI/CD Jobs](#cicd)
+### [CI/CD Jobs](#cicd)
 
 - **Action:** [Configure the Portal Project Jenkins CI job.](#action17)
 
-#### [Backend Systems](#systems)
+### [Backend Systems](#systems)
 
 - **Action:** [Create Pre-production Portal Default Storage Systems.](#action18)
 - **Action:** [Create Production Portal Default Storage Systems.](#action19)
@@ -75,7 +77,7 @@ The following secret values should be contained in the specified stache entry:
 
 <a id="documenting"></a>
 
-##### Documenting
+#### Documenting
 
 <a id="action1"></a>
 
@@ -111,7 +113,7 @@ TBD...
 
 <a id="Assembling"></a>
 
-##### Assembling
+#### Assembling
 
 <a id="action5"></a>
 
@@ -163,7 +165,7 @@ TBD...
 
 <a id="placing"></a>
 
-##### Placing
+#### Placing
 
 _Note: The SCP tasks can also be accomplished by SSHing into the target host, sudoing into user `portal`, and using vim to create and populate the files in situ._
 

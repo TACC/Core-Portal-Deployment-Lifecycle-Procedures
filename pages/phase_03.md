@@ -2,6 +2,8 @@
 
 ---
 
+<a id="phase3"></a>
+
 # Phase 3: OAuth Tenant
 
 ## Objective
@@ -10,7 +12,7 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-### OAuth Tenant Actions
+## OAuth Tenant Actions
 
 - **Action:** [Select Tenant Type for the portal (shared or dedicated).](#action1)
   - [Shared Tenant](#shared)
@@ -18,14 +20,14 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [Request a dedicated WSO2 tenant for `TAPIS` access.](#action2)
 - **Action:** [Install portal service applications on the dedicated tenant.](#action3)
 
-#### [Tenant Configuration](#configure)
+### [Tenant Configuration](#configure)
 
 - **Action:** [Create a TACC Tenant OAuth client for Pre-production.](#action3)
 - **Action:** [Create a TACC Tenant OAuth client for Production.](#action4)
 - **Action:** [Configure TACC Tenant long lived token for Pre-production.](#action5)
 - **Action:** [Configure TACC Tenant long lived token for Production.](#action6)
 
-#### [CPS Exception](#cps)
+### [CPS Exception](#cps)
 
 - **Action:** [Have a CPS exception made for the `PROD` vanity domain name.](#action7)
 

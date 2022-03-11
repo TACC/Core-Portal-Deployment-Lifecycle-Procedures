@@ -2,13 +2,40 @@
 
 ---
 
+<a id="phase9"></a>
+
 # Phase 9: Maintenance
+
+## Objective
 
 Describe the procedures to follow for portal updates, upgrades, and bug-fixes.
 
-### _Phase 9: Maintenance_
+<a id="actions"></a>
 
-- **Action:** TBD
+## Maintenance Actions
+
+- **Action:** [TBD](#action1)
+- **Action:** [TBD](#action2)
+
+---
+
+<a id="instructions"></a>
+
+## Action Instructions
+
+<a id="action1"></a>
+
+**Action: TBD**
+
+Details TBD.
+
+---
+
+<a id="action2"></a>
+
+**Action: TBD**
+
+Details TBD.
 
 ---
 

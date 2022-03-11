@@ -2,16 +2,38 @@
 
 ---
 
+<a id="phase6"></a>
+
 # Phase 6: Branding, Content Preparation & Image Publication
 
-TBD...
+## Objective
 
-### _Phase 6: Branding, Content Preparation & Image Publication_
+Describe the objectives of this phase of the lifecycle.
 
-- **Action:** Setup the custom branding and navigation bar in Core-CMS-Resources.
+## Branding, Content Preparation & Image Publication Actions
+
+- **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](#action1)
+- **Action:** [Generate & Publish Custom CMS Image on Dockerhub.](#action2)
+
+---
+
+<a id="instructions"></a>
+
+## Action Instructions
+
+<a id="action1"></a>
+
+**Action: Setup the custom branding and navigation bar in Core-CMS-Resources.**
+
   - Use the process detailed in the `Core-CMS` (https://github.com/TACC/Core-CMS) repo `README`.
   - This phase also requires the `Core-CMS-Resources` (https://github.com/TACC/Core-CMS-Resources) repo.
-- **Action:** Generate & Publish Custom CMS Image on Dockerhub.
+
+---
+
+<a id="action2"></a>
+
+**Action: Generate & Publish Custom CMS Image on Dockerhub.**
+
   - In Jenkins,under the `WMA CEP` Tab, in the `Core_CMS_Build` Job, update the Choice Parameter for `CUSTOM_PROJECT` by adding the name of your deployment target to the `Choices list`.
   - **IMPORTANT:** This value must be the same value used in the `Core-CMS-Resources` repo for the project directory.
   - Once the `Core-CMS-Resources` repo is populated and the `Core_CMS_Build` job is configured, run the Jenkins job to build and publish the new CMS image:
