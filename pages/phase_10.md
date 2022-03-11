@@ -2,11 +2,11 @@
 
 ---
 
-# CPLDP Phase 10: Backup & Archiving
+# CPLDP Phase 10: Backups & Archiving
 
 Describe the procedures to follow for portal backups (both Django and DjangoCMS databases) and archiving.
 
-### _Phase 10: Backup & Archiving_
+### _Phase 10: Backups & Archiving_
 
 - **Task:** TBD
 
