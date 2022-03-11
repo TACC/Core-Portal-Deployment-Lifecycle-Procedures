@@ -36,6 +36,7 @@
 - **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](phase_01#phase1action4)
 - **Action:** [Ensure the correct users have admin and access to the `TAS` project.](phase_01#phase1action5)
 - **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](phase_01#phase1action6)
+- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](phase_01#phase1action7)
 
 ---
 

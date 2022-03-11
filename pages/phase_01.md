@@ -8,27 +8,14 @@ TBD...
 
 ### _Phase 1: Administrative Prerequisite Actions_
 
-- **Action:** [Identify the portal project PI.](#phase1task1)
-- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#phase1task2)
-- **Action:** [Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#phase1task3)
-- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](#phase1task4)
-- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#phase1task5)
-- **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](#phase1task6)
-
-In order to succesfully deploy a Core v2 Portal, you will need the following:
-
-- Access to these Resources:
-    - TBD
-    - TBD
-
-- Access to these Repositories:
-    - TBD
-    - TBD
-
-- Access to these account credentials:
-    - TACC ACI-WMA Portal Service Account
-    - TBD
-
+- **Action:** [Identify the portal project PI.](#phase1action1)
+- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#phase1action2)
+- **Action:** [Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#phase1action3)
+- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](#phase1action4)
+- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#phase1action5)
+- **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](#phase1action6)
+- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](#phase1action7)
+s
 ---
 
 <a id="detailed"></a>
@@ -106,6 +93,26 @@ Acquiring a new domain is not an immediate process. New domains first have to be
 To request a new domain be acquired for a portal, submit a new ticket to the TACC consulting system under the Technology Infrastructure (TI) queue: https://consult.tacc.utexas.edu/Ticket/Create.html?Queue=1
 
 DNS propagation status can be checked using this site: https://dnschecker.org/#CNAME/
+
+---
+
+<a id="phase1action7"></a>
+
+#### Action: Ensure WMA developers responsible fopr portal setup have access to requires resources.
+
+In order to succesfully deploy a Core v2 Portal, you will need the following:
+
+- Access to these Resources:
+    - TBD
+    - TBD
+
+- Access to these Repositories:
+    - TBD
+    - TBD
+
+- Access to these account credentials:
+    - TACC ACI-WMA Portal Service Account
+    - TBD
 
 ---
 
