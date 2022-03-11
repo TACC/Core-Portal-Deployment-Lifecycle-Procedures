@@ -16,15 +16,13 @@ Describe the objectives of this phase of the lifecycle.
 
 ### [Secrets](#secrets)
 
-#### [Documenting](#documenting)
+**[Documenting](#documenting)**
+- **Action:** [Populate UT Stache with the secret values for the PPRD CMS.](#action1)
+- **Action:** [Populate UT Stache with the secret values for the PPRD Portal.](#action2)
+- **Action:** [Populate UT Stache with the secret values for the PROD CMS.](#action3)
+- **Action:** [Populate UT Stache with the secret values for the PROD Portal.](#action4)
 
-- **Action:** [Populate UT Stache with the secret values specific to the PPRD CMS.](#action1)
-- **Action:** [Populate UT Stache with the secret values specific to the PPRD Portal.](#action2)
-- **Action:** [Populate UT Stache with the secret values specific to the PROD CMS.](#action3)
-- **Action:** [Populate UT Stache with the secret values specific to the PROD Portal.](#action4)
-
-#### [Assembling](#assembling)
-
+**[Assembling](#assembling)**
 - **Action:** [Create `secrets.py` for the PPRD django CMS container.](#action5)
 - **Action:** [Create `settings_secret.py` for the PPRD django portal container.](#action6)
 - **Action:** [Create `secrets.py` for the PROD django CMS container.](#action7)
@@ -32,8 +30,7 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [Create `rabbitmq.env` for the PPRD host.](#action9)
 - **Action:** [Create `rabbitmq.env` for the PROD host.](#action10)
 
-#### [Placing](#placing)
-
+**[Placing](#placing)**
 - **Action:** [SCP `secrets.py` into the PPRD host.](#action11)
 - **Action:** [SCP `settings_secret.py` into the PPRD host.](#action12)
 - **Action:** [SCP `secrets.py`  into the PROD host.](#action13)
@@ -77,11 +74,11 @@ The following secret values should be contained in the specified stache entry:
 
 <a id="documenting"></a>
 
-#### Documenting
+### Documenting
 
 <a id="action1"></a>
 
-**Action: Populate UT Stache with the secret values specific to the PPRD CMS.**
+**Action: Populate UT Stache with the secret values for the PPRD CMS.**
 
 TBD...
 
@@ -89,7 +86,7 @@ TBD...
 
 <a id="action2"></a>
 
-**Action: Populate UT Stache with the secret values specific to the PPRD Portal.**
+**Action: Populate UT Stache with the secret values for the PPRD Portal.**
 
 TBD...
 
@@ -97,7 +94,7 @@ TBD...
 
 <a id="action3"></a>
 
-**Action: Populate UT Stache with the secret values specific to the PROD CMS.**
+**Action: Populate UT Stache with the secret values for the PROD CMS.**
 
 TBD...
 
@@ -105,7 +102,7 @@ TBD...
 
 <a id="action4"></a>
 
-**Action: Populate UT Stache with the secret values specific to the PROD Portal.**
+**Action: Populate UT Stache with the secret values for the PROD Portal.**
 
 TBD...
 
@@ -113,7 +110,7 @@ TBD...
 
 <a id="Assembling"></a>
 
-#### Assembling
+### Assembling
 
 <a id="action5"></a>
 
@@ -165,7 +162,7 @@ TBD...
 
 <a id="placing"></a>
 
-#### Placing
+### Placing
 
 _Note: The SCP tasks can also be accomplished by SSHing into the target host, sudoing into user `portal`, and using vim to create and populate the files in situ._
 

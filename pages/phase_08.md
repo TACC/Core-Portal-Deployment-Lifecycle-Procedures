@@ -57,7 +57,7 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="fdi"></a>
 
-#### First Deployment
+### First Deployment
 
 <a id="action1"></a>
 
@@ -103,7 +103,7 @@ TBD...
 
 <a id="rdi"></a>
 
-#### Regular Deployment
+### Regular Deployment
 
 <a id="action5"></a>
 
@@ -123,7 +123,7 @@ TBD...
 
 <a id="pda"></a>
 
-#### Post Deployment Actions
+### Post Deployment Actions
 
 <a id="action7"></a>
 
