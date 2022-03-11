@@ -10,8 +10,6 @@
 
 Describe the objectives of this phase of the lifecycle.
 
----
-
 <a id="actions"></a>
 
 ## Administrative Prerequisite Actions
@@ -38,7 +36,7 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="action1"></a>
 
-#### Action: Identify the portal project PI
+**Action: Identify the portal project PI**
 
 Description pending.
 
@@ -46,7 +44,7 @@ Description pending.
 
 <a id="action2"></a>
 
-#### Action: Identify the WMA developers responsible for portal setup, deployment and maintenance
+**Action: Identify the WMA developers responsible for portal setup, deployment and maintenance**
 
 Description pending.
 
@@ -54,11 +52,11 @@ Description pending.
 
 <a id="action3"></a>
 
-#### Action: Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities
+**Action: Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities**
 
 Any new portal being established must be charged against a project that is officially recognized by TACC. Additionally, any computational or storage resources used by the portal on behalf of its users must be charged against a resource allocation associated with the project. TACC users who qualify for PI status can initiate new projects in the TACC User Portal and request resource allocations.
 
-Procedure
+_Procedure_
 
 - Create a TACC user account in the TACC User Portal (TUP): https://portal.tacc.utexas.edu/home
 - New users account request information can be found here: https://portal.tacc.utexas.edu/account-request
@@ -74,7 +72,7 @@ Procedure
 
 <a id="action4"></a>
 
-#### Action: Identify Portal Project TAS GID associated with the portal allocation
+**Action: Identify Portal Project TAS GID associated with the portal allocation**
 
 Description pending.
 
@@ -82,7 +80,7 @@ Description pending.
 
 <a id="action5"></a>
 
-#### Action: Ensure the correct users have admin and access to the `TAS` project
+**Action: Ensure the correct users have admin and access to the `TAS` project**
 
 Description pending.
 
@@ -90,7 +88,7 @@ Description pending.
 
 <a id="action6"></a>
 
-#### Action: Identifyacquire the official "vanity" URL to be used by the portal (e.g. - `www.vanityurlfornewportal.com`)
+**Action: Identifyacquire the official "vanity" URL to be used by the portal (e.g. - `www.vanityurlfornewportal.com`)**
 
 Portal projects should request a domain name for their portal to expose for internet access by its users.
 
@@ -106,7 +104,7 @@ DNS propagation status can be checked using this site: https://dnschecker.org/#C
 
 <a id="action7"></a>
 
-#### Action: Ensure WMA developers responsible fopr portal setup have access to requires resources.
+**Action: Ensure WMA developers responsible fopr portal setup have access to requires resources.**
 
 In order to succesfully deploy a Core v2 Portal, you will need the following:
 

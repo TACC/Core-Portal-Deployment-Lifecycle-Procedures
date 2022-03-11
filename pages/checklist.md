@@ -89,8 +89,6 @@
 - **Action:** [Create Production Portal Database Credentials & Database in WMA PostgreSQL Cluster.](phase_04#action6)
 - **Action:** [Create Pre-production Portal ElasticSearch Credentials & ES Indeces in WMA ES Cluster.](phase_04#action7)
 - **Action:** [Create Production Portal ElasticSearch Credentials & ES Indeces in WMA ES Cluster.](phase_04#action8)
-- **Action:** [Create Pre-production Portal Default Storage Systems.](phase_04#action9)
-- **Action:** [Create Production Portal Default Storage Systems.](phase_04#action10)
 
 ---
 
@@ -126,24 +124,41 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 <a id="phase7"></a>
 
-### [Phase 7: Secrets & CI/CD Jobs](phase_07)
+### [Phase 7: Secrets, CI/CD Jobs & Backend Systems](phase_07)
+
+#### [Secrets](phase_07#secrets)
 
 - **Action:** [Populate UT Stache with the secret values specific to the PPRD CMS.](phase_07#action1)
 - **Action:** [Populate UT Stache with the secret values specific to the PPRD Portal.](phase_07#action2)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD CMS.](phase_07#action3)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD Portal.](phase_07#action4)
+
 - **Action:** [Create `secrets.py` for the PPRD django CMS container.](phase_07#action5)
-- **Action:** [SCP `secrets.py` into the PPRD host.](phase_07#action6)
-- **Action:** [Create `settings_secret.py` for the PPRD django portal container.](phase_07#action7)
-- **Action:** [SCP `settings_secret.py` into the PPRD host.](phase_07#action8)
-- **Action:** [Create `secrets.py` for the PROD django CMS container.](phase_07#action9)
-- **Action:** [SCP `secrets.py`  into the PROD host.](phase_07#action10)
-- **Action:** [Create `settings_secret.py` for the PROD django portal container.](phase_07#action11)
-- **Action:** [SCP `settings_secret.py` into the PROD host.](phase_07#action12)
-- **Action:** [Create `rabbitmq.env` (can be the same for all hosts).](phase_07#action13)
-- **Action:** [SCP `rabbitmq.env` into the PPRD host.](phase_07#action14)
-- **Action:** [SCP `rabbitmq.env` into the PROD host.](phase_07#action15)
-- **Action:** [Configure the Portal Project Jenkins CI job.](phase_07#action16)
+- **Action:** [Create `settings_secret.py` for the PPRD django portal container.](phase_07#action6)
+- **Action:** [Create `secrets.py` for the PROD django CMS container.](phase_07#action7)
+- **Action:** [Create `settings_secret.py` for the PROD django portal container.](phase_07#action8)
+- **Action:** [Create `rabbitmq.env` for the PPRD host.](phase_07#action9)
+- **Action:** [Create `rabbitmq.env` for the PROD host.](phase_07#action10)
+
+- **Action:** [SCP `secrets.py` into the PPRD host.](phase_07#action11)
+- **Action:** [SCP `settings_secret.py` into the PPRD host.](phase_07#action12)
+- **Action:** [SCP `secrets.py`  into the PROD host.](phase_07#action13)
+- **Action:** [SCP `settings_secret.py` into the PROD host.](phase_07#action14)
+- **Action:** [SCP `rabbitmq.env` into the PPRD host.](phase_07#action15)
+- **Action:** [SCP `rabbitmq.env` into the PROD host.](phase_07#action16)
+
+#### [CI/CD Jobs](phase_07#cicd)
+
+- **Action:** [Configure the Portal Project Jenkins CI job.](phase_07#action17)
+
+#### [Backend Systems](phase_07#systems)
+
+- **Action:** [Create Pre-production Portal Default Storage Systems.](phase_07#action18)
+- **Action:** [Create Production Portal Default Storage Systems.](phase_07#action19)
+- **Action:** [Create PPRD Portal Default Execution Systems.](phase_07#action20)
+- **Action:** [Create PROD Portal Default Execution Systems.](phase_07#action21)
+- **Action:** [Setup Community Data Project.](phase_07#action22)
+- **Action:** [Setup Public Data Project (if requested).](phase_07#action23)
 
 ---
 
@@ -151,29 +166,31 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 ### [Phase 8: Deployments](phase_08)
 
-- **Initial Deployment Workflow**: [New portals.](phase_08#action1)
-- **Reqular Deployment Workflow**: [Established portals.](phase_08#action2)
+- **First Deployment**: [New portals.](phase8#fd)
+- **Reqular Deployment**: [Established portals.](phase8#rd)
+
+<a id="phase8fd"></a>
 
 #### [First Deployment](phase_08#fd)
 
-- **Action:** [Deploy the Portal via Jenkins CI job on the target host system.](phase_08#action3)
-- **Action:** [SSH into the deployment target host and promote to user `portal`.](phase_08#action4)
-- **Action:** [Complete the container setup.](phase_08#action5)
-- **Action:** [Create index page in CMS.](phase_08#action6)
+- **Action:** [Deploy the Portal via Jenkins CI job on the target host system.](phase_08#action1)
+- **Action:** [SSH into the deployment target host and promote to user `portal`.](phase_08#action2)
+- **Action:** [Complete the container setup.](phase_08#action3)
+- **Action:** [Create index page in CMS.](phase_08#action4)
 
-#### [Initiating Systems](phase_08#systems)
-
-- **Action:** [Create PPRD Portal Default Execution Systems.](phase_08#action7)
-- **Action:** [Create PROD Portal Default Execution Systems.](phase_08#action8)
-- **Action:** [Setup Community Data Project.](phase_08#action9)
-- **Action:** _Optional:_ [Setup Public Data Project (if requested).](phase_08#action10)
-- **Action:** [Run the ES Indexing management command against the deployment target host.](phase_08#action11)
-- **Action:** [Schedule a QA Review for the deployment target host.](phase_08#action12)
+<a id="phase8rd"></a>
 
 #### [Regular Deployment](phase_08#rd)
 
-- **Action:** [Deploy the Portal via Jenkins CI job to the target host system.](phase_08#action13)
-- **Action:** [Schedule a QA Review for the deployment target host.](phase_08#action14)
+- **Action:** [Deploy the Portal via Jenkins CI job to the target host system.](phase_08#action5)
+- **Action:** [Schedule a QA Review for the deployment target host.](phase_08#action6)
+
+<a id="phase8pda"></a>
+
+#### [Post Deployment Actions](phase_08#pda)
+
+- **Action:** [Run the ES Indexing management command against the deployment target host.](phase_08#action7)
+- **Action:** [Schedule a QA Review for the deployment target host.](phase_08#action8)
 
 ---
 
