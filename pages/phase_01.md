@@ -2,11 +2,17 @@
 
 ---
 
+<a id="phase1"></a>
+
 # Phase 1: Administrative Prerequisite Actions
 
-TBD...
+## Objective
 
-### _Phase 1: Administrative Prerequisite Actions_
+Describe the objectives of this phase of the lifecycle.
+
+---
+
+## Administrative Prerequisite Actions
 
 - **Action:** [Identify the portal project PI.](#phase1action1)
 - **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#phase1action2)
@@ -15,8 +21,10 @@ TBD...
 - **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#phase1action5)
 - **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](#phase1action6)
 - **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](#phase1action7)
-s
+
 ---
+
+## Action Details
 
 <a id="detailed"></a>
 
