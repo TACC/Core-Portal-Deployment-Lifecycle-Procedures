@@ -52,12 +52,12 @@ _Do the same for all credentials and internal URLs/IPs/Resources._
 
 ### _Phase 1: Portal Administrative Prerequisite Actions_
 
-- **Task:** [Identify the portal project PI.](#phase1task1)
-- **Task:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#phase1task2)
-- **Task:** [Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#phase1task3)
-- **Task:** [Identify Portal Project TAS GID associated with the portal allocation.](#phase1task4)
-- **Task:** [Ensure the correct users have admin and access to the `TAS` project.](#phase1task5)
-- **Task:** [Identifyacquire the official "vanity" URL to be used by the portal.](#phase1task6)
+- **Action:** [Identify the portal project PI.](#phase1task1)
+- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#phase1task2)
+- **Action:** [Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#phase1task3)
+- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](#phase1task4)
+- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#phase1task5)
+- **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](#phase1task6)
 
 ---
 
@@ -65,13 +65,13 @@ _Do the same for all credentials and internal URLs/IPs/Resources._
 
 ### _Phase 2: Portal Resource Requests, SSH Certs & CPS Exceptions_
 
-- **Task:** Request the deployment hosts for `PPRD` via KB.
-- **Task:** Request the deployment hosts for `PROD` via KB.
-- **Task:** If needed, request the deployment hosts for DEV via KB (only used in cases of custom development on a CEP fork).
-- **Task:** Request SSL Certificates for the `PPRD` deployment host via KB (required to deploy the portal codebase).
-- **Task:** Request SSL Certificates for the `PROD` deployment host via KB (required to deploy the portal codebase).
+- **Action:** Request the deployment hosts for `PPRD` via KB.
+- **Action:** Request the deployment hosts for `PROD` via KB.
+- **Action:** If needed, request the deployment hosts for DEV via KB (only used in cases of custom development on a CEP fork).
+- **Action:** Request SSL Certificates for the `PPRD` deployment host via KB (required to deploy the portal codebase).
+- **Action:** Request SSL Certificates for the `PROD` deployment host via KB (required to deploy the portal codebase).
   - _Note: This step **cannot** be completed until the vanity URL is controlled by TACC NSO and UT EIS._
-- **Task:** If used, request SSL Certificates for the `DEV` deployment host via KB (required to deploy the portal codebase).
+- **Action:** If used, request SSL Certificates for the `DEV` deployment host via KB (required to deploy the portal codebase).
 
 ---
 
@@ -83,18 +83,18 @@ _Do the same for all credentials and internal URLs/IPs/Resources._
 
 **Option 3A - Shared Tenant** _(Default)_
 
-- **Task:** Create a TACC Tenant OAuth client for Pre-production.
-- **Task:** Create a TACC Tenant OAuth client for Production.
-- **Task:** Configure TACC Tenant long lived token for Pre-production.
-- **Task:** Configure TACC Tenant long lived token for Production.
+- **Action:** Create a TACC Tenant OAuth client for Pre-production.
+- **Action:** Create a TACC Tenant OAuth client for Production.
+- **Action:** Configure TACC Tenant long lived token for Pre-production.
+- **Action:** Configure TACC Tenant long lived token for Production.
 
 <a id="phase3optB"></a>
 
 **Option 3B - Dedicated Tenant**
 
-- **Task:** If needed, request a dedicated `WSO2 tenant` for `TAPIS` access (requires coordination with `ACI-CIC`).
-- **Task:** Complete all of the _Option A - Shared Tenant_ tasks on the custom tenant.
-- **Task:** Install portal service applications on tenant (zippy, compress, extract, pems).
+- **Action:** If needed, request a dedicated `WSO2 tenant` for `TAPIS` access (requires coordination with `ACI-CIC`).
+- **Action:** Complete all of the _Option A - Shared Tenant_ tasks on the custom tenant.
+- **Action:** Install portal service applications on tenant (zippy, compress, extract, pems).
 
 _After Option A or Option B..._
 
@@ -102,7 +102,7 @@ _After Option A or Option B..._
 
 **Get a CPS Exception on the Tenant**
 
-- **Task:** Have a CPS exception made for the `PROD` vanity domain name (only applies to conditions 1 and 2, requires coordination with `ACI-CIC`).
+- **Action:** Have a CPS exception made for the `PROD` vanity domain name (only applies to conditions 1 and 2, requires coordination with `ACI-CIC`).
   - Condition 1: Using a dedicated tenant with a custom PROD domain, ensure the CPS exception is added to the tenant for the portal and its domain: `Content-Security-Policy: frame-ancestors 'self' *.tacc.utexas.edu NEWDOMAIN.COM *.NEWDOMAIN.COM;`
   - Condition 2: If using the shared tenant with a custom PROD domain, ensure the custom PROD domain is appended to the CPS frame-ancestors exceptions list for the portals-api.tacc.utexas.edu tenant: `Content-Security-Policy: frame-ancestors 'self' *.tacc.utexas.edu (...entries...) NEWDOMAIN.COM *.NEWDOMAIN.COM;`
   - Condition 3: If using the shared tenant with a standard `PORTAL.tacc.utexas.edu` domian, you do not need to take any action. The existing \*.tacc.utexas.edu value picks up all tacc subdomains automatically.
@@ -113,7 +113,7 @@ _After Option A or Option B..._
 
 ### _Phase 4: Portal Related Services & Systems Setup_
 
-- **Task:** Establish a new UT Stache entry to store project credentials and secret settings (`https://stache.utexas.edu`).
+- **Action:** Establish a new UT Stache entry to store project credentials and secret settings (`https://stache.utexas.edu`).
   - Each portal will require (at a minimum) the following stache entries:
     - `PORTAL_NAME v2 ADMIN Secrets` (TAPIS Tenant tokens/keys, PostgreSQL DB Cluster credentials, ElasticSearch cluster credentials, Rabbitmq credentials, Analytics, Site verification, reCAPTCHA).
     - `PORTAL_NAME v2 PPRD CMS Secrets` (Secret Key, Allowed Hosts, Auth endpoint, DB credentials, ES credentials, Haystack configuration).
@@ -121,7 +121,7 @@ _After Option A or Option B..._
     - `PORTAL_NAME v2 PROD CMS Secrets` (Secret Key, Allowed Hosts, Auth endpoint, DB credentials, ES credentials, Haystack configuration).
     - `PORTAL_NAME v2 PROD Portal Secrets` (Secret Key, DB settings, TAS settings, RT settings, Agave/TAPIS settings, RabbitMQ settings, ES settings, Celery settings, Project Keys, Custom portal configurations).
   - _Note: The remainder of the Phase 4 steps will use the `PORTAL_NAME v2 ADMIN Secrets` UT Stache entry to document these values. They can be referenced from here later when creating the various secrets files in Phase 7._
-- **Task:** Add Google Analytics property ID.
+- **Action:** Add Google Analytics property ID.
   - As the wma-portals google user, login to the Analytics dashboard.
   - Add the new property.
     - https://analytics.google.com/analytics/web/?authuser=1#/p305449396/reports/reportinghub
@@ -130,23 +130,23 @@ _After Option A or Option B..._
     - Under the Analytics Portal property entry details panel, select Data Streams in the navbar, then the Add stream btn.
     - Copy the new Stream URL, Stream Name, Stream ID, Measurement ID, and the on-page tag code values into the UT Stache entry for the Portal's Admin Secrets.
     - You can also can connect the new Measurement-ID to an existing global site tag (gtag.js).
-- **Task:** Generate Google Site Verification token.
+- **Action:** Generate Google Site Verification token.
   - As the wma-portal google user, login to the google search console and verify the domain DNS.
     - _Note: This requires coordination with the domain name provider to add the new google-site-verification values to the DNS configuration record for the portal vanity URL._
     - https://support.google.com/webmasters/answer/9008080#domain_name_verification&zippy=%2Cdomain-name-provider
     - https://search.google.com/u/1/search-console
-- **Task:** Generate reCAPTCHA code.
+- **Action:** Generate reCAPTCHA code.
   - As the wma-portals google user, login to the Google Cloud and register new keys for the vanity doamin URL.
     - https://www.google.com/u/1/recaptcha/admin/site/514551198
     - https://developers.google.com/recaptcha/intro?hl=en&authuser=1
   - Copy the keys into the UT Stache entry named `$Portal Project Name` Admin Secrets under the heading // reCAPTCHA ======/
-- **Task:** Create PreProd Portal Database Credentials & Database in WMA PostgreSQL Cluster.
-- **Task:** Create Production Portal Database Credentials & Database in WMA PostgreSQL Cluster.
-- **Task:** Create Pre-production Portal ElasticSearch Credentials & ES Indeces in WMA ES Cluster.
-- **Task:** Create Production Portal ElasticSearch Credentials & ES Indeces in WMA ES Cluster.
-- **Task:** Create Pre-production Portal Default Storage Systems.
+- **Action:** Create PreProd Portal Database Credentials & Database in WMA PostgreSQL Cluster.
+- **Action:** Create Production Portal Database Credentials & Database in WMA PostgreSQL Cluster.
+- **Action:** Create Pre-production Portal ElasticSearch Credentials & ES Indeces in WMA ES Cluster.
+- **Action:** Create Production Portal ElasticSearch Credentials & ES Indeces in WMA ES Cluster.
+- **Action:** Create Pre-production Portal Default Storage Systems.
   - Need details on these steps.
-- **Task:** Create Production Portal Default Storage Systems.
+- **Action:** Create Production Portal Default Storage Systems.
 
 ---
 
@@ -156,11 +156,11 @@ _After Option A or Option B..._
 
 _Note: Repeat these steps for both PPRD & PROD._
 
-- **Task:** Generate the `dhparam.pem` file on the deployment target host.
+- **Action:** Generate the `dhparam.pem` file on the deployment target host.
   - `openssl genpkey -genparam -algorithm DH -out /etc/ssl/dhparam.pem -pkeyopt dh_paramgen_prime_len:4096`
-- **Task:** On the deployment target host (as `root`), create the user `portal` with **no password**:
+- **Action:** On the deployment target host (as `root`), create the user `portal` with **no password**:
   - `sudo adduser --disabled-password portal`
-- **Task:** Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file:
+- **Action:** Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file:
   - _Note: Copy the SSH key from UT Stache, another portal, or the jenkins machine itself. The cypher block should end with `jenkins@jenkins01`._
   ```
   sudo su - portal
@@ -171,7 +171,7 @@ _Note: Repeat these steps for both PPRD & PROD._
   # add the SSH key (copy & paste).
   chmod 600 .ssh/authorized_keys
   ```
-- **Task:** Nginx SSL Certs Configuration for containers:
+- **Action:** Nginx SSL Certs Configuration for containers:
   - When the SSL cert and key (requested in Phase 2) are placed onto the deployment host, they will be under these directories:
     - `/etc/ssl/certs/target.projectname.tacc.utexas.edu.cer.YYYYMMDD`
     - `/etc/ssl/private/target.projectname.tacc.utexas.edu.key.YYYYMMDD`
@@ -179,26 +179,26 @@ _Note: Repeat these steps for both PPRD & PROD._
     - `ln -s /etc/ssl/certs/target.projectname.tacc.utexas.edu.cer.YYYYMMDD target.projectname.tacc.utexas.edu.cer`
     - `ln -s /etc/ssl/certs/target.projectname.tacc.utexas.edu.key.YYYYMMDD target.projectname.tacc.utexas.edu.key`
   - _Note: This path should match the paths mounted into the running containers in the docker `override.yml` files in `Core-Portal-Deployments`._
-- **Task:** Install host dependencies:
+- **Action:** Install host dependencies:
   - `make` (for use with Camino): `sudo apt-get install make`
   - `docker` (see https://docs.docker.com/engine/install/ubuntu/)
     - See: https://docs.docker.com/engine/install/ubuntu/
   - `docker-compose`: `sudo apt-get install docker-compose containerd.io`
     - See: https://docs.docker.com/compose/install/#install-compose-on-linux-systems
-- **Task:** Add the `portal` user to the (new) group `docker`: `sudo usermod -aG docker portal`
-- **Task:** Create deployment directories for the Camino workflow in the PPRD deployment host.
+- **Action:** Add the `portal` user to the (new) group `docker`: `sudo usermod -aG docker portal`
+- **Action:** Create deployment directories for the Camino workflow in the PPRD deployment host.
   - `sudo mkdir /opt/portal`
   - `sudo chown portal:portal /opt/portal/`
-- **Task:** Create deployment directories for the Camino workflow in the PROD deployment host.
+- **Action:** Create deployment directories for the Camino workflow in the PROD deployment host.
   - Same steps as PROD.
-- **Task:** Clone Camino into PPRD deployment host.
+- **Action:** Clone Camino into PPRD deployment host.
   - `sudo su - portal`
   - `cd /opt/portal`
   - `git clone https://github.com/TACC/Camino.git`
-- **Task:** Clone Camino into PROD deployment host.
+- **Action:** Clone Camino into PROD deployment host.
   - Same steps as PPRD.
-- **Task:** Request SSH access for user `portal` from the Jenkins VM IP Address into the PPRD host from NSO.
-- **Task:** Request SSH access for user `portal` from the Jenkins VM IP Address into the PROD host from NSO.
+- **Action:** Request SSH access for user `portal` from the Jenkins VM IP Address into the PPRD host from NSO.
+- **Action:** Request SSH access for user `portal` from the Jenkins VM IP Address into the PROD host from NSO.
 
 ---
 
@@ -206,10 +206,10 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 ### _Phase 6: Portal Branding, Content Preparation & Image Publication_
 
-- **Task:** Setup the custom branding and navigation bar in Core-CMS-Resources.
+- **Action:** Setup the custom branding and navigation bar in Core-CMS-Resources.
   - Use the process detailed in the `Core-CMS` (https://github.com/TACC/Core-CMS) repo `README`.
   - This phase also requires the `Core-CMS-Resources` (https://github.com/TACC/Core-CMS-Resources) repo.
-- **Task:** Generate & Publish Custom CMS Image on Dockerhub.
+- **Action:** Generate & Publish Custom CMS Image on Dockerhub.
   - In Jenkins,under the `WMA CEP` Tab, in the `Core_CMS_Build` Job, update the Choice Parameter for `CUSTOM_PROJECT` by adding the name of your deployment target to the `Choices list`.
   - **IMPORTANT:** This value must be the same value used in the `Core-CMS-Resources` repo for the project directory.
   - Once the `Core-CMS-Resources` repo is populated and the `Core_CMS_Build` job is configured, run the Jenkins job to build and publish the new CMS image:
@@ -242,28 +242,28 @@ _Note: Repeat these steps for both PPRD & PROD._
   - `PORTAL_NAME v2 PROD CMS Secrets` (Secret Key, Allowed Hosts, Auth endpoint, DB credentials, ES credentials, Haystack configuration).
   - `PORTAL_NAME v2 PROD Portal Secrets` (Secret Key, DB settings, TAS settings, RT settings, Agave/TAPIS settings, RabbitMQ settings, ES settings, Celery settings, Project Keys, Custom portal configurations).
 
-- **Task:** Populate UT Stache with the secret values specific to the PPRD CMS.
-- **Task:** Populate UT Stache with the secret values specific to the PPRD Portal.
-- **Task:** Populate UT Stache with the secret values specific to the PROD CMS.
-- **Task:** Populate UT Stache with the secret values specific to the PROD Portal.
+- **Action:** Populate UT Stache with the secret values specific to the PPRD CMS.
+- **Action:** Populate UT Stache with the secret values specific to the PPRD Portal.
+- **Action:** Populate UT Stache with the secret values specific to the PROD CMS.
+- **Action:** Populate UT Stache with the secret values specific to the PROD Portal.
 
 _Note: The SCP tasks can also be accomplished by SSHing into the target host, sudoing into user `portal`, and using vim to create and populate the files in situ._
 
-- **Task:** Create `secrets.py` for the PPRD django CMS container.
-- **Task:** SCP `secrets.py` into the PPRD host `/opt/portal/Camino/conf/cms/` subdir.
-- **Task:** Create `settings_secret.py` for the PPRD django portal container.
-- **Task:** SCP `settings_secret.py` into the PPRD host `/opt/portal/Camino/conf/portal/` subdir.
+- **Action:** Create `secrets.py` for the PPRD django CMS container.
+- **Action:** SCP `secrets.py` into the PPRD host `/opt/portal/Camino/conf/cms/` subdir.
+- **Action:** Create `settings_secret.py` for the PPRD django portal container.
+- **Action:** SCP `settings_secret.py` into the PPRD host `/opt/portal/Camino/conf/portal/` subdir.
 
-- **Task:** Create `secrets.py` for the PROD django CMS container.
-- **Task:** SCP `secrets.py`  into the PROD host `/opt/portal/Camino/conf/cms/` subdir.
-- **Task:** Create `settings_secret.py` for the PROD django portal container.
-- **Task:** SCP `settings_secret.py` into the PROD host `/opt/portal/Camino/conf/portal/` subdir.
+- **Action:** Create `secrets.py` for the PROD django CMS container.
+- **Action:** SCP `secrets.py`  into the PROD host `/opt/portal/Camino/conf/cms/` subdir.
+- **Action:** Create `settings_secret.py` for the PROD django portal container.
+- **Action:** SCP `settings_secret.py` into the PROD host `/opt/portal/Camino/conf/portal/` subdir.
 
-- **Task:** Create `rabbitmq.env` (can be the same for all hosts).
-- **Task:** SCP `rabbitmq.env` into the PPRD host `/opt/portal/Camino/conf/rabbitmq/` subdir.
-- **Task:** SCP `rabbitmq.env` into the PROD host `/opt/portal/Camino/conf/rabbitmq/` subdir.
+- **Action:** Create `rabbitmq.env` (can be the same for all hosts).
+- **Action:** SCP `rabbitmq.env` into the PPRD host `/opt/portal/Camino/conf/rabbitmq/` subdir.
+- **Action:** SCP `rabbitmq.env` into the PROD host `/opt/portal/Camino/conf/rabbitmq/` subdir.
 
-- **Task:** Configure Portal Project Jenkins CI job.
+- **Action:** Configure Portal Project Jenkins CI job.
 
 ---
 
@@ -278,9 +278,9 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 
 #### _Initial Deployment Workflow_
 
-- **Task:** Deploy the Portal via Jenkins CI job to the target host system.
-- **Task:** SSH into the deployment target host and promote to user `portal`.
-- **Task:** Use `docker exec -ti /bin/bash/ PORTAL_CONTAINER` to complete the container setup.
+- **Action:** Deploy the Portal via Jenkins CI job to the target host system.
+- **Action:** SSH into the deployment target host and promote to user `portal`.
+- **Action:** Use `docker exec -ti /bin/bash/ PORTAL_CONTAINER` to complete the container setup.
   - Core Portal:
     - `docker exec -ti /bin/bash/ core_django`
     - `./manage.py migrate`
@@ -294,20 +294,20 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
     - `./manage.py collectstatic --no-input`
     - `./manage.py createsuperuser`
       - Document admin credentials for `username:password`.
-- **Task:** Setup index page in CMS as CMS Admin user.
-- **Task:** Create Pre-production Portal Default Execution Systems.
-- **Task:** Create Production PortalDefault Execution Systems.
-- **Task:** Setup Community Data Project.
-- **Task:** _Optional:_ Setup Public Data Project (if requested).
-- **Task:** Run the ES Indexing management command against the deployment target host.
-- **Task:** Schedule a QA Review for the deployment target host.
+- **Action:** Setup index page in CMS as CMS Admin user.
+- **Action:** Create Pre-production Portal Default Execution Systems.
+- **Action:** Create Production PortalDefault Execution Systems.
+- **Action:** Setup Community Data Project.
+- **Action:** _Optional:_ Setup Public Data Project (if requested).
+- **Action:** Run the ES Indexing management command against the deployment target host.
+- **Action:** Schedule a QA Review for the deployment target host.
 
 <a id="phase8RDW"></a>
 
 #### _Regular Deployment Workflow_
 
-- **Task:** Deploy the Portal via Jenkins CI job to the target host system.
-- **Task:** Schedule a QA Review for the deployment target host.
+- **Action:** Deploy the Portal via Jenkins CI job to the target host system.
+- **Action:** Schedule a QA Review for the deployment target host.
 
 ---
 
@@ -315,7 +315,7 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 
 ### _Phase 9: Portal Maintenance_
 
-- **Task:** TBD
+- **Action:** TBD
 
 ---
 
@@ -323,7 +323,7 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 
 ### _Phase 10: Portal Backup & Archiving_
 
-- **Task:** TBD
+- **Action:** TBD
 
 ---
 
@@ -331,7 +331,7 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 
 ### _Phase 11: Portal Sunsetting & Retirement_
 
-- **Task:** TBD
+- **Action:** TBD
 
 ---
 
@@ -339,7 +339,7 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 
 ### _Custom Portal Development_ (Optional)
 
-- **Task:** TBD
+- **Action:** TBD
 
 ---
 
@@ -355,7 +355,7 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 
 <a id="phase1task1"></a>
 
-#### Task: Identify the portal project PI
+#### Action: Identify the portal project PI
 
 Description pending.
 
@@ -363,7 +363,7 @@ Description pending.
 
 <a id="phase1task2"></a>
 
-#### Task: Identify the WMA developers responsible for portal setup, deployment and maintenance
+#### Action: Identify the WMA developers responsible for portal setup, deployment and maintenance
 
 Description pending.
 
@@ -371,7 +371,7 @@ Description pending.
 
 <a id="phase1task3"></a>
 
-#### Task: Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities
+#### Action: Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities
 
 Any new portal being established must be charged against a project that is officially recognized by TACC. Additionally, any computational or storage resources used by the portal on behalf of its users must be charged against a resource allocation associated with the project. TACC users who qualify for PI status can initiate new projects in the TACC User Portal and request resource allocations.
 
@@ -391,7 +391,7 @@ Procedure
 
 <a id="phase1task4"></a>
 
-#### Task: Identify Portal Project TAS GID associated with the portal allocation
+#### Action: Identify Portal Project TAS GID associated with the portal allocation
 
 Description pending.
 
@@ -399,7 +399,7 @@ Description pending.
 
 <a id="phase1task5"></a>
 
-#### Task: Ensure the correct users have admin and access to the `TAS` project
+#### Action: Ensure the correct users have admin and access to the `TAS` project
 
 Description pending.
 
@@ -407,7 +407,7 @@ Description pending.
 
 <a id="phase1task6"></a>
 
-#### Task: Identifyacquire the official "vanity" URL to be used by the portal (e.g. - `www.vanityurlfornewportal.com`)
+#### Action: Identifyacquire the official "vanity" URL to be used by the portal (e.g. - `www.vanityurlfornewportal.com`)
 
 Portal projects should request a domain name for their portal to expose for internet access by its users.
 

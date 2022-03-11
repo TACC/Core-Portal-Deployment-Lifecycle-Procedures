@@ -4,7 +4,7 @@
 
 # Lifecycle Overview
 
-This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Each phase is an aggregation of steps that must be completed to succesfully complete the phase objectives.
+This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Each _Phase_ is an aggregation of steps (called _Actions_) that must be completed to succesfully fulfill the _Phase_ objectives.
 
 **Lifecycle Phases**
 

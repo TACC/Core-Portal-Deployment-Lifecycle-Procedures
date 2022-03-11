@@ -8,7 +8,7 @@ Describe the procedures to follow for portal backups (both Django and DjangoCMS 
 
 ### _Phase 10: Backups & Archiving_
 
-- **Task:** TBD
+- **Action:** TBD
 
 ---
 

@@ -8,7 +8,7 @@ Describe the procedures to follow for permanently sunsetting a portal and retiri
 
 ### _Phase 11: Sunsetting & Retirement_
 
-- **Task:** TBD
+- **Action:** TBD
 
 ---
 

@@ -8,7 +8,7 @@ Describe the procedures to follow for portal updates, upgrades, and bug-fixes.
 
 ### _Phase 9: Maintenance_
 
-- **Task:** TBD
+- **Action:** TBD
 
 ---
 

@@ -15,9 +15,9 @@ TBD...
 
 #### _Initial Deployment Workflow_
 
-- **Task:** Deploy the Portal via Jenkins CI job to the target host system.
-- **Task:** SSH into the deployment target host and promote to user `portal`.
-- **Task:** Use `docker exec -ti /bin/bash/ PORTAL_CONTAINER` to complete the container setup.
+- **Action:** Deploy the Portal via Jenkins CI job to the target host system.
+- **Action:** SSH into the deployment target host and promote to user `portal`.
+- **Action:** Use `docker exec -ti /bin/bash/ PORTAL_CONTAINER` to complete the container setup.
   - Core Portal:
     - `docker exec -ti /bin/bash/ core_django`
     - `./manage.py migrate`
@@ -31,20 +31,20 @@ TBD...
     - `./manage.py collectstatic --no-input`
     - `./manage.py createsuperuser`
       - Document admin credentials for `username:password`.
-- **Task:** Setup index page in CMS as CMS Admin user.
-- **Task:** Create Pre-production Portal Default Execution Systems.
-- **Task:** Create Production PortalDefault Execution Systems.
-- **Task:** Setup Community Data Project.
-- **Task:** _Optional:_ Setup Public Data Project (if requested).
-- **Task:** Run the ES Indexing management command against the deployment target host.
-- **Task:** Schedule a QA Review for the deployment target host.
+- **Action:** Setup index page in CMS as CMS Admin user.
+- **Action:** Create Pre-production Portal Default Execution Systems.
+- **Action:** Create Production PortalDefault Execution Systems.
+- **Action:** Setup Community Data Project.
+- **Action:** _Optional:_ Setup Public Data Project (if requested).
+- **Action:** Run the ES Indexing management command against the deployment target host.
+- **Action:** Schedule a QA Review for the deployment target host.
 
 <a id="phase8RDW"></a>
 
 #### _Regular Deployment Workflow_
 
-- **Task:** Deploy the Portal via Jenkins CI job to the target host system.
-- **Task:** Schedule a QA Review for the deployment target host.
+- **Action:** Deploy the Portal via Jenkins CI job to the target host system.
+- **Action:** Schedule a QA Review for the deployment target host.
 
 ---
 
