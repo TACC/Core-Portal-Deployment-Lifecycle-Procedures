@@ -1,7 +1,7 @@
-[![CustomBadge](https://img.shields.io/badge/TACC-CPLDP-darkblue)](https://img.shields.io/badge/TACC-CPLDP-blue)
+[![CustomBadge](https://img.shields.io/badge/TACC-CPLP-darkblue)](https://img.shields.io/badge/TACC-CPLP-blue)
 
-# Core Portal Lifecycle & Deployment Procedures (CPLDP)
+# Core Portal Lifecycle Procedures
 
-Detailed documentation on the comprehensive lifecycle of a TACC ACI-WMA Core v2 Portal architecture.
+Detailed documentation on the complete lifecycle of a TACC ACI-WMA Core v2 Portal.
 
-[Core Portal Lifecycle & Deployment Procedures](https://tacc.github.io/Core-Portal-Lifecycle-Deployment-Procedures/)
+[Core Portal Lifecycle Procedures](https://tacc.github.io/Core-Portal-Lifecycle-Procedures/)
