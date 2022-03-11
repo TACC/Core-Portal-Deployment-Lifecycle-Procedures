@@ -28,7 +28,7 @@
 
 <a id="phase1"></a>
 
-### _Phase 1: Administrative Prerequisite Actions_
+### _[Phase 1: Administrative Prerequisite Actions](phase_01)_
 
 - **Action:** [Identify the portal project PI.](phase_01#phase1action1)
 - **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_01#phase1action2)
