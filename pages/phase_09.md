@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP Phase 9: Maintenance
+# Phase 9: Maintenance
 
 Describe the procedures to follow for portal updates, upgrades, and bug-fixes.
 

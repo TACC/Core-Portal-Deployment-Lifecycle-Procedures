@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP Phase 5: Deployment Target Host Provisioning
+# Phase 5: Deployment Target Host Provisioning
 
 TBD...
 

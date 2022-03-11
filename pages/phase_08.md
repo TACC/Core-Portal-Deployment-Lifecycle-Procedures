@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP Phase 8: Deployments
+# Phase 8: Deployments
 
 TBD...
 

@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP Phase 2: Resource Requests, SSH Certs & CPS Exceptions
+# Phase 2: Resource Requests, SSH Certs & CPS Exceptions
 
 TBD...
 

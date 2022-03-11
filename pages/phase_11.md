@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP Phase 11: Sunsetting & Retirement
+# Phase 11: Sunsetting & Retirement
 
 Describe the procedures to follow for permanently sunsetting a portal and retiring its content.
 

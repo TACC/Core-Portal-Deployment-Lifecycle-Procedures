@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP Phase 3: OAuth Tenants
+# Phase 3: OAuth Tenants
 
 TBD...
 

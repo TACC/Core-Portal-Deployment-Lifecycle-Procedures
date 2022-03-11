@@ -20,7 +20,7 @@ This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Eac
 - [Phase 10: Backups & Archiving](phase_10.md)
 - [Phase 11: Sunsetting & Retirement](phase_11.md)
 
-See the [Lifecycle Procedures Checklist](checklist.md) page for a comprehensive list of every task in all phases of the portal lifecycle.
+See the [Lifecycle Procedures Checklist](checklist.md) page for a comprehensive list of every _Action_ in all _Phases_ of the portal lifecycle.
 
 See the [Customization](customization.md) page for instructions on how to extend the portal architecture with containers or TAPIS applications.
 

@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP Phase 7: Secrets & CI/CD Setup
+# Phase 7: Secrets & CI/CD Setup
 
 TBD...
 

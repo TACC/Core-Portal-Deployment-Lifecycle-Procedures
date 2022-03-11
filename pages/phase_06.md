@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP Phase 6: Branding, Content Preparation & Image Publication
+# Phase 6: Branding, Content Preparation & Image Publication
 
 TBD...
 
