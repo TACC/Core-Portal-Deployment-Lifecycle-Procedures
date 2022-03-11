@@ -46,10 +46,10 @@
 
 - **Action:** [Request the deployment hosts for `PPRD` via KB.](phase_02#action1)
 - **Action:** [Request the deployment hosts for `PROD` via KB.](phase_02#action2)
-- **Action:** [If needed, request the deployment hosts for DEV via KB (only used in cases of custom development on a CEP fork).](phase_02#action3)
-- **Action:** [Request SSL Certificates for the `PPRD` deployment host via KB (required to deploy the portal codebase).](phase_02#action4)
-- **Action:** [Request SSL Certificates for the `PROD` deployment host via KB (required to deploy the portal codebase).](phase_02#action5)
-- **Action:** [If used, request SSL Certificates for the `DEV` deployment host via KB (required to deploy the portal codebase).](phase_02#action6)
+- **Action:** [If needed, request the deployment hosts for DEV via KB.](phase_02#action3)
+- **Action:** [Request SSL Certificates for the `PPRD` deployment host via KB.](phase_02#action4)
+- **Action:** [Request SSL Certificates for the `PROD` deployment host via KB.](phase_02#action5)
+- **Action:** [If needed, request SSL Certificates for the `DEV` deployment host via KB.](phase_02#action6)
 
 ---
 
@@ -57,12 +57,12 @@
 
 ### [Phase 3: OAuth Tenant](phase_03)
 
-- **Action:** [Select Tenant Type (shared or dedicated) for the portal (dedicated tenants require additional actions, the shared tenant is already setup).](phase_03#action1)
+- **Action:** [Select Tenant Type for the portal (shared or dedicated).](phase_03#action1)
 
 #### [Dedicated Tenant](phase_03#dedicated)
 
-- **Action:** [Request a dedicated `WSO2 tenant` for `TAPIS` access (requires coordination with `ACI-CIC`).](phase_03#action2)
-- **Action:** [Install portal service applications on the dedicated tenant (zippy, compress, extract, pems).](phase_03#action3)
+- **Action:** [Request a dedicated `WSO2 tenant` for `TAPIS` access.](phase_03#action2)
+- **Action:** [Install portal service applications on the dedicated tenant.](phase_03#action3)
 
 #### [Tenant Configuration](phase_03#config)
 
@@ -81,7 +81,7 @@
 
 ### [Phase 4: Related Services & Systems Setup](phase_04)
 
-- **Action:** [Establish a new UT Stache entry to store project credentials and secret settings (`https://stache.utexas.edu`).](phase_04#action1)
+- **Action:** [Establish a new UT Stache entry to store project credentials and secret settings.](phase_04#action1)
 - **Action:** [Add Google Analytics property ID.](phase_04#action2)
 - **Action:** [Generate Google Site Verification token.](phase_04#action3)
 - **Action:** [Generate reCAPTCHA code.](phase_04#action4)
@@ -101,11 +101,11 @@
 _Note: Repeat these steps for both PPRD & PROD._
 
 - **Action:** [Generate the `dhparam.pem` file on the deployment target host.](phase_05#action1)
-- **Action:** [On the deployment target host (as `root`), create the user `portal`.](phase_05#action2)
+- **Action:** [On the deployment target host create the user `portal`.](phase_05#action2)
 - **Action:** [Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file.](phase_05#action3)
 - **Action:** [Nginx SSL Certs Configuration for containers.](phase_05#action4)
 - **Action:** [Install host dependencies.](phase_05#action5)
-- **Action:** [Add the `portal` user to the (new) group `docker`: `sudo usermod -aG docker portal`.](phase_05#action6)
+- **Action:** [Add the `portal` user to the (new) `docker` group.](phase_05#action6)
 - **Action:** [Create deployment directories for the Camino workflow in the PPRD deployment host.](phase_05#action7)
 - **Action:** [Create deployment directories for the Camino workflow in the PROD deployment host.](phase_05#action8)
 - **Action:** [Clone Camino into PPRD deployment host.](phase_05#action9)
@@ -133,16 +133,16 @@ _Note: Repeat these steps for both PPRD & PROD._
 - **Action:** [Populate UT Stache with the secret values specific to the PROD CMS.](phase_07#action3)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD Portal.](phase_07#action4)
 - **Action:** [Create `secrets.py` for the PPRD django CMS container.](phase_07#action5)
-- **Action:** [SCP `secrets.py` into the PPRD host `/opt/portal/Camino/conf/cms/` subdir.](phase_07#action6)
+- **Action:** [SCP `secrets.py` into the PPRD host.](phase_07#action6)
 - **Action:** [Create `settings_secret.py` for the PPRD django portal container.](phase_07#action7)
-- **Action:** [SCP `settings_secret.py` into the PPRD host `/opt/portal/Camino/conf/portal/` subdir.](phase_07#action8)
+- **Action:** [SCP `settings_secret.py` into the PPRD host.](phase_07#action8)
 - **Action:** [Create `secrets.py` for the PROD django CMS container.](phase_07#action9)
-- **Action:** [SCP `secrets.py`  into the PROD host `/opt/portal/Camino/conf/cms/` subdir.](phase_07#action10)
+- **Action:** [SCP `secrets.py`  into the PROD host.](phase_07#action10)
 - **Action:** [Create `settings_secret.py` for the PROD django portal container.](phase_07#action11)
-- **Action:** [SCP `settings_secret.py` into the PROD host `/opt/portal/Camino/conf/portal/` subdir.](phase_07#action12)
+- **Action:** [SCP `settings_secret.py` into the PROD host.](phase_07#action12)
 - **Action:** [Create `rabbitmq.env` (can be the same for all hosts).](phase_07#action13)
-- **Action:** [SCP `rabbitmq.env` into the PPRD host `/opt/portal/Camino/conf/rabbitmq/` subdir.](phase_07#action14)
-- **Action:** [SCP `rabbitmq.env` into the PROD host `/opt/portal/Camino/conf/rabbitmq/` subdir.](phase_07#action15)
+- **Action:** [SCP `rabbitmq.env` into the PPRD host.](phase_07#action14)
+- **Action:** [SCP `rabbitmq.env` into the PROD host.](phase_07#action15)
 - **Action:** [Configure the Portal Project Jenkins CI job.](phase_07#action16)
 
 ---
@@ -151,23 +151,26 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 ### [Phase 8: Deployments](phase_08)
 
-- **Initial Deployment Workflow**: [For brand new portals, complete these procedures for all deployment targets (e.g. PROD, PPRD).](phase_08#action1)
-- **Reqular Deployment Workflow**: [Follow these procedures for existing portals.](phase_08#action2)
+- **Initial Deployment Workflow**: [New portals.](phase_08#action1)
+- **Reqular Deployment Workflow**: [Established portals.](phase_08#action2)
 
-#### [Initial Deployment Workflow](phase_08#idw)
+#### [First Deployment](phase_08#fd)
 
-- **Action:** [Deploy the Portal via Jenkins CI job to the target host system.](phase_08#action3)
+- **Action:** [Deploy the Portal via Jenkins CI job on the target host system.](phase_08#action3)
 - **Action:** [SSH into the deployment target host and promote to user `portal`.](phase_08#action4)
-- **Action:** [Use `docker exec -ti /bin/bash/ PORTAL_CONTAINER` to complete the container setup.](phase_08#action5)
-- **Action:** [Setup index page in CMS as CMS Admin user.](phase_08#action6)
-- **Action:** [Create Pre-production Portal Default Execution Systems.](phase_08#action7)
-- **Action:** [Create Production PortalDefault Execution Systems.](phase_08#action8)
+- **Action:** [Complete the container setup.](phase_08#action5)
+- **Action:** [Create index page in CMS.](phase_08#action6)
+
+#### [Initiating Systems](phase_08#systems)
+
+- **Action:** [Create PPRD Portal Default Execution Systems.](phase_08#action7)
+- **Action:** [Create PROD Portal Default Execution Systems.](phase_08#action8)
 - **Action:** [Setup Community Data Project.](phase_08#action9)
 - **Action:** _Optional:_ [Setup Public Data Project (if requested).](phase_08#action10)
 - **Action:** [Run the ES Indexing management command against the deployment target host.](phase_08#action11)
 - **Action:** [Schedule a QA Review for the deployment target host.](phase_08#action12)
 
-#### [Regular Deployment Workflow](phase_08#rdw)
+#### [Regular Deployment](phase_08#rd)
 
 - **Action:** [Deploy the Portal via Jenkins CI job to the target host system.](phase_08#action13)
 - **Action:** [Schedule a QA Review for the deployment target host.](phase_08#action14)

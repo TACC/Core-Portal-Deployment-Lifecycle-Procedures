@@ -14,7 +14,7 @@ TBD...
 - **Action:** Request SSL Certificates for the `PPRD` deployment host via KB (required to deploy the portal codebase).
 - **Action:** Request SSL Certificates for the `PROD` deployment host via KB (required to deploy the portal codebase).
   - _Note: This step **cannot** be completed until the vanity URL is controlled by TACC NSO and UT EIS._
-- **Action:** If used, request SSL Certificates for the `DEV` deployment host via KB (required to deploy the portal codebase).
+- **Action:** If needed, request SSL Certificates for the `DEV` deployment host via KB (required to deploy the portal codebase).
 
 ---
 
