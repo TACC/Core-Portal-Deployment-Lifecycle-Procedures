@@ -2,9 +2,9 @@
 
 ---
 
-# CEP v2 Core Portal Deployment Checklist
+# Lifecycle Procedures Checklist
 
-**TODO: SANITIZE THESE DOCUMENTS OF ANY SENSITIVE CREDENTIALS!!!! ENSURE THIS IS SAFE FOR PUBLIC CONSUMPTION.**
+**TODO: SANITIZE THESE DOCUMENTS OF ANY SPECIFIC CREDENTIALS. ENSURE THIS IS SAFE FOR PUBLIC CONSUMPTION.**
 
 _Example. Replace all instances of `wma_prtl` with `ACI-WMA Portal TACC Service Account`._
 _Do the same for all credentials and internal URLs/IPs/Resources._
