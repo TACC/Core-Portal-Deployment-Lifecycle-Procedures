@@ -1,7 +1,7 @@
-theme: just-the-docs
 # theme: jekyll-theme-minimal
+# theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 title: Core Portal Lifecycle Procedures
 logo: /assets/img/TACC_400x400.png
 description: Documentation on the complete TACC ACI-WMA Core v2 Portal lifecycle.
 show_downloads: true
-remote_theme: just-the-docs/just-the-docs
