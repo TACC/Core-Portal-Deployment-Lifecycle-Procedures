@@ -12,9 +12,10 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 - **Action:** Generate the `dhparam.pem` file on the deployment target host.
   - `openssl genpkey -genparam -algorithm DH -out /etc/ssl/dhparam.pem -pkeyopt dh_paramgen_prime_len:4096`
-- **Action:** On the deployment target host (as `root`), create the user `portal` with **no password**:
+- **Action:** On the deployment target host (as `root`), create the user `portal`.
+  - Create user with **no password**
   - `sudo adduser --disabled-password portal`
-- **Action:** Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file:
+- **Action:** Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file.
   - _Note: Copy the SSH key from UT Stache, another portal, or the jenkins machine itself. The cypher block should end with `jenkins@jenkins01`._
   ```
   sudo su - portal
@@ -25,7 +26,7 @@ _Note: Repeat these steps for both PPRD & PROD._
   # add the SSH key (copy & paste).
   chmod 600 .ssh/authorized_keys
   ```
-- **Action:** Nginx SSL Certs Configuration for containers:
+- **Action:** Nginx SSL Certs Configuration for containers.
   - When the SSL cert and key (requested in Phase 2) are placed onto the deployment host, they will be under these directories:
     - `/etc/ssl/certs/target.projectname.tacc.utexas.edu.cer.YYYYMMDD`
     - `/etc/ssl/private/target.projectname.tacc.utexas.edu.key.YYYYMMDD`
@@ -33,7 +34,7 @@ _Note: Repeat these steps for both PPRD & PROD._
     - `ln -s /etc/ssl/certs/target.projectname.tacc.utexas.edu.cer.YYYYMMDD target.projectname.tacc.utexas.edu.cer`
     - `ln -s /etc/ssl/certs/target.projectname.tacc.utexas.edu.key.YYYYMMDD target.projectname.tacc.utexas.edu.key`
   - _Note: This path should match the paths mounted into the running containers in the docker `override.yml` files in `Core-Portal-Deployments`._
-- **Action:** Install host dependencies:
+- **Action:** Install host dependencies.
   - `make` (for use with Camino): `sudo apt-get install make`
   - `docker` (see https://docs.docker.com/engine/install/ubuntu/)
     - See: https://docs.docker.com/engine/install/ubuntu/

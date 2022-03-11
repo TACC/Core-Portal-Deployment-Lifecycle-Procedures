@@ -37,7 +37,7 @@ _Note: The SCP tasks can also be accomplished by SSHing into the target host, su
 - **Action:** SCP `rabbitmq.env` into the PPRD host `/opt/portal/Camino/conf/rabbitmq/` subdir.
 - **Action:** SCP `rabbitmq.env` into the PROD host `/opt/portal/Camino/conf/rabbitmq/` subdir.
 
-- **Action:** Configure Portal Project Jenkins CI job.
+- **Action:** Configure the Portal Project Jenkins CI job.
 
 ---
 
