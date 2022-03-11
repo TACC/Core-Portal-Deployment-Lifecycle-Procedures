@@ -22,7 +22,9 @@ This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Eac
 
 See the [Lifecycle Procedures Checklist](checklist.md) page for a comprehensive list of every _Action_ in all _Phases_ of the portal lifecycle.
 
-See the [Customization](customization.md) page for instructions on how to extend the portal architecture with containers or TAPIS applications.
+See the [Customization](customization.md) page for instructions on how to extend the portal architecture with additional containers or published TAPIS applications.
+
+See the [Core Portal Ecosystem](pages/ecosystem.md) page for an explanation of the design decisions and goals driving the evolution of the Core Portal codebase.
 
 ---
 

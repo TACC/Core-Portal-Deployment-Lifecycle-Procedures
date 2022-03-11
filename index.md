@@ -4,6 +4,7 @@ Documentation on the complete TACC ACI-WMA Core v2 Portal lifecycle.
 
 This documentation includes the following:
 
+- An explanation of the portal ecosystem, design decisions and goals driving the evolution of the Core Portal codebase at TACC.
 - The procedures used for planning, resourcing, provisioning, configuring and deploying the portal codebase on TACC infrastructure.
 - A checklist of explicit, discrete actions to convert into JIRA tasks to track each phase of the lifecycle.
 - Instructions on portal customization via use of containers or TAPIS app publishing mechanisms.
@@ -17,6 +18,7 @@ This documentation should be referenced throughout all phases of a portal's life
 
 ## Table of Contents
 
+- [Core Portal Ecosystem](pages/ecosystem.md)
 - [Lifecycle Overview](pages/overview.md)
     - [Phase 1: Administrative Prerequisites & Actions](pages/phase_01.md)
     - [Phase 2: Resource Requests, SSH Certs & CPS Exceptions](pages/phase_02.md)
