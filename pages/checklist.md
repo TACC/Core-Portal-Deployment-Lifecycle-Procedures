@@ -28,7 +28,7 @@
 
 <a id="phase1"></a>
 
-### _[Phase 1: Administrative Prerequisite Actions](phase_01)_
+### [Phase 1: Administrative Prerequisite Actions](phase_01)
 
 - **Action:** [Identify the portal project PI.](phase_01#phase1action1)
 - **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_01#phase1action2)
@@ -42,7 +42,7 @@
 
 <a id="phase2"></a>
 
-### _Phase 2: Resource Requests, SSH Certs & CPS Exceptions_
+### [Phase 2: Resource Requests, SSH Certs & CPS Exceptions](phase_02)
 
 - **Action:** Request the deployment hosts for `PPRD` via KB.
 - **Action:** Request the deployment hosts for `PROD` via KB.
@@ -56,23 +56,23 @@
 
 <a id="phase3"></a>
 
-### _Phase 3: OAuth Tenant_
+### [Phase 3: OAuth Tenant](phase_03)
 
 - **Action:** Select Tenant Type (shared or dedicated) for the portal (dedicated tenants require additional actions, the shared tenant is already setup).
 
-#### _Dedicated Tenant_
+#### Dedicated Tenant
 
 - **Action:** Request a dedicated `WSO2 tenant` for `TAPIS` access (requires coordination with `ACI-CIC`).
 - **Action:** Install portal service applications on the dedicated tenant (zippy, compress, extract, pems).
 
-#### _Tenant Configuration_
+#### Tenant Configuration
 
 - **Action:** Create a TACC Tenant OAuth client for Pre-production.
 - **Action:** Create a TACC Tenant OAuth client for Production.
 - **Action:** Configure TACC Tenant long lived token for Pre-production.
 - **Action:** Configure TACC Tenant long lived token for Production.
 
-#### _CPS Exception_
+#### CPS Exception
 
 - **Action:** Have a CPS exception made for the `PROD` vanity domain name.
 
@@ -80,7 +80,7 @@
 
 <a id="phase4"></a>
 
-### _Phase 4: Related Services & Systems Setup_
+### [Phase 4: Related Services & Systems Setup](phase_04)
 
 - **Action:** Establish a new UT Stache entry to store project credentials and secret settings (`https://stache.utexas.edu`).
 - **Action:** Add Google Analytics property ID.
@@ -97,7 +97,7 @@
 
 <a id="phase5"></a>
 
-### _Phase 5: Deployment Target Host Provisioning_
+### [Phase 5: Deployment Target Host Provisioning](phase_05)
 
 _Note: Repeat these steps for both PPRD & PROD._
 
@@ -118,7 +118,7 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 <a id="phase6"></a>
 
-### _Phase 6: Branding, Content Preparation & Image Publication_
+### [Phase 6: Branding, Content Preparation & Image Publication](phase_06)
 
 - **Action:** Setup the custom branding and navigation bar in Core-CMS-Resources.
 - **Action:** Generate & Publish Custom CMS Image on Dockerhub.
@@ -127,7 +127,7 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 <a id="phase7"></a>
 
-### _Phase 7: Secrets & CI/CD Jobs_
+### [Phase 7: Secrets & CI/CD Jobs](phase_07)
 
 - **Action:** Populate UT Stache with the secret values specific to the PPRD CMS.
 - **Action:** Populate UT Stache with the secret values specific to the PPRD Portal.
@@ -150,12 +150,12 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 <a id="phase8"></a>
 
-### _Phase 8: Deployments_
+### [Phase 8: Deployments](phase_08)
 
 - **Initial Deployment Workflow**: For brand new portals, complete these procedures for all deployment targets (e.g. PROD, PPRD).
 - **Reqular Deployment Workflow**: Follow these procedures for existing portals.
 
-#### _Initial Deployment Workflow_
+#### Initial Deployment Workflow
 
 - **Action:** Deploy the Portal via Jenkins CI job to the target host system.
 - **Action:** SSH into the deployment target host and promote to user `portal`.
@@ -168,7 +168,7 @@ _Note: Repeat these steps for both PPRD & PROD._
 - **Action:** Run the ES Indexing management command against the deployment target host.
 - **Action:** Schedule a QA Review for the deployment target host.
 
-#### _Regular Deployment Workflow_
+#### Regular Deployment Workflow
 
 - **Action:** Deploy the Portal via Jenkins CI job to the target host system.
 - **Action:** Schedule a QA Review for the deployment target host.
@@ -177,7 +177,7 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 <a id="phase9"></a>
 
-### _Phase 9: Maintenance_
+### [Phase 9: Maintenance](phase_09)
 
 - **Action:** TBD
 
@@ -185,7 +185,7 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 <a id="phase10"></a>
 
-### _Phase 10: Backups & Archiving_
+### [Phase 10: Backups & Archiving](phase_10)
 
 - **Action:** TBD
 
@@ -193,7 +193,7 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 <a id="phase11"></a>
 
-### _Phase 11: Sunsetting & Retirement_
+### [Phase 11: Sunsetting & Retirement](phase_11)
 
 - **Action:** TBD
 

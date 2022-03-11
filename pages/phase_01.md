@@ -24,11 +24,9 @@ Describe the objectives of this phase of the lifecycle.
 
 ---
 
-## Action Details
+<a id="instructions"></a>
 
-<a id="detailed"></a>
-
-## Detailed Action Descriptions
+## Action Instructions
 
 ---
 
