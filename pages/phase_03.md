@@ -109,7 +109,7 @@ TBD...
 
 <a id="cps"></a>
 
-### Get a CPS Exception on the Tenant**
+### Get a CPS Exception on the Tenant
 
 <a id="action8"></a>
 

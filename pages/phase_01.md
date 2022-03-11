@@ -82,7 +82,7 @@ Description pending.
 
 <a id="action6"></a>
 
-**Action: Identifyacquire the official "vanity" URL to be used by the portal (e.g. - `www.vanityurlfornewportal.com`)**
+**Action: Identifyacquire the official "vanity" URL to be used by the portal.**
 
 Portal projects should request a domain name for their portal to expose for internet access by its users.
 

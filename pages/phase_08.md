@@ -65,11 +65,15 @@ Describe the objectives of this phase of the lifecycle.
 
 TBD...
 
+---
+
 <a id="action2"></a>
 
 **Action: SSH into the deployment target host and promote to user `portal`.**
 
 TBD...
+
+---
 
 <a id="action3"></a>
 
@@ -89,9 +93,13 @@ TBD...
     - `./manage.py createsuperuser`
       - Document admin credentials for `username:password`.
 
+---
+
 <a id="action4"></a>
 
 **Action: Setup index page in CMS as CMS Admin user.**
+
+---
 
 <a id="rdi"></a>
 
@@ -103,11 +111,15 @@ TBD...
 
 TBD...
 
+---
+
 <a id="action6"></a>
 
 **Action:** Schedule a QA Review for the deployment target host.
 
 TBD...
+
+---
 
 <a id="pda"></a>
 
@@ -118,6 +130,8 @@ TBD...
 **Action:** Run the ES Indexing management command against the deployment target host.
 
 TBD...
+
+---
 
 <a id="action8"></a>
 

@@ -24,7 +24,7 @@ See the [Lifecycle Procedures Checklist](checklist.md) page for a comprehensive 
 
 See the [Customization](customization.md) page for instructions on how to extend the portal architecture with additional containers or published TAPIS applications.
 
-See the [Core Portal Ecosystem](pages/ecosystem.md) page for an explanation of the design decisions and goals driving the evolution of the Core Portal codebase.
+See the [Core Portal Ecosystem](ecosystem.md) page for an explanation of the design decisions and goals driving the evolution of the Core Portal codebase.
 
 ---
 
