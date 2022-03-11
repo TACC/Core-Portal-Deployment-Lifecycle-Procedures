@@ -1,7 +1,15 @@
-# Core Portal Deployment Procedure: Phase 10
+- [Index](../index.md) > [Overview](overview.md)
 
-[Return to Index](../index.md)
+---
 
-## Description
+# CPLDP Phase 10: Backups & Archiving
 
-TBD...
+Describe the procedures to follow for portal backups (both Django and DjangoCMS databases) and archiving.
+
+### _Phase 10: Backups & Archiving_
+
+- **Action:** TBD
+
+---
+
+- [Index](../index.md) > [Overview](overview.md)

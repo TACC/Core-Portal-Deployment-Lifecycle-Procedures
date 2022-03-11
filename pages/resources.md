@@ -1,7 +1,26 @@
+- [Index](../index.md)
+
+---
+
 # Resources
 
-[Return to Index](../index.md)
+Resources, repos and any other useful items or links related to or referenced by the procedures.
 
-## Description
+## Systems & Web Resources
 
-Resources, repos and any other useful items or links related to the process.
+- TBD
+- TBD
+
+## Repositories
+
+- TBD
+- TBD
+
+## Documentation
+
+- TBD
+- TBD
+
+---
+
+- [Index](../index.md)

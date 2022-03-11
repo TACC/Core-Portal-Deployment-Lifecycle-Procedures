@@ -1,7 +1,23 @@
-# CPDP: Contributors
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
 
-## Description
+# Contributors
 
-List of TACC team members who have contributed to these projects.
+List of those who have contributed to this documentation project.
+
+## TACCsters
+
+- John Gentle
+- Sal Tijerina
+- Joonyee Chuah
+- Jake Rosenberg
+- Wesley Bomar
+
+## External Contributors
+
+- None.
+
+---
+
+- [Index](../index.md)

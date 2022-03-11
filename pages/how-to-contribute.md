@@ -1,7 +1,11 @@
-# CPDP: How to Contribute
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
 
-## Description
+# How to Contribute
 
-Instructions on how to contribute to these projects.
+Instructions on how to contribute to this project pending.
+
+---
+
+- [Index](../index.md)

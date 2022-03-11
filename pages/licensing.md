@@ -1,7 +1,11 @@
-# CPDP: Licensing
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
 
-## Description
+# Licensing
 
-Identify _if and how_ TACC licenses these codebases.
+Identify _if and how_ TACC [licenses](https://choosealicense.com/) these codebases.
+
+---
+
+- [Index](../index.md)

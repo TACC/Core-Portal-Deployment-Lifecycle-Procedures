@@ -1,8 +1,11 @@
-## Versioning Information
-# CPDP: Versioning 
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
 
-## Description
+# Versioning Information
 
 Description of how documentation is maintained in parallel with the related codebases.
+
+---
+
+- [Index](../index.md)

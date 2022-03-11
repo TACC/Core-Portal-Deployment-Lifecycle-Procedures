@@ -1,7 +1,0 @@
-# CPDP: Getting Started
-
-[Return to Index](../index.md)
-
-## Description
-
-Description of the Getting Started documents purpose.

@@ -1,7 +1,15 @@
-# Core Portal Deployment Procedure: Phase 9
+- [Index](../index.md) > [Overview](overview.md)
 
-[Return to Index](../index.md)
+---
 
-## Description
+# CPLDP Phase 9: Maintenance
 
-TBD...
+Describe the procedures to follow for portal updates, upgrades, and bug-fixes.
+
+### _Phase 9: Maintenance_
+
+- **Action:** TBD
+
+---
+
+- [Index](../index.md) > [Overview](overview.md)
