@@ -10,7 +10,7 @@
 
 - [Phase 1: Administrative Prerequisite Actions](#phase1)
 - [Phase 2: Resource Requests, SSH Certs & CPS Exceptions](#phase2)
-- [Phase 3: OAuth Tenants](#phase3)
+- [Phase 3: OAuth Tenant](#phase3)
 - [Phase 4: Related Services & Systems](#phase4)
 - [Phase 5: Deployment Target Host Provisioning](#phase5)
 - [Phase 6: Branding, Content Preparation & Image Publication](#phase6)

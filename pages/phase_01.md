@@ -28,12 +28,6 @@ Describe the objectives of this phase of the lifecycle.
 
 ## Action Instructions
 
----
-
-### Phase 1: Portal Administrative Prerequisite Actions
-
----
-
 <a id="action1"></a>
 
 **Action: Identify the portal project PI**

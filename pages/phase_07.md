@@ -56,14 +56,14 @@ Describe the objectives of this phase of the lifecycle.
 
 ### Secrets
 
-**Reminder** - The secret values that should be contained in each stache entry:
+The following secret values should be contained in the specified stache entry:
 
-- `PORTAL_NAME v2 ADMIN Secrets` (TAPIS Tenant tokens/keys, PostgreSQL DB Cluster credentials, ElasticSearch cluster credentials, Rabbitmq credentials, Analytics, Site verification, reCAPTCH).
+- **PORTAL_NAME v2 ADMIN Secrets** TAPIS Tenant tokens/keys, PostgreSQL DB Cluster credentials, ElasticSearch cluster credentials, Rabbitmq credentials, Analytics, Site verification, reCAPTCH.
   - _Note: This entry should already be populated with these values from Phases 3 & 4._
-- `PORTAL_NAME v2 PPRD CMS Secrets` (Secret Key, Allowed Hosts, Auth endpoint, DB credentials, ES credentials, Haystack configuration).
-- `PORTAL_NAME v2 PPRD Portal Secrets` (Secret Key, DB settings, TAS settings, RT settings, Agave/TAPIS settings, RabbitMQ settings, ES settings, Celery settings, Project Keys, Custom portal configurations).
-- `PORTAL_NAME v2 PROD CMS Secrets` (Secret Key, Allowed Hosts, Auth endpoint, DB credentials, ES credentials, Haystack configuration).
-- `PORTAL_NAME v2 PROD Portal Secrets` (Secret Key, DB settings, TAS settings, RT settings, Agave/TAPIS settings, RabbitMQ settings, ES settings, Celery settings, Project Keys, Custom portal configurations).
+- **PORTAL_NAME v2 PPRD CMS Secrets** Secret Key, Allowed Hosts, Auth endpoint, DB credentials, ES credentials, Haystack configuration.
+- **PORTAL_NAME v2 PPRD Portal Secrets** Secret Key, DB settings, TAS settings, RT settings, Agave/TAPIS settings, RabbitMQ settings, ES settings, Celery settings, Project Keys, Custom portal configurations.
+- **PORTAL_NAME v2 PROD CMS Secrets** Secret Key, Allowed Hosts, Auth endpoint, DB credentials, ES credentials, Haystack configuration.
+- **PORTAL_NAME v2 PROD Portal Secrets** Secret Key, DB settings, TAS settings, RT settings, Agave/TAPIS settings, RabbitMQ settings, ES settings, Celery settings, Project Keys, Custom portal configurations.
 
 ---
 
