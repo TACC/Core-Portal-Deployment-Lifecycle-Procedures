@@ -61,7 +61,7 @@
 
 #### [Dedicated Tenant](phase_03#dedicated)
 
-- **Action:** [Request a dedicated `WSO2 tenant` for `TAPIS` access.](phase_03#action2)
+- **Action:** [Request a dedicated WSO2 tenant for `TAPIS` access.](phase_03#action2)
 - **Action:** [Install portal service applications on the dedicated tenant.](phase_03#action3)
 
 #### [Tenant Configuration](phase_03#config)

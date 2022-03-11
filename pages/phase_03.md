@@ -22,7 +22,7 @@ This tenant exists already. No further action is required to establish a tenant 
 
 **Option 3B - Dedicated Tenant**
 
-- **Action:** If needed, request a dedicated `WSO2 tenant` for `TAPIS` access (requires coordination with `ACI-CIC`).
+- **Action:** If needed, request a dedicated WSO2 tenant for `TAPIS` access (requires coordination with `ACI-CIC`).
 - **Action:** Install portal service applications on tenant (zippy, compress, extract, pems).
 
 _After Option A or Option B..._
