@@ -57,7 +57,7 @@
 
 ### [Phase 3: OAuth Tenant](phase_03)
 
-- **Action:** [Select Tenant Type for the portal (shared or dedicated).](phase_03#action1)
+- **Action:** [Select Tenant type for the portal (shared or dedicated).](phase_03#action1)
 
 #### [Dedicated Tenant](phase_03#dedicated)
 
@@ -128,10 +128,14 @@ _Note: Repeat these steps for both PPRD & PROD._
 
 #### [Secrets](phase_07#secrets)
 
+##### Documenting
+
 - **Action:** [Populate UT Stache with the secret values specific to the PPRD CMS.](phase_07#action1)
 - **Action:** [Populate UT Stache with the secret values specific to the PPRD Portal.](phase_07#action2)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD CMS.](phase_07#action3)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD Portal.](phase_07#action4)
+
+##### Assembling
 
 - **Action:** [Create `secrets.py` for the PPRD django CMS container.](phase_07#action5)
 - **Action:** [Create `settings_secret.py` for the PPRD django portal container.](phase_07#action6)
@@ -139,6 +143,8 @@ _Note: Repeat these steps for both PPRD & PROD._
 - **Action:** [Create `settings_secret.py` for the PROD django portal container.](phase_07#action8)
 - **Action:** [Create `rabbitmq.env` for the PPRD host.](phase_07#action9)
 - **Action:** [Create `rabbitmq.env` for the PROD host.](phase_07#action10)
+
+##### Placing
 
 - **Action:** [SCP `secrets.py` into the PPRD host.](phase_07#action11)
 - **Action:** [SCP `settings_secret.py` into the PPRD host.](phase_07#action12)

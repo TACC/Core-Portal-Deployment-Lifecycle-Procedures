@@ -14,10 +14,14 @@ Describe the objectives of this phase of the lifecycle.
 
 #### [Secrets](#secrets)
 
+##### [Documenting](#documenting)
+
 - **Action:** [Populate UT Stache with the secret values specific to the PPRD CMS.](#action1)
 - **Action:** [Populate UT Stache with the secret values specific to the PPRD Portal.](#action2)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD CMS.](#action3)
 - **Action:** [Populate UT Stache with the secret values specific to the PROD Portal.](#action4)
+
+##### [Assembling](#assembling)
 
 - **Action:** [Create `secrets.py` for the PPRD django CMS container.](#action5)
 - **Action:** [Create `settings_secret.py` for the PPRD django portal container.](#action6)
@@ -25,6 +29,8 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [Create `settings_secret.py` for the PROD django portal container.](#action8)
 - **Action:** [Create `rabbitmq.env` for the PPRD host.](#action9)
 - **Action:** [Create `rabbitmq.env` for the PROD host.](#action10)
+
+##### [Placing](#placing)
 
 - **Action:** [SCP `secrets.py` into the PPRD host.](#action11)
 - **Action:** [SCP `settings_secret.py` into the PPRD host.](#action12)
@@ -67,6 +73,10 @@ The following secret values should be contained in the specified stache entry:
 
 ---
 
+<a id="documenting"></a>
+
+##### Documenting
+
 <a id="action1"></a>
 
 **Action: Populate UT Stache with the secret values specific to the PPRD CMS.**
@@ -98,6 +108,10 @@ TBD...
 TBD...
 
 ---
+
+<a id="Assembling"></a>
+
+##### Assembling
 
 <a id="action5"></a>
 
@@ -144,6 +158,12 @@ TBD...
 **Action:** Create `rabbitmq.env` for the PROD host.
 
 TBD...
+
+---
+
+<a id="placing"></a>
+
+##### Placing
 
 _Note: The SCP tasks can also be accomplished by SSHing into the target host, sudoing into user `portal`, and using vim to create and populate the files in situ._
 
