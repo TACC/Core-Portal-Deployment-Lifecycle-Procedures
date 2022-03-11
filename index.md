@@ -1,4 +1,4 @@
-# Core Portal Lifecycle & Deployment Procedures (CPLDP)
+# Core Portal Lifecycle Procedures
 
 Documentation on the complete TACC ACI-WMA Core v2 Portal lifecycle.
 

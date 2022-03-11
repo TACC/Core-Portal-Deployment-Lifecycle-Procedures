@@ -2,11 +2,11 @@
 
 ---
 
-# CPLDP: Resources
+# Resources
 
 Resources, repos and any other useful items or links related to or referenced by the procedures.
 
-## Resources
+## Systems & Web Resources
 
 - TBD
 - TBD

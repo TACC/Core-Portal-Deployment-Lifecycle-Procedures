@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP: Contributors
+# Contributors
 
 List of those who have contributed to this documentation project.
 

@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP: How to Contribute
+# How to Contribute
 
 Instructions on how to contribute to ths project are pending.
 

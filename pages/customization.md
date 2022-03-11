@@ -2,7 +2,7 @@
 
 ---
 
-# CPLDP: Customization
+#  Customization
 
 Description of how we add customizations (features, apps, etc.) to the Core Portal using CMS iframes + containers.
 
