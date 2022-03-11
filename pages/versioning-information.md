@@ -1,9 +1,11 @@
-# CPLDP: Versioning Information
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
+
+# CPLDP: Versioning Information
 
 Description of how documentation is maintained in parallel with the related codebases.
 
 ---
 
-[Return to Index](../index.md)
+- [Index](../index.md)

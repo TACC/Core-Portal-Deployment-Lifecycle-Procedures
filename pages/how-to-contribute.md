@@ -1,9 +1,11 @@
-# CPLDP: How to Contribute
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
+
+# CPLDP: How to Contribute
 
 Instructions on how to contribute to ths project are pending.
 
 ---
 
-[Return to Index](../index.md)
+- [Index](../index.md)

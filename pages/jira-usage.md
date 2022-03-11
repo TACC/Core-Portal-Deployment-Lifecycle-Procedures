@@ -1,6 +1,8 @@
-# CPLDP: Recommended JIRA Usage
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
+
+# CPLDP: Recommended JIRA Usage
 
 **TODO: CONVERT USE OF WORD `TASK` INTO `SUBTASK` TO BETTER DISTINGUISH FROM THE JIRA TASK CONCEPT. UPDATE CHECKLIST AS WELL.**
 
@@ -15,4 +17,4 @@ In order to facilitate the tracking of deployment procedures, we recommend the f
 
 ---
 
-[Return to Index](../index.md)
+- [Index](../index.md)

@@ -1,6 +1,8 @@
-# CEP v2 Core Portal Deployment Checklist
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
+
+# CEP v2 Core Portal Deployment Checklist
 
 **TODO: SANITIZE THESE DOCUMENTS OF ANY SENSITIVE CREDENTIALS!!!! ENSURE THIS IS SAFE FOR PUBLIC CONSUMPTION.**
 
@@ -419,5 +421,4 @@ DNS propagation status can be checked using this site: https://dnschecker.org/#C
 
 ---
 
-[Return to Index](../index.md)
-
+- [Index](../index.md)

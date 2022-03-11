@@ -1,6 +1,8 @@
-# CPLDP: Contributors
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
+
+# CPLDP: Contributors
 
 List of those who have contributed to this documentation project.
 
@@ -18,4 +20,4 @@ List of those who have contributed to this documentation project.
 
 ---
 
-[Return to Index](../index.md)
+- [Index](../index.md)

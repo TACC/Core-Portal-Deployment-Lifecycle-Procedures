@@ -1,6 +1,8 @@
-# CPLDP: Resources
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
+
+# CPLDP: Resources
 
 Resources, repos and any other useful items or links related to or referenced by the procedures.
 
@@ -21,4 +23,4 @@ Resources, repos and any other useful items or links related to or referenced by
 
 ---
 
-[Return to Index](../index.md)
+- [Index](../index.md)

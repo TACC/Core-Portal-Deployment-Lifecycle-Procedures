@@ -1,6 +1,8 @@
-# CPLDP: Customization
+- [Index](../index.md)
 
-[Return to Index](../index.md)
+---
+
+# CPLDP: Customization
 
 Description of how we add customizations (features, apps, etc.) to the Core Portal using CMS iframes + containers.
 
@@ -15,4 +17,4 @@ Link from here to the documents detailing:
 
 ---
 
-[Return to Index](../index.md)
+- [Index](../index.md)
