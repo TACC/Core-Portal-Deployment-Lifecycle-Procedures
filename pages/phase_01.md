@@ -12,15 +12,17 @@ Describe the objectives of this phase of the lifecycle.
 
 ---
 
+<a id="actions"></a>
+
 ## Administrative Prerequisite Actions
 
-- **Action:** [Identify the portal project PI.](#phase1action1)
-- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#phase1action2)
-- **Action:** [Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#phase1action3)
-- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](#phase1action4)
-- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#phase1action5)
-- **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](#phase1action6)
-- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](#phase1action7)
+- **Action:** [Identify the portal project PI.](#action1)
+- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#action2)
+- **Action:** [Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#action3)
+- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](#action4)
+- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#action5)
+- **Action:** [Identifyacquire the official "vanity" URL to be used by the portal.](#action6)
+- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](#action7)
 
 ---
 
@@ -34,7 +36,7 @@ Describe the objectives of this phase of the lifecycle.
 
 ---
 
-<a id="phase1action1"></a>
+<a id="action1"></a>
 
 #### Action: Identify the portal project PI
 
@@ -42,7 +44,7 @@ Description pending.
 
 ---
 
-<a id="phase1action2"></a>
+<a id="action2"></a>
 
 #### Action: Identify the WMA developers responsible for portal setup, deployment and maintenance
 
@@ -50,7 +52,7 @@ Description pending.
 
 ---
 
-<a id="phase1action3"></a>
+<a id="action3"></a>
 
 #### Action: Identify/establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities
 
@@ -70,7 +72,7 @@ Procedure
 
 ---
 
-<a id="phase1action4"></a>
+<a id="action4"></a>
 
 #### Action: Identify Portal Project TAS GID associated with the portal allocation
 
@@ -78,7 +80,7 @@ Description pending.
 
 ---
 
-<a id="phase1action5"></a>
+<a id="action5"></a>
 
 #### Action: Ensure the correct users have admin and access to the `TAS` project
 
@@ -86,7 +88,7 @@ Description pending.
 
 ---
 
-<a id="phase1action6"></a>
+<a id="action6"></a>
 
 #### Action: Identifyacquire the official "vanity" URL to be used by the portal (e.g. - `www.vanityurlfornewportal.com`)
 
@@ -102,7 +104,7 @@ DNS propagation status can be checked using this site: https://dnschecker.org/#C
 
 ---
 
-<a id="phase1action7"></a>
+<a id="action7"></a>
 
 #### Action: Ensure WMA developers responsible fopr portal setup have access to requires resources.
 
