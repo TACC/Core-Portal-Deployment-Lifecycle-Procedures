@@ -23,8 +23,8 @@
     - [6G. Deployments](#phase6g)
     - [6H. Post Deployment](#phase6h)
 - [Phase 7: Operations](#phase7)
-    - [7A. Bug Fixes & Patches](#phase7a)
-    - [7B. Feature Development & Customization](#phase7b)
+    - [7A. Feature Development & Customization](#phase7a)
+    - [7B. Bug Fixes & Patches](#phase7b)
     - [7C. Maintenance & Updates](#phase7c)
     - [7D. Backups & Archiving](#phase7d)
 - [Phase 8: Monitoring](#phase8)
@@ -252,7 +252,7 @@ _Note: Repeat these steps for each deployment target host._
 
 <a id="phase7a"></a>
 
-#### [7A. Bug Fixes & Patches](phase_07#7a)
+#### [7A. Feature Development & Customization](phase_07#7a)
 
 - **Action:** [TBD](#tbd)
 
@@ -260,7 +260,7 @@ _Note: Repeat these steps for each deployment target host._
 
 <a id="phase7b"></a>
 
-#### [7B. Feature Development & Customization](phase_07#7b)
+#### [7B. Bug Fixes & Patches](phase_07#7b)
 
 - **Action:** [TBD](#tbd)
 
