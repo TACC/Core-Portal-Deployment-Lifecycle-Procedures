@@ -41,4 +41,3 @@ See the [Core Portal Ecosystem](ecosystem.md) page for an explanation of the des
 ---
 
 - [Index](../index.md)
-s
