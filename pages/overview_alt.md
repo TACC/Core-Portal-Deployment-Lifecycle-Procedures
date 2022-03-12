@@ -34,19 +34,15 @@ This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Eac
 
 #### [Host VM Requests]()
 
-- **Action:** [Request the deployment hosts for `PPRD` via KB.](#action1)
-- **Action:** [Request the deployment hosts for `PROD` via KB.](#action2)
-- **Action:** [If needed, request the deployment hosts for DEV via KB.](#action3)
+- **Action:** [Request the deployment target host VMs for `PPRD`, `PROD`, `DEV`, etc. via KB.](#action1)
 
 #### [SSL Certificates]()
 
-- **Action:** [Request SSL Certificates for the `PPRD` deployment host via KB.](#action4)
-- **Action:** [Request SSL Certificates for the `PROD` deployment host via KB.](#action5)
-- **Action:** [If needed, request SSL Certificates for the `DEV` deployment host via KB.](#action6)
+- **Action:** [Request SSL Certificates for each requested host VM via KB.](#action4)
 
 #### [WSO2 Tenant Request]()
 
-- **Action:** [Select Tenant Type for the portal (shared or dedicated).](#action1)
+- **Action:** [Select the Tenant Type for the portal (shared or dedicated).](#action1)
   - [Shared Tenant](#shared)
   - [Dedicated Tenant](#dedicated)
 - **Action:** [Request a dedicated WSO2 tenant for `TAPIS` access.](#action2)
@@ -54,59 +50,49 @@ This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Eac
 
 #### [CPS Exceptions](#cps)
 
-- **Action:** [Have a CPS exception made for the `PROD` vanity domain name.](#action7)
+- **Action:** [Have a CPS exception made for the `PROD` vanity domain name URL.](#action7)
 
 ### [6C. Secrets & Credentials Management]()
 
 #### [Credentials Management](#management)
 
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for PROJECTNAME ADMIN.](#action1)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for the PROJECTNAME PPRD CMS.](#action1)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for the PROJECTNAME PPRD Portal.](#action2)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for the PROJECTNAME PROD CMS.](#action3)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for the PROJECTNAME PROD Portal.](#action4)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for admin: PROJECTNAME ADMIN.](#action1)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](#action1)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](#action2)
 
 #### [Create Credentials](#credentials)
 
 ##### [Tenant](#)
 
-- **Action:** [Create a TACC Tenant OAuth client for Pre-production.](#action3)
-- **Action:** [Configure TACC Tenant long lived token for Pre-production.](#action5)
-
-- **Action:** [Create a TACC Tenant OAuth client for Production.](#action4)
-- **Action:** [Configure TACC Tenant long lived token for Production.](#action6)
+- **Action:** [Create a TACC Tenant OAuth client for each host VM.](#action3)
+- **Action:** [Configure TACC Tenant long lived token for each host VM.](#action5)
 
 ##### [PostgreSQL](#)
 
-- **Action:** [Create PreProd Portal Database Credentials & Database in WMA PostgreSQL Cluster.](#action5)
-- **Action:** [Create Production Portal Database Credentials & Database in WMA PostgreSQL Cluster.](#action6)
+- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM Portal.](#action5)
+- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM CMS.](#action6)
 
 ##### [ElasticSearch](#)
 
-- **Action:** [Create Pre-production Portal ElasticSearch Credentials & ES Indeces in WMA ES Cluster.](#action7)
-- **Action:** [Create Production Portal ElasticSearch Credentials & ES Indeces in WMA ES Cluster.](#action8)
+- **Action:** [Create ElasticSearch Credentials in the WMA ES Cluster for each host VM.](#action7)
+- **Action:** [Create ElasticSearch Indeces in the WMA ES Cluster for each host VM Portal and host VM CMS.](#action7)
 
 ##### [Verification, reCAPTCHA & Analytics](#)
 
-- **Action:** [Generate Google Analytics property ID.](#action2)
-- **Action:** [Generate Google Site Verification token.](#action3)
-- **Action:** [Generate reCAPTCHA code.](#action4)
+- **Action:** [Generate a new Google Analytics property ID for the PROD vanity domain name.](#action2)
+- **Action:** [Generate a new Google Site Verification token for the PROD vanity domain name.](#action3)
+- **Action:** [Generate a new reCAPTCHA code for the PROD vanity domain name.](#action4)
 
 #### [Document Secrets](#document-secrets)
 
-- **Action:** [Populate UT Stache with the secret values for the PPRD CMS.](#action1)
-- **Action:** [Populate UT Stache with the secret values for the PPRD Portal.](#action2)
-- **Action:** [Populate UT Stache with the secret values for the PROD CMS.](#action3)
-- **Action:** [Populate UT Stache with the secret values for the PROD Portal.](#action4)
+- **Action:** [Populate UT Stache with the secret values for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](#action1)
+- **Action:** [Populate UT Stache with the secret values for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](#action2)
 
 #### [Prepare Settings](#prepare-settings)
 
-- **Action:** [Create `secrets.py` for the PPRD django CMS container.](#action5)
-- **Action:** [Create `settings_secret.py` for the PPRD django portal container.](#action6)
-- **Action:** [Create `secrets.py` for the PROD django CMS container.](#action7)
-- **Action:** [Create `settings_secret.py` for the PROD django portal container.](#action8)
-- **Action:** [Create `rabbitmq.env` for the PPRD host.](#action9)
-- **Action:** [Create `rabbitmq.env` for the PROD host.](#action10)
+- **Action:** [Create a `secrets.py` file for the django CMS container on each host VM.](#action5)
+- **Action:** [Create a `settings_secret.py` file for the django portal container on each host VM.](#action6)
+- **Action:** [Create a `rabbitmq.env` file for each host VM.](#action9)
 
 ### [6D. Resource Provisioning & Configuration](#6d)
 
@@ -120,21 +106,15 @@ _Note: Repeat these steps for each deployment target host._
 - **Action:** [Nginx SSL Certs Configuration for containers.](#action4)
 - **Action:** [Install host dependencies.](#action5)
 - **Action:** [Add the `portal` user to the (new) `docker` group.](#action6)
-- **Action:** [Create deployment directories for the Camino workflow in the PPRD deployment host.](#action7)
-- **Action:** [Create deployment directories for the Camino workflow in the PROD deployment host.](#action8)
-- **Action:** [Clone Camino into PPRD deployment host.](#action9)
-- **Action:** [Clone Camino into PROD deployment host.](#action10)
-- **Action:** [Request SSH access for user `portal` from the Jenkins VM IP Address into the PPRD host from NSO.](#action11)
-- **Action:** [Request SSH access for user `portal` from the Jenkins VM IP Address into the PROD host from NSO.](#action12)
+- **Action:** [Create deployment directories for the Camino workflow in each deployment host VM.](#action7)
+- **Action:** [Clone Camino into each deployment host VM.](#action9)
+- **Action:** [Request that NSO grant the user `portal` SSH access from the Jenkins Deployer VM IP Address into each deployment host VM.](#action11)
 
 #### [Placing Secrets](#placing-secrets)
 
-- **Action:** [SCP `secrets.py` into the PPRD host.](#action11)
-- **Action:** [SCP `settings_secret.py` into the PPRD host.](#action12)
-- **Action:** [SCP `secrets.py`  into the PROD host.](#action13)
-- **Action:** [SCP `settings_secret.py` into the PROD host.](#action14)
-- **Action:** [SCP `rabbitmq.env` into the PPRD host.](#action15)
-- **Action:** [SCP `rabbitmq.env` into the PROD host.](#action16)
+- **Action:** [SCP `secrets.py` into each deployment host VM.](#action11)
+- **Action:** [SCP `settings_secret.py` into each deployment host VM.](#action12)
+- **Action:** [SCP `rabbitmq.env` into each deployment host VM.](#action15)
 
 #### [CI/CD Jobs](#cicd-jobs)
 
@@ -142,18 +122,16 @@ _Note: Repeat these steps for each deployment target host._
 
 #### [Backend Systems](#systems)
 
-- **Action:** [Create Pre-production Portal Default Storage Systems.](#action18)
-- **Action:** [Create Production Portal Default Storage Systems.](#action19)
-- **Action:** [Create PPRD Portal Default Execution Systems.](#action20)
-- **Action:** [Create PROD Portal Default Execution Systems.](#action21)
-- **Action:** [Setup Community Data Project.](#action22)
-- **Action:** [Setup Public Data Project (if requested).](#action23)
+- **Action:** [Create Default Storage Systems for the project.](#action18)
+- **Action:** [Create Default Execution Systems for the project.](#action20)
+- **Action:** [Setup a Community Data Project.](#action22)
+- **Action:** [Setup a Public Data Project.](#action23) _(Optional)_ 
 
 ### [6D. Branding, Image Publishing & Deployment Configurations]()
 
 - **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](#action1)
-- **Action:** [Generate & Publish Custom CMS Image on Dockerhub.](#action2)
-- **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal.](#action2)
+- **Action:** [Generate & Publish the Custom Project CMS Image on Dockerhub.](#action2)
+- **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers.](#action2)
 
 ### [6E. Deployment Actions](#deployments)
 
@@ -163,19 +141,18 @@ _Note: Repeat these steps for each deployment target host._
 #### [First Deployment](#fdi)
 
 - **Action:** [Deploy the Portal via Jenkins CI job on the target host system.](#action1)
-- **Action:** [SSH into the deployment target host and promote to user `portal`.](#action2)
+- **Action:** [SSH into the deployment target host and become the user `portal`.](#action2)
 - **Action:** [Complete the container setup.](#action3)
-- **Action:** [Create index page in CMS.](#action4)
+- **Action:** [Create an index page in the CMS.](#action4)
 
 #### [Regular Deployment](#rdi)
 
-- **Action:** [Deploy the Portal via Jenkins CI job to the target host system.](#action5)
-- **Action:** [Schedule a QA Review for the deployment target host.](#action6)
+- **Action:** [Deploy the Portal via Jenkins CI job to each target host system.](#action5)
 
 ### [6F. Post Deployment](#pda)
 
-- **Action:** [Run the ES Indexing management command against the deployment target host.](#action7)
-- **Action:** [Schedule a QA Review for the deployment target host.](#action8)
+- **Action:** [Run the ES Indexing management command against each deployed target host VM.](#action7)
+- **Action:** [Schedule a QA Review for each deployed target host VM.](#action8)
 
 ## [Phase 7: Operations](phase_07.md)
 
