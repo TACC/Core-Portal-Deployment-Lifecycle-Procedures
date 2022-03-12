@@ -6,7 +6,7 @@
 
 This is a list of all **Phases** in the TACC ACI-WMA Core v2 Portal lifecycle. Each **Phase** is an aggregation of steps (called **Actions**) that must be completed to succesfully fulfill the **Phase** objectives. Each **Action** is a discrete step that must be completed to fulfill the requirements of the parent **Phase**.
 
-**Lifecycle Phases**
+## Lifecycle Phases
 
 - [Phase 1: Planning](phase_01)
 - [Phase 2: Code](phase_02)
@@ -32,14 +32,13 @@ This is a list of all **Phases** in the TACC ACI-WMA Core v2 Portal lifecycle. E
     - [9A. Deprecation](phase_09#9a)
     - [9B. Retirement](phase_09#9b)
 
----
-
 See the [Lifecycle Procedures Checklist](checklist.md) page for a comprehensive list of every _Action_ in all _Phases_ of the portal lifecycle.
 
 See the [Customization](customization.md) page for instructions on how to extend the portal architecture with additional containers or published TAPIS applications.
 
-See the [Core Portal Ecosystem](ecosystem.md) page for an explanation of the design decisions and goals driving the evolution of the Core Portal codebase.
+See the [Core Portal Ecosystem](ecosystem.md) page for an explanation of the design decisions and goals driving the evolution of the Core Portal codebases.
 
 ---
 
 - [Index](../index.md)
+s

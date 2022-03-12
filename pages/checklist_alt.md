@@ -82,6 +82,8 @@
 
 ### [Phase 6: Deployments](phase_06)
 
+<a id="phase6a"></a>
+
 #### [6A. Administrative Prerequisites](phase_06#6a)
 
 - **Action 01:** [Identify the portal project PI.](phase_06#6a-action-01)
@@ -93,6 +95,8 @@
 - **Action 07:** [Identify and acquire the official "vanity" URL to be used by the portal.](phase_06#6a-action-07)
 
 ---
+
+<a id="phase6b"></a>
 
 #### [6B. Resource Planning & Allocation](phase_06#6b)
 
@@ -115,6 +119,8 @@
 - **Action:** [Have a CPS exception made for the `PROD` vanity domain name URL.](phase_06#6b-action-06)
 
 ---
+
+<a id="phase6c"></a>
 
 #### [6C. Secrets & Credentials Managements](phase_06#6c)
 
@@ -160,6 +166,8 @@
 
 ---
 
+<a id="phase6d"></a>
+
 #### [6D. Resource Provisioning & Configuration](phase_06#6d)
 
 #### [Host Provisioning](phase_06#6d-host-provisioning)
@@ -195,6 +203,8 @@ _Note: Repeat these steps for each deployment target host._
 
 ---
 
+<a id="phase6e"></a>
+
 #### [6E. Branding & Image Publishing](phase_06#6e)
 
 - **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](phase_06#6e-action-01)
@@ -202,11 +212,15 @@ _Note: Repeat these steps for each deployment target host._
 
 ---
 
+<a id="phase6f"></a>
+
 #### [6F. Deployment Configurations](phase_06#6f)
 
 - **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers.](phase_06#6f-action-01)
 
 ---
+
+<a id="phase6g"></a>
 
 #### [6G. Deployments](phase_06#6g)
 
@@ -223,6 +237,8 @@ _Note: Repeat these steps for each deployment target host._
 
 ---
 
+<a id="phase6h"></a>
+
 #### [6H. Post Deployment](phase_06#6h)
 
 - **Action:** [Run the ES Indexing management command against each deployed target host VM.](phase_06#6h-action-01)
@@ -234,23 +250,30 @@ _Note: Repeat these steps for each deployment target host._
 
 ### [Phase 7: Operations](phase_07)
 
+<a id="phase7a"></a>
+
 #### [7A. Bug Fixes & Patches](phase_07#7a)
 
 - **Action:** [TBD](#tbd)
 
 ---
 
+<a id="phase7b"></a>
+
 #### [7B. Feature Development & Customization](phase_07#7b)
 
 - **Action:** [TBD](#tbd)
 
 ---
+<a id="phase7c"></a>
 
 #### [7C. Maintenance & Updates](phase_07#7c)
 
 - **Action:** [TBD](#tbd)
 
 ---
+
+<a id="phase7d"></a>
 
 #### [7D. Backups & Archiving](phase_07#7d)
 
@@ -270,11 +293,15 @@ _Note: Repeat these steps for each deployment target host._
 
 ### [Phase 9: End of Life](phase_09)
 
+<a id="phase9a"></a>
+
 #### [9A. Deprecation](phase_09#9a)
 
 - **Action:** [TBD](#tbd)
 
 ---
+
+<a id="phase9b"></a>
 
 #### [9B. Retirement](phase_09#9b)
 
