@@ -4,7 +4,7 @@
 
 # Lifecycle Overview
 
-This is a list of all _Phases_ in the TACC ACI-WMA Core v2 Portal lifecycle. Each _Phase_ is an aggregation of steps (called _Actions_) that must be completed to succesfully fulfill the _Phase_ objectives.
+This is a list of all **Phases** in the TACC ACI-WMA Core v2 Portal lifecycle. Each **Phase** is an aggregation of steps (called **Actions**) that must be completed to succesfully fulfill the **Phase** objectives. Each **Action** is a discrete step that must be completed to fulfill the requirements of the parent **Phase**.
 
 **Lifecycle Phases**
 
@@ -127,13 +127,13 @@ _Note: Repeat these steps for each deployment target host._
 - **Action:** [Setup a Community Data Project.](#action22)
 - **Action:** [Setup a Public Data Project.](#action23) _(Optional)_ 
 
-### [6D. Branding, Image Publishing & Deployment Configurations]()
+### [6E. Branding, Image Publishing & Deployment Configurations]()
 
 - **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](#action1)
 - **Action:** [Generate & Publish the Custom Project CMS Image on Dockerhub.](#action2)
 - **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers.](#action2)
 
-### [6E. Deployment Actions](#deployments)
+### [6F. Deployment Actions](#deployments)
 
 - **First Deployment**: [New portals.](#fd)
 - **Reqular Deployment**: [Established portals.](#rd)
@@ -149,7 +149,7 @@ _Note: Repeat these steps for each deployment target host._
 
 - **Action:** [Deploy the Portal via Jenkins CI job to each target host system.](#action5)
 
-### [6F. Post Deployment](#pda)
+### [6G. Post Deployment](#pda)
 
 - **Action:** [Run the ES Indexing management command against each deployed target host VM.](#action7)
 - **Action:** [Schedule a QA Review for each deployed target host VM.](#action8)
@@ -176,12 +176,12 @@ _Note: Repeat these steps for each deployment target host._
 - **Action:** [TBD](#)
 - **Action:** [TBD](#)
 
-### [7E. EOL Deprecation & Retirement](phase_11.md)
-
-- **Action:** [TBD](#)
-- **Action:** [TBD](#)
-
 ## [Phase 8: Monitoring](phase_08.md)
+
+- **Action:** [TBD](#)
+- **Action:** [TBD](#)
+
+## [Phase 9: EOL - Deprecation & Retirement](phase_11.md)
 
 - **Action:** [TBD](#)
 - **Action:** [TBD](#)

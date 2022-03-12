@@ -40,4 +40,5 @@ This documentation should be referenced throughout all phases of a portal's life
 - [How to Contribute](pages/how-to-contribute.md)
 - [Licensing](pages/licensing.md)
 
-- [test](pages/overview_alt.md)
+- [ova](pages/overview_alt.md)
+- [cha](pages/checklist_alt.md)
