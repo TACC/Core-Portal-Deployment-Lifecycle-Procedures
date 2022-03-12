@@ -86,13 +86,13 @@
 
 #### [6A. Administrative Prerequisites](phase_06#6a)
 
-- **Action 01:** [Identify the portal project PI.](phase_06#6a-action-01)
-- **Action 02:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](phase_06#6a-action-02)
-- **Action 03:** [Identify Portal Project TAS GID associated with the portal allocation.](phase_06#6a-action-03)
-- **Action 04:** [Ensure the correct users have admin and access to the `TAS` project.](phase_06#6a-action-04)
-- **Action 05:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_06#6a-action-05)
-- **Action 06:** [Ensure WMA developers responsible for portal setup have access to requires resources.](phase_06#6a-action-06)
-- **Action 07:** [Identify and acquire the official "vanity" URL to be used by the portal.](phase_06#6a-action-07)
+- **Action:** [Identify the portal project PI.](phase_06#6a-action-01)
+- **Action:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](phase_06#6a-action-02)
+- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](phase_06#6a-action-03)
+- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](phase_06#6a-action-04)
+- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_06#6a-action-05)
+- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](phase_06#6a-action-06)
+- **Action:** [Identify and acquire the official "vanity" URL to be used by the portal.](phase_06#6a-action-07)
 
 ---
 
