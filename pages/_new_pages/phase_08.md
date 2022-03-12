@@ -2,9 +2,9 @@
 
 ---
 
-<a id="phase#"></a>
+<a id="phase-08"></a>
 
-# Phase ###: TBD
+# Phase 8: Monitoring
 
 ## Objective
 
@@ -12,7 +12,7 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-## TBD
+## Monitoring
 
 - **Action:** [TBD.](#action1)
 

@@ -2,9 +2,9 @@
 
 ---
 
-<a id="phase#"></a>
+<a id="phase-09"></a>
 
-# Phase ###: TBD
+# Phase 9: End of Life
 
 ## Objective
 
@@ -12,7 +12,7 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-## TBD
+## End of Life
 
 - **Action:** [TBD.](#action1)
 
