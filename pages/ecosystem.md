@@ -4,22 +4,15 @@
 
 # Core Portal Ecosystem
 
-An explanation of the way the many pieces of the Core Portal codebases are designed to inter-operate and the problems the portal solves within the TACC ecosystem.
-
-## Software Development Life Cycle
-
-- TBD
-- TBD
-
-## Code Integrations
-
-- TBD
-- TBD
+A broad description of the challeneges the portal solves within the TACC ecosystem and an explanation of how the many components of the Core Portal codebase are designed and deployed.
 
 ## Portal Objectives
 
-- TBD
-- TBD
+Description pending.
+
+## Software Development Life Cycle
+
+Descripton pending.
 
 ---
 
