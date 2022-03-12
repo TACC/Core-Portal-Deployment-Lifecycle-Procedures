@@ -58,8 +58,9 @@ This documentation should be referenced throughout all phases of a portal's life
 - [Lifecycle Procedures Checklist](pages/_old_pages/checklist.md)
 - [JIRA Usage](pages/_old_pages/jira-usage.md)
 -->
+
 <!-- ### NEW -->
-<!-->
+<!--
 - [Lifecycle Overview](pages/_new_pages/overview.md)
     - [Phase 1: Administrative Prerequisites & Actions](pages/_new_pages/phase_01.md)
     - [Phase 2: Resource Requests, SSH Certs & CPS Exceptions](pages/_new_pages/phase_02.md)
