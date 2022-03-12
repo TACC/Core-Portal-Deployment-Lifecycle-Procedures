@@ -1,4 +1,4 @@
-- [Index](../index.md)
+- [Index](../../index.md)
 
 ---
 
@@ -28,4 +28,4 @@ See the [Core Portal Ecosystem](ecosystem.md) page for an explanation of the des
 
 ---
 
-- [Index](../index.md)
+- [Index](../../index.md)

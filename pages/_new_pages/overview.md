@@ -1,4 +1,4 @@
-- [Index](../index.md)
+- [Index](../../index.md)
 
 ---
 
@@ -34,7 +34,7 @@ Each **Phase** is an aggregation of steps (called _Actions_). Each **Action** is
     - [9A. Deprecation](phase_09#9a)
     - [9B. Retirement](phase_09#9b)
 
-See the [Lifecycle Procedures Checklist](checklist.new.md) page for a comprehensive list of every action in all phases of the portal lifecycle.
+See the [Lifecycle Procedures Checklist](checklist.md) page for a comprehensive list of every action in all phases of the portal lifecycle.
 
 See the [Customization](customization.md) page for instructions on how to extend the portal architecture with additional containers or published TAPIS applications.
 
@@ -42,4 +42,4 @@ See the [Core Portal Ecosystem](ecosystem.md) page for an explanation of the des
 
 ---
 
-- [Index](../index.md)
+- [Index](../../index.md)
