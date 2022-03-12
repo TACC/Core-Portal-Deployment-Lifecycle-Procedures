@@ -84,154 +84,149 @@
 
 #### [6A. Administrative Prerequisites](phase_06#6a)
 
-- **Action:** [Identify the portal project PI.](#action1)
-- **Action:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#action3)
-- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](#action4)
-- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#action5)
-- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#action2)
-- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](#action7)
-- **Action:** [Identify and acquire the official "vanity" URL to be used by the portal.](#action6)
+- **Action 01:** [Identify the portal project PI.](phase_06#6a-action-01)
+- **Action 02:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](phase_06#6a-action-02)
+- **Action 03:** [Identify Portal Project TAS GID associated with the portal allocation.](phase_06#6a-action-03)
+- **Action 04:** [Ensure the correct users have admin and access to the `TAS` project.](phase_06#6a-action-04)
+- **Action 05:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_06#6a-action-05)
+- **Action 06:** [Ensure WMA developers responsible for portal setup have access to requires resources.](phase_06#6a-action-06)
+- **Action 07:** [Identify and acquire the official "vanity" URL to be used by the portal.](phase_06#6a-action-07)
 
 ---
 
 #### [6B. Resource Planning & Allocation](phase_06#6b)
 
-#### [Host VM Requests]()
+#### [Host VM Requests](phase_06#6b-vm-requests)
 
-- **Action:** [Request the deployment target host VMs for `PPRD`, `PROD`, `DEV`, etc. via KB.](#action1)
+- **Action:** [Request the deployment target host VMs for `PPRD`, `PROD`, `DEV`, etc. via KB.](phase_06#6b-action-01)
 
-#### [SSL Certificates]()
+#### [SSL Certificates](phase_06#6b-ssl-certs)
 
-- **Action:** [Request SSL Certificates for each requested host VM via KB.](#action4)
+- **Action:** [Request SSL Certificates for each requested host VM via KB.](phase_06#6b-action-02)
 
-#### [WSO2 Tenant Request]()
+#### [WSO2 Tenant Request](phase_06#6b-tenant-requests)
 
-- **Action:** [Select the Tenant Type for the portal (shared or dedicated).](#action1)
-  - [Shared Tenant](#shared)
-  - [Dedicated Tenant](#dedicated)
-- **Action:** [Request a dedicated WSO2 tenant for `TAPIS` access.](#action2)
-- **Action:** [Install portal service applications on the dedicated tenant.](#action3)
+- **Action:** [Select the Tenant Type for the portal (shared or dedicated).](phase_06#6b-action-03)
+- **Action:** [Request a dedicated WSO2 tenant for `TAPIS` access.](phase_06#6b-action-04)
+- **Action:** [Install portal service applications on the dedicated tenant.](phase_06#6b-action-05)
 
-#### [CPS Exceptions](#cps)
+#### [CPS Exceptions](phase_06#6b-cps)
 
-- **Action:** [Have a CPS exception made for the `PROD` vanity domain name URL.](#action7)
+- **Action:** [Have a CPS exception made for the `PROD` vanity domain name URL.](phase_06#6b-action-06)
 
 ---
 
 #### [6C. Secrets & Credentials Managements](phase_06#6c)
 
-#### [Credentials Management](#management)
+#### [Credentials Management](phase_06#6c-credentials-management)
 
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for admin: PROJECTNAME ADMIN.](#action1)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](#action1)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](#action2)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for admin: PROJECTNAME ADMIN.](phase_06#6c-action-01)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](phase_06#6c-action-02)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](phase_06#6c-action-03)
 
-#### [Create Credentials](#credentials)
+#### [Create Credentials](phase_06#6c-create-credentials)
 
-##### [Tenant](#)
+##### [Tenant](phase_06#6c-tenant)
 
-- **Action:** [Create a TACC Tenant OAuth client for each host VM.](#action3)
-- **Action:** [Configure TACC Tenant long lived token for each host VM.](#action5)
+- **Action:** [Create a TACC Tenant OAuth client for each host VM.](phase_06#6c-action-04)
+- **Action:** [Configure TACC Tenant long lived token for each host VM.](phase_06#6c-action-05)
 
-##### [PostgreSQL](#)
+##### [PostgreSQL](phase_06#6c-postgresql)
 
-- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM Portal.](#action5)
-- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM CMS.](#action6)
+- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM Portal.](phase_06#6c-action-06)
+- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM CMS.](phase_06#6c-action-07)
 
-##### [ElasticSearch](#)
+##### [ElasticSearch](phase_06#6c-elastic-search)
 
-- **Action:** [Create ElasticSearch Credentials in the WMA ES Cluster for each host VM.](#action7)
-- **Action:** [Create ElasticSearch Indeces in the WMA ES Cluster for each host VM Portal and host VM CMS.](#action7)
+- **Action:** [Create ElasticSearch Credentials in the WMA ES Cluster for each host VM.](phase_06#6c-action-08)
+- **Action:** [Create ElasticSearch Indeces in the WMA ES Cluster for each host VM Portal and host VM CMS.](phase_06#6c-action-09)
 
-##### [Verification, reCAPTCHA & Analytics](#)
+##### [Web Services](phase_06#6c-web-services)
 
-- **Action:** [Generate a new Google Analytics property ID for the PROD vanity domain name.](#action2)
-- **Action:** [Generate a new Google Site Verification token for the PROD vanity domain name.](#action3)
-- **Action:** [Generate a new reCAPTCHA code for the PROD vanity domain name.](#action4)
+- **Action:** [Generate a new Google Analytics property ID for the PROD vanity domain name.](phase_06#6c-action-10)
+- **Action:** [Generate a new Google Site Verification token for the PROD vanity domain name.](phase_06#6c-action-11)
+- **Action:** [Generate a new reCAPTCHA code for the PROD vanity domain name.](phase_06#6c-action-12)
 
-#### [Document Secrets](#document-secrets)
+#### [Document Secrets](phase_06#6c-document-secrets)
 
-- **Action:** [Populate UT Stache with the secret values for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](#action1)
-- **Action:** [Populate UT Stache with the secret values for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](#action2)
+- **Action:** [Populate UT Stache with the secret values for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](phase_06#6c-action-13)
+- **Action:** [Populate UT Stache with the secret values for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](phase_06#6c-action-14)
 
-#### [Prepare Settings](#prepare-settings)
+#### [Prepare Settings](phase_06#6c-prepare-settings)
 
-- **Action:** [Create a `secrets.py` file for the django CMS container on each host VM.](#action5)
-- **Action:** [Create a `settings_secret.py` file for the django portal container on each host VM.](#action6)
-- **Action:** [Create a `rabbitmq.env` file for each host VM.](#action9)
+- **Action:** [Create a `secrets.py` file for the django CMS container on each host VM.](phase_06#6c-action-15)
+- **Action:** [Create a `settings_secret.py` file for the django portal container on each host VM.](phase_06#6c-action-16)
+- **Action:** [Create a `rabbitmq.env` file for each host VM.](phase_06#6c-action17)
 
 ---
 
 #### [6D. Resource Provisioning & Configuration](phase_06#6d)
 
-#### [Host Provisioning](#host-provisioning)
+#### [Host Provisioning](phase_06#6d-host-provisioning)
 
 _Note: Repeat these steps for each deployment target host._
 
-- **Action:** [Generate the `dhparam.pem` file on the deployment target host.](#action1)
-- **Action:** [On the deployment target host create the user `portal`.](#action2)
-- **Action:** [Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file.](#action3)
-- **Action:** [Nginx SSL Certs Configuration for containers.](#action4)
-- **Action:** [Install host dependencies.](#action5)
-- **Action:** [Add the `portal` user to the (new) `docker` group.](#action6)
-- **Action:** [Create deployment directories for the Camino workflow in each deployment host VM.](#action7)
-- **Action:** [Clone Camino into each deployment host VM.](#action9)
-- **Action:** [Request that NSO grant the user `portal` SSH access from the Jenkins Deployer VM IP Address into each deployment host VM.](#action11)
+- **Action:** [Generate the `dhparam.pem` file on the deployment target host.](phase_06#6d-action-01)
+- **Action:** [On the deployment target host create the user `portal`.](phase_06#6d-action-02)
+- **Action:** [Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file.](phase_06#6d-action-03)
+- **Action:** [Nginx SSL Certs Configuration for containers.](phase_06#6d-action-04)
+- **Action:** [Install host dependencies.](phase_06#6d-action-05)
+- **Action:** [Add the `portal` user to the (new) `docker` group.](phase_06#6d-action-06)
+- **Action:** [Create deployment directories for the Camino workflow in each deployment host VM.](phase_06#6d-action-07)
+- **Action:** [Clone Camino into each deployment host VM.](phase_06#6d-action-08)
+- **Action:** [Request that NSO grant the user `portal` SSH access from the Jenkins Deployer VM IP Address into each deployment host VM.](phase_06#6d-action-09)
 
-#### [Placing Secrets](#placing-secrets)
+#### [Placing Secrets](phase_06#6d-placing-secrets)
 
-- **Action:** [SCP `secrets.py` into each deployment host VM.](#action11)
-- **Action:** [SCP `settings_secret.py` into each deployment host VM.](#action12)
-- **Action:** [SCP `rabbitmq.env` into each deployment host VM.](#action15)
+- **Action:** [SCP `secrets.py` into each deployment host VM.](phase_06#6d-action-10)
+- **Action:** [SCP `settings_secret.py` into each deployment host VM.](phase_06#6d-action-11)
+- **Action:** [SCP `rabbitmq.env` into each deployment host VM.](phase_06#6d-action-12)
 
-#### [CI/CD Jobs](#cicd-jobs)
+#### [CI/CD Jobs](phase_06#6d-cicd-jobs)
 
-- **Action:** [Configure the Portal Project Jenkins CI job.](#action17)
+- **Action:** [Configure the Portal Project Jenkins CI job.](phase_06#6d-action-13)
 
-#### [Backend Systems](#systems)
+#### [Backend Systems](phase_06#6d-systems)
 
-- **Action:** [Create Default Storage Systems for the project.](#action18)
-- **Action:** [Create Default Execution Systems for the project.](#action20)
-- **Action:** [Setup a Community Data Project.](#action22)
-- **Action:** [Setup a Public Data Project.](#action23) _(Optional)_ 
+- **Action:** [Create Default Storage Systems for the project.](phase_06#6d-action-14)
+- **Action:** [Create Default Execution Systems for the project.](phase_06#6d-action-15)
+- **Action:** [Setup a Community Data Project.](phase_06#6d-action-16)
+- **Action:** [Setup a Public Data Project.](phase_06#6d-action-17) _(Optional)_ 
 
 ---
 
 #### [6E. Branding & Image Publishing](phase_06#6e)
 
-- **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](#action1)
-- **Action:** [Generate & Publish the Custom Project CMS Image on Dockerhub.](#action2)
-s
+- **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](phase_06#6e-action-01)
+- **Action:** [Generate & Publish the Custom Project CMS Image on Dockerhub.](phase_06#6e-action-02)
+
 ---
 
 #### [6F. Deployment Configurations](phase_06#6f)
 
-- **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers.](#action2)
+- **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers.](phase_06#6f-action-01)
 
 ---
 
 #### [6G. Deployments](phase_06#6g)
 
-- **First Deployment**: [New portals.](#fd)
-- **Reqular Deployment**: [Established portals.](#rd)
+#### [6G1. First Deployment](phase_06#6g1) (New portals)
 
-#### [First Deployment](#fdi)
+- **Action:** [Deploy the Portal via Jenkins CI job on the target host system.](phase_06#6g1-action-01)
+- **Action:** [SSH into the deployment target host and become the user `portal`.](phase_06#6g1-action-02)
+- **Action:** [Complete the container setup.](phase_06#6g1-action-03)
+- **Action:** [Create an index page in the CMS.](phase_06#6g1-action-04)
 
-- **Action:** [Deploy the Portal via Jenkins CI job on the target host system.](#action1)
-- **Action:** [SSH into the deployment target host and become the user `portal`.](#action2)
-- **Action:** [Complete the container setup.](#action3)
-- **Action:** [Create an index page in the CMS.](#action4)
+#### [6G2. Regular Deployment](phase_06#6g2) (Existing portals)
 
-#### [Regular Deployment](#rdi)
-
-- **Action:** [Deploy the Portal via Jenkins CI job to each target host system.](#action5)
+- **Action:** [Deploy the Portal via Jenkins CI job to each target host system.](phase_06#6g2-action-01)
 
 ---
 
 #### [6H. Post Deployment](phase_06#6h)
 
-- **Action:** [Run the ES Indexing management command against each deployed target host VM.](#action7)
-- **Action:** [Schedule a QA Review for each deployed target host VM.](#action8)
+- **Action:** [Run the ES Indexing management command against each deployed target host VM.](phase_06#6h-action-01)
+- **Action:** [Schedule a QA Review for each deployed target host VM.](phase_06#6h-action-02)
 
 ---
 
