@@ -6,7 +6,7 @@
 
 When deploying a new portal, it can be difficult to track the many individual tasks and their status, especially if the tasks are assigned to multiple team members who are working in parallel.
 
-In order to facilitate the tracking of deployment procedures, we recommend the following strategy:
+In order to facilitate the tracking of the deployment procedures, we recommend the following strategy:
 
 1. Create a JIRA `Task` under the JIRA Project for each _Phase_ of the portal deployment lifecycle.
 2. Create a JIRA `Task` for each _Action_ listed under each _Phase_ in the [Lifecycle Procedures Checklist](checklist.md)].

@@ -8,17 +8,20 @@ Resources, repos and any other useful items or links related to or referenced by
 
 ## Systems & Web Resources
 
-- TBD
-- TBD
+- TACC Github Organization
 
 ## Repositories
 
-- TBD
-- TBD
+- [TACC Camino](https://github.com/TACC/Camino)
+- [TACC Core Portal Deployments](https://github.com/TACC/Core-Portal-Deployments)
+- [TACC Core Portal](https://github.com/TACC/Core-Portal)
+- [TACC Core CMS](https://github.com/TACC/Core-CMS)
+- [TACC Core CMS Resources](https://github.com/TACC/Core-CMS-Resources)
+- [TACC Core Styles](https://github.com/tacc-wbomar/Core-Styles)
+    - Currently a private repo under `wbomar`, will become a TACC Org Repo eventually.
 
 ## Documentation
 
-- TBD
 - TBD
 
 ---
