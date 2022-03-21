@@ -194,31 +194,317 @@ Description pending.
 
 ### 6B. Resource Planning & Allocation
 
-TBD
+<a id="6b-action-01"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6b-action-02"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6b-action-03"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6b-action-04"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6b-action-05"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6b-action-06"></a>
+
+**Action: TBDI**
+
+Description pending.
 
 ### 6C. Secrets & Credentials Managements
 
-TBD
+<a id="6c-action-01"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-02"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-03"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-04"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-05"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-06"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-07"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-08"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-09"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-10"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-11"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-12"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-13"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-14"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-15"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-16"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6c-action-17"></a>
+
+**Action: TBDI**
+
+Description pending.
 
 ### 6D. Resource Provisioning & Configuration
 
-TBD
+<a id="6d-action-01"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-02"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-03"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-04"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-05"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-06"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-07"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-08"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-09"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-10"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-11"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-12"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-13"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-14"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-15"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-16"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6d-action-17"></a>
+
+**Action: TBDI**
+
+Description pending.
 
 ### 6E. Branding & Image Publishing
 
-TBD
+<a id="6e-action-01"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6e-action-02"></a>
+
+**Action: TBDI**
+
+Description pending.
 
 ### 6F. Deployment Configurations
 
-TBD
+<a id="6f-action-01"></a>
+
+**Action: TBDI**
+
+Description pending.
 
 ### 6G. Deployments
 
-TBD
+<a id="6g-action-01"></a>
 
-### Post Deployment
+**Action: TBDI**
 
-TBD
+Description pending.
+
+<a id="6g-action-02"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6g-action-03"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6g-action-04"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6g-action-05"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+### 6H. Post Deployment
+
+<a id="6h-action-01"></a>
+
+**Action: TBDI**
+
+Description pending.
+
+<a id="6h-action-02"></a>
+
+**Action: TBDI**
+
+Description pending.
 
 ---
 
