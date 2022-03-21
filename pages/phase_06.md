@@ -194,6 +194,8 @@ Description pending.
 
 Description pending.
 
+<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
+
 ### 6B. Resource Planning & Allocation
 
 <a id="6b-action-01"></a>
@@ -231,6 +233,8 @@ Description pending.
 **Action: TBDI**
 
 Description pending.
+
+<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
 
 ### 6C. Secrets & Credentials Managements
 
@@ -336,6 +340,8 @@ Description pending.
 
 Description pending.
 
+<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
+
 ### 6D. Resource Provisioning & Configuration
 
 <a id="6d-action-01"></a>
@@ -440,6 +446,8 @@ Description pending.
 
 Description pending.
 
+<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
+
 ### 6E. Branding & Image Publishing
 
 <a id="6e-action-01"></a>
@@ -454,6 +462,8 @@ Description pending.
 
 Description pending.
 
+<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
+
 ### 6F. Deployment Configurations
 
 <a id="6f-action-01"></a>
@@ -461,6 +471,8 @@ Description pending.
 **Action: TBDI**
 
 Description pending.
+
+<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
 
 ### 6G. Deployments
 
@@ -493,6 +505,8 @@ Description pending.
 **Action: TBDI**
 
 Description pending.
+
+<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
 
 ### 6H. Post Deployment
 
