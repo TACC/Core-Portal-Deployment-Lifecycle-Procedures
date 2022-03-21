@@ -148,6 +148,8 @@ Describe the objectives of this phase of the lifecycle.
 
 ## Action Instructions
 
+<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
+
 ### 6A. Administrative Prerequisites
 
 <a id="6a-action-01"></a>
