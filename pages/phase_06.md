@@ -184,7 +184,7 @@ Description pending.
 
 <a id="6a-action-06"></a>
 
-**Action: TBDI**
+**Action: Ensure WMA developers responsible for portal setup have access to requires resources.**
 
 Description pending.
 
