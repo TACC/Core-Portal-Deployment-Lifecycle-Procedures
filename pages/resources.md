@@ -17,8 +17,7 @@ Resources, repos and any other useful items or links related to or referenced by
 - [TACC Core Portal](https://github.com/TACC/Core-Portal)
 - [TACC Core CMS](https://github.com/TACC/Core-CMS)
 - [TACC Core CMS Resources](https://github.com/TACC/Core-CMS-Resources)
-- [TACC Core Styles](https://github.com/tacc-wbomar/Core-Styles)
-    - Currently a private repo under `wbomar`, will become a TACC Org Repo eventually.
+- [TACC Core Styles](https://github.com/TACC/Core-Styles)
 
 ## Documentation
 
