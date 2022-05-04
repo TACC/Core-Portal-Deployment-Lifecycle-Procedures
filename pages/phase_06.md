@@ -14,513 +14,133 @@ Describe the objectives of this phase of the lifecycle.
 
 ## Deployments
 
-### 6A. Administrative Prerequisites
+### [6A. Administrative Prerequisites](phase_06_A#top)
 
-- **Action:** [Identify the portal project PI.](#6a-action-01)
-- **Action:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](#6a-action-02)
-- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](#6a-action-03)
-- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](#6a-action-04)
-- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](#6a-action-05)
-- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](#6a-action-06)
-- **Action:** [Identify and acquire the official "vanity" URL to be used by the portal.](#6a-action-07)
+- **Action:** [Identify the portal project PI.](phase_06_A#6a-action-01)
+- **Action:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](phase_06_A#6a-action-02)
+- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](phase_06_A#6a-action-03)
+- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](phase_06_A#6a-action-04)
+- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_06_A#6a-action-05)
+- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](phase_06_A#6a-action-06)
+- **Action:** [Identify and acquire the official "vanity" URL to be used by the portal.](phase_06_A#6a-action-07)
 
-### 6B. Resource Planning & Allocation
+### [6B. Resource Planning & Allocation](phase_06_B#top)
 
 #### Host VM Requests
 
-- **Action:** [Request the deployment target host VMs for `PPRD`, `PROD`, `DEV`, etc. via KB.](#6b-action-01)
+- **Action:** [Request the deployment target host VMs for `PPRD`, `PROD`, `DEV`, etc. via KB.](phase_06_B#6b-action-01)
 
 #### SSL Certificates
 
-- **Action:** [Request SSL Certificates for each requested host VM via KB.](#6b-action-02)
+- **Action:** [Request SSL Certificates for each requested host VM via KB.](phase_06_B#6b-action-02)
 
 #### WSO2 Tenant Request
 
-- **Action:** [Select the Tenant Type for the portal (shared or dedicated).](#6b-action-03)
-- **Action:** [Request a dedicated WSO2 tenant for `TAPIS` access.](#6b-action-04)
-- **Action:** [Install portal service applications on the dedicated tenant.](#6b-action-05)
+- **Action:** [Select the Tenant Type for the portal (shared or dedicated).](phase_06_B#6b-action-03)
+- **Action:** [Request a dedicated WSO2 tenant for `TAPIS` access.](phase_06_B#6b-action-04)
+- **Action:** [Install portal service applications on the dedicated tenant.](phase_06_B#6b-action-05)
 
 #### CPS Exceptions
 
-- **Action:** [Have a CPS exception made for the `PROD` vanity domain name URL.](#6b-action-06)
+- **Action:** [Have a CPS exception made for the `PROD` vanity domain name URL.](phase_06_B#6b-action-06)
 
-### 6C. Secrets & Credentials Managements
+### [6C. Secrets & Credentials Managements](phase_06_C#top)
 
 #### Credentials Management
 
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for admin: PROJECTNAME ADMIN.](#6c-action-01)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](#6c-action-02)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](#6c-action-03)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for admin: PROJECTNAME ADMIN.](phase_06_C#6c-action-01)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](phase_06_C#6c-action-02)
+- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](phase_06_C#6c-action-03)
 
 #### Tenant
 
-- **Action:** [Create a TACC Tenant OAuth client for each host VM.](#6c-action-04)
-- **Action:** [Configure TACC Tenant long lived token for each host VM.](#6c-action-05)
+- **Action:** [Create a TACC Tenant OAuth client for each host VM.](phase_06_C#6c-action-04)
+- **Action:** [Configure TACC Tenant long lived token for each host VM.](phase_06_C#6c-action-05)
 
 #### PostgreSQL
 
-- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM Portal.](#6c-action-06)
-- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM CMS.](#6c-action-07)
+- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM Portal.](phase_06_C#6c-action-06)
+- **Action:** [Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM CMS.](phase_06_C#6c-action-07)
 
 #### ElasticSearch
 
-- **Action:** [Create ElasticSearch Credentials in the WMA ES Cluster for each host VM.](#6c-action-08)
-- **Action:** [Create ElasticSearch Indeces in the WMA ES Cluster for each host VM Portal and host VM CMS.](#6c-action-09)
+- **Action:** [Create ElasticSearch Credentials in the WMA ES Cluster for each host VM.](phase_06_C#6c-action-08)
+- **Action:** [Create ElasticSearch Indeces in the WMA ES Cluster for each host VM Portal and host VM CMS.](phase_06_C#6c-action-09)
 
 #### Web Services
 
-- **Action:** [Generate a new Google Analytics property ID for the PROD vanity domain name.](#6c-action-10)
-- **Action:** [Generate a new Google Site Verification token for the PROD vanity domain name.](#6c-action-11)
-- **Action:** [Generate a new reCAPTCHA code for the PROD vanity domain name.](#6c-action-12)
+- **Action:** [Generate a new Google Analytics property ID for the PROD vanity domain name.](phase_06_C#6c-action-10)
+- **Action:** [Generate a new Google Site Verification token for the PROD vanity domain name.](phase_06_C#6c-action-11)
+- **Action:** [Generate a new reCAPTCHA code for the PROD vanity domain name.](phase_06_C#6c-action-12)
 
 #### Document Secrets
 
-- **Action:** [Populate UT Stache with the secret values for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](#6c-action-13)
-- **Action:** [Populate UT Stache with the secret values for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](#6c-action-14)
+- **Action:** [Populate UT Stache with the secret values for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](phase_06_C#6c-action-13)
+- **Action:** [Populate UT Stache with the secret values for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](phase_06_C#6c-action-14)
 
 #### Prepare Settings
 
-- **Action:** [Create a `secrets.py` file for the django CMS container on each host VM.](#6c-action-15)
-- **Action:** [Create a `settings_secret.py` file for the django portal container on each host VM.](#6c-action-16)
-- **Action:** [Create a `rabbitmq.env` file for each host VM.](#6c-action17)
+- **Action:** [Create a `secrets.py` file for the django CMS container on each host VM.](phase_06_C#6c-action-15)
+- **Action:** [Create a `settings_secret.py` file for the django portal container on each host VM.](phase_06_C#6c-action-16)
+- **Action:** [Create a `rabbitmq.env` file for each host VM.](phase_06_C#6c-action17)
 
-### 6D. Resource Provisioning & Configuration
+### [6D. Resource Provisioning & Configuration](phase_06_D#top)
 
 #### Host Provisioning
 
-- **Action:** [Generate the `dhparam.pem` file on the deployment target host.](#6d-action-01)
-- **Action:** [On the deployment target host create the user `portal`.](#6d-action-02)
-- **Action:** [Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file.](#6d-action-03)
-- **Action:** [Nginx SSL Certs Configuration for containers.](#6d-action-04)
-- **Action:** [Install host dependencies.](#6d-action-05)
-- **Action:** [Add the `portal` user to the (new) `docker` group.](#6d-action-06)
-- **Action:** [Create deployment directories for the Camino workflow in each deployment host VM.](#6d-action-07)
-- **Action:** [Clone Camino into each deployment host VM.](#6d-action-08)
-- **Action:** [Request that NSO grant the user `portal` SSH access from the Jenkins Deployer VM IP Address into each deployment host VM.](#6d-action-09)
+- **Action:** [Generate the `dhparam.pem` file on the deployment target host.](phase_06_D#6d-action-01)
+- **Action:** [On the deployment target host create the user `portal`.](phase_06_D#6d-action-02)
+- **Action:** [Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file.](phase_06_D#6d-action-03)
+- **Action:** [Nginx SSL Certs Configuration for containers.](phase_06_D#6d-action-04)
+- **Action:** [Install host dependencies.](phase_06_D#6d-action-05)
+- **Action:** [Add the `portal` user to the (new) `docker` group.](phase_06_D#6d-action-06)
+- **Action:** [Create deployment directories for the Camino workflow in each deployment host VM.](phase_06_D#6d-action-07)
+- **Action:** [Clone Camino into each deployment host VM.](phase_06_D#6d-action-08)
+- **Action:** [Request that NSO grant the user `portal` SSH access from the Jenkins Deployer VM IP Address into each deployment host VM.](phase_06_D#6d-action-09)
 
 #### Placing Secrets
 
-- **Action:** [SCP `secrets.py` into each deployment host VM.](#6d-action-10)
-- **Action:** [SCP `settings_secret.py` into each deployment host VM.](#6d-action-11)
-- **Action:** [SCP `rabbitmq.env` into each deployment host VM.](#6d-action-12)
+- **Action:** [SCP `secrets.py` into each deployment host VM.](phase_06_D#6d-action-10)
+- **Action:** [SCP `settings_secret.py` into each deployment host VM.](phase_06_D#6d-action-11)
+- **Action:** [SCP `rabbitmq.env` into each deployment host VM.](phase_06_D#6d-action-12)
 
 #### CI/CD Jobs
 
-- **Action:** [Configure the Portal Project Jenkins CI job.](#6d-action-13)
+- **Action:** [Configure the Portal Project Jenkins CI job.](phase_06_D#6d-action-13)
 
 #### Backend Systems
 
-- **Action:** [Create Default Storage Systems for the project.](#6d-action-14)
-- **Action:** [Create Default Execution Systems for the project.](#6d-action-15)
-- **Action:** [Setup a Community Data Project.](#6d-action-16)
-- **Action:** [Setup a Public Data Project.](#6d-action-17) _(Optional)_ 
+- **Action:** [Create Default Storage Systems for the project.](phase_06_D#6d-action-14)
+- **Action:** [Create Default Execution Systems for the project.](phase_06_D#6d-action-15)
+- **Action:** [Setup a Community Data Project.](phase_06_D#6d-action-16)
+- **Action:** [Setup a Public Data Project.](phase_06_D#6d-action-17) _(Optional)_
 
-### 6E. Branding & Image Publishing
+### [6E. Branding & Image Publishing](phase_06_E#top)
 
-- **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](#6e-action-01)
-- **Action:** [Generate & Publish the Custom Project CMS Image on Dockerhub.](#6e-action-02)
+- **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](phase_06_E#6e-action-01)
+- **Action:** [Generate & Publish the Custom Project CMS Image on Dockerhub.](phase_06_E#6e-action-02)
 
-### 6F. Deployment Configurations
+### [6F. Deployment Configurations](phase_06_F#top)
 
-- **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers.](#6f-action-01)
+- **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers.](phase_06_F#6f-action-01)
 
-### 6G. Deployments
+### [6G. Deployments](phase_06_G#top)
 
-#### 6G1. First Deployment
+#### [6G1. First Deployment](phase_06_G#6g1)
 
-- **Action:** [Deploy the Portal via Jenkins CI job on the target host system.](#6g1-action-01)
-- **Action:** [SSH into the deployment target host and become the user `portal`.](#6g1-action-02)
-- **Action:** [Complete the container setup.](#6g1-action-03)
-- **Action:** [Create an index page in the CMS.](#6g1-action-04)
+- **Action:** [Deploy the Portal via Jenkins CI job on the target host system.](phase_06_G#6g-action-01)
+- **Action:** [SSH into the deployment target host and become the user `portal`.](phase_06_G#6g-action-02)
+- **Action:** [Complete the container setup.](phase_06_G#6g-action-03)
+- **Action:** [Create an index page in the CMS.](phase_06_G#6g-action-04)
 
-#### 6G2. Regular Deployment
+#### [6G2. Regular Deployment](phase_06_G#6g2)
 
-- **Action:** [Deploy the Portal via Jenkins CI job to each target host system.](#6g2-action-01)
+- **Action:** [Deploy the Portal via Jenkins CI job to each target host system.](phase_06_G#6g-action-05)
 
-### 6H. Post Deployment
+### [6H. Post Deployment](phase_06_H#top)
 
-- **Action:** [Run the ES Indexing management command against each deployed target host VM.](#6h-action-01)
-- **Action:** [Schedule a QA Review for each deployed target host VM.](#6h-action-02)
-
----
-
-<a id="instructions"></a>
-
-## Action Instructions
-
-<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
-
-### 6A. Administrative Prerequisites
-
-<a id="6a-action-01"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6a-action-02"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6a-action-03"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6a-action-04"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6a-action-05"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6a-action-06"></a>
-
-**Action: Ensure WMA developers responsible for portal setup have access to requires resources.**
-
-Description pending.
-
-<a id="6a-action-07"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
-
-### 6B. Resource Planning & Allocation
-
-<a id="6b-action-01"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6b-action-02"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6b-action-03"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6b-action-04"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6b-action-05"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6b-action-06"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
-
-### 6C. Secrets & Credentials Managements
-
-<a id="6c-action-01"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-02"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-03"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-04"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-05"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-06"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-07"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-08"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-09"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-10"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-11"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-12"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-13"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-14"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-15"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-16"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-17"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
-
-### 6D. Resource Provisioning & Configuration
-
-<a id="6d-action-01"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-02"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-03"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-04"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-05"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-06"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-07"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-08"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-09"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-10"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-11"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-12"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-13"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-14"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-15"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-16"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-17"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
-
-### 6E. Branding & Image Publishing
-
-<a id="6e-action-01"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6e-action-02"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
-
-### 6F. Deployment Configurations
-
-<a id="6f-action-01"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
-
-### 6G. Deployments
-
-<a id="6g-action-01"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6g-action-02"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6g-action-03"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6g-action-04"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6g-action-05"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a class="inline-navlink-page-top" href="#actions">Back to Top</a>
-
-### 6H. Post Deployment
-
-<a id="6h-action-01"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6h-action-02"></a>
-
-**Action: TBDI**
-
-Description pending.
+- **Action:** [Run the ES Indexing management command against each deployed target host VM.](phase_06_H#6h-action-01)
+- **Action:** [Schedule a QA Review for each deployed target host VM.](phase_06_H#6h-action-02)
 
 ---
 
