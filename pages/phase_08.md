@@ -12,21 +12,11 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-## Monitoring
+<a id="8a"></a>
 
-- **Action:** [TBD.](#action1)
+### [8A. TBD](phase_08_A#top)
 
----
-
-<a id="instructions"></a>
-
-## Action Instructions
-
-<a id="action1"></a>
-
-**Action: TBDI**
-
-Description pending.
+- **Action:** [TBD](phase_08_A#8a-action-01)
 
 ---
 

@@ -12,19 +12,19 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-## End of Life
+<a id="9a"></a>
 
-- **Action:** [TBD.](#action1)
+### [9A. Deprecation](phase_09_A#top)
 
----
+- **Action:** [TBD.](phase_09_A#9a-action-01)
 
-<a id="instructions"></a>
+Description pending.
 
-## Action Instructions
+<a id="9b"></a>
 
-<a id="action1"></a>
+### [9B. Retirement](phase_09_B#top)
 
-**Action: TBDI**
+- **Action:** [TBD.](phase_09_B#9b-action-01)
 
 Description pending.
 

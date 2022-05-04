@@ -12,21 +12,11 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-## Releases
+<a id="5a"></a>
 
-- **Action:** [TBD.](#action1)
+### [5A. TBD](phase_05_A#top)
 
----
-
-<a id="instructions"></a>
-
-## Action Instructions
-
-<a id="action1"></a>
-
-**Action: TBDI**
-
-Description pending.
+- **Action:** [TBD](phase_05_A#5a-action-01)
 
 ---
 

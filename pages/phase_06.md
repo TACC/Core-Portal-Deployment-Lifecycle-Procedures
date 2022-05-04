@@ -12,8 +12,6 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-## Deployments
-
 <a id="6a"></a>
 
 ### [6A. Administrative Prerequisites](phase_06_A#top)

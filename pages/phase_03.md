@@ -12,21 +12,11 @@ Describe the objectives of this phase of the lifecycle.
 
 <a id="actions"></a>
 
-## Builds
+<a id="3a"></a>
 
-- **Action:** [TBD.](#action-01)
+### [3A. TBD](phase_03_A#top)
 
----
-
-<a id="instructions"></a>
-
-## Action Instructions
-
-<a id="action-01"></a>
-
-**Action: TBD**
-
-Description pending.
+- **Action:** [TBD](phase_03_A#3a-action-01)
 
 ---
 
