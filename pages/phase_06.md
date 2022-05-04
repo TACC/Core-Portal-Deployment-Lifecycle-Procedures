@@ -14,6 +14,8 @@ Describe the objectives of this phase of the lifecycle.
 
 ## Deployments
 
+<a id="6a"></a>
+
 ### [6A. Administrative Prerequisites](phase_06_A#top)
 
 - **Action:** [Identify the portal project PI.](phase_06_A#6a-action-01)
@@ -23,6 +25,8 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_06_A#6a-action-05)
 - **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](phase_06_A#6a-action-06)
 - **Action:** [Identify and acquire the official "vanity" URL to be used by the portal.](phase_06_A#6a-action-07)
+
+<a id="6b"></a>
 
 ### [6B. Resource Planning & Allocation](phase_06_B#top)
 
@@ -43,6 +47,8 @@ Describe the objectives of this phase of the lifecycle.
 #### CPS Exceptions
 
 - **Action:** [Have a CPS exception made for the `PROD` vanity domain name URL.](phase_06_B#6b-action-06)
+
+<a id="6c"></a>
 
 ### [6C. Secrets & Credentials Managements](phase_06_C#top)
 
@@ -84,6 +90,8 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [Create a `settings_secret.py` file for the django portal container on each host VM.](phase_06_C#6c-action-16)
 - **Action:** [Create a `rabbitmq.env` file for each host VM.](phase_06_C#6c-action17)
 
+<a id="6d"></a>
+
 ### [6D. Resource Provisioning & Configuration](phase_06_D#top)
 
 #### Host Provisioning
@@ -115,16 +123,24 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [Setup a Community Data Project.](phase_06_D#6d-action-16)
 - **Action:** [Setup a Public Data Project.](phase_06_D#6d-action-17) _(Optional)_
 
+<a id="6e"></a>
+
 ### [6E. Branding & Image Publishing](phase_06_E#top)
 
 - **Action:** [Setup the custom branding and navigation bar in Core-CMS-Resources.](phase_06_E#6e-action-01)
 - **Action:** [Generate & Publish the Custom Project CMS Image on Dockerhub.](phase_06_E#6e-action-02)
 
+<a id="6f"></a>
+
 ### [6F. Deployment Configurations](phase_06_F#top)
 
 - **Action:** [Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers.](phase_06_F#6f-action-01)
 
+<a id="6g"></a>
+
 ### [6G. Deployments](phase_06_G#top)
+
+<a id="6g1"></a>
 
 #### [6G1. First Deployment](phase_06_G#6g1)
 
@@ -133,9 +149,13 @@ Describe the objectives of this phase of the lifecycle.
 - **Action:** [Complete the container setup.](phase_06_G#6g-action-03)
 - **Action:** [Create an index page in the CMS.](phase_06_G#6g-action-04)
 
+<a id="6g2"></a>
+
 #### [6G2. Regular Deployment](phase_06_G#6g2)
 
 - **Action:** [Deploy the Portal via Jenkins CI job to each target host system.](phase_06_G#6g-action-05)
+
+<a id="6h"></a>
 
 ### [6H. Post Deployment](phase_06_H#top)
 
