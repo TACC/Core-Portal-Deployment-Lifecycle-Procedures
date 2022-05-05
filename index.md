@@ -18,7 +18,7 @@ This documentation should be referenced throughout all phases of a portal's life
 
 **This is living documentation that will be reviewed and updated regularly.**
 
-The primary focus of this documentation is on Phases 6 through 8 (_Deployments_, _Operations_ and _Monitoring_). Phases 1 through 5 (_Planning_, _Code_, _Builds_, _Testing_, _Releases_) will only contain documentation that is globally relevant to all `Core-*` projects and codebases. The majority of the relevant documentation for these procedures is located in other repositories (links to each of which can be found under the [resources](pages/resources#top) page). The procedural documentation for Phase 9 is currently being developed.
+The primary focus of this documentation is on Phases 6 through 8 (_Deployments_, _Operations_ and _Monitoring_). Phases 1 through 5 (_Planning_, _Code_, _Builds_, _Testing_, _Releases_) will only contain documentation that is globally relevant to all `Core-*` projects and codebases. The majority of the documentation detailing these procedures is located in other repositories (links to each of which can be found under the [resources](pages/resources#top) page). The procedural documentation for Phase 9 is currently being developed.
 
 ## Table of Contents
 
