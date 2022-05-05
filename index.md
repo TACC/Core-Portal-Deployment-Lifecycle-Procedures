@@ -20,10 +20,6 @@ This documentation should be referenced throughout all phases of a portal's life
 
 The primary focuses of this documentation is on Phases 6 through 8 (Deployments, Operations and Monitoring). Phases 1 through 5 (Planning, Code, Builds, Testing, Releases) will only contain documentation that is globally relevant to all `Core-*` projects and codebases. The majority of the relevant documentation for these procedures is already located within the relevant code repositories (links to each can be found under the [resources](pages/resources#top) page). The procedural documentation for Phase 9 is currently being developed and will be added at a later time.
 
-## Quick Start
-
-**TL;DR** - Take me to the [Lifecycle Procedures Checklist](pages/checklist.md).
-
 ## Table of Contents
 
 - [Core Portal Ecosystem](pages/ecosystem.md)
@@ -51,7 +47,6 @@ The primary focuses of this documentation is on Phases 6 through 8 (Deployments,
   - [Phase 9: End of Life](pages/phase_09)
     - [9A. Deprecation](pages/phase_09#9a)
     - [9B. Retirement](pages/phase_09#9b)
-- [Lifecycle Procedures Checklist](pages/checklist.md)
 - [JIRA Usage](pages/jira-usage.md)
 - [Customization](pages/customization.md)
 - [Resources](pages/resources.md)
