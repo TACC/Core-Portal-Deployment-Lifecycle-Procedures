@@ -6,6 +6,8 @@
 
 Resources, repos and any other useful items or links related to or referenced by the procedures.
 
+TODO: Add org straucture info and gatekeeps as needed. https://jira.tacc.utexas.edu/browse/FP-801
+
 ## Systems & Web Resources
 
 - TACC Github Organization
