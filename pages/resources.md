@@ -6,6 +6,8 @@
 
 Resources, repos and any other useful items or links related to or referenced by the procedures.
 
+TODO: Add aggregated docs on testing, containers, etc.
+
 ## Systems & Web Resources
 
 - TACC Github Organization
