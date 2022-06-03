@@ -1,6 +1,8 @@
 # Core Portal Lifecycle Procedures
 
-Documentation on the complete TACC ACI-WMA Core v2 Portal lifecycle.
+Documentation describing the TACC ACI-WMA Core v2 Portal lifecycle.
+
+## Description
 
 This documentation includes the following:
 
@@ -14,39 +16,10 @@ This documentation includes the following:
 
 This documentation should be referenced throughout all phases of a portal's lifecycle.
 
-### Important
-
-**This is living documentation that will be reviewed and updated regularly.**
-
-The primary focus of this documentation is on Phases 6 through 8 (_Deployments_, _Operations_ and _Monitoring_). Phases 1 through 5 (_Planning_, _Code_, _Builds_, _Testing_, _Releases_) will only contain documentation that is globally relevant to all `Core-*` projects and codebases. The majority of the documentation detailing these procedures is located in other repositories (links to each of which can be found under the [resources](pages/resources#top) page). The procedural documentation for Phase 9 is currently being developed.
-
 ## Table of Contents
 
 - [Core Portal Ecosystem](pages/ecosystem.md)
 - [Lifecycle Overview](pages/overview.md)
-  - [Phase 1: Planning](pages/phase_01)
-  - [Phase 2: Code](pages/phase_02)
-  - [Phase 3: Builds](pages/phase_03)
-  - [Phase 4: Testing](pages/phase_04)
-  - [Phase 5: Releases](pages/phase_05)
-  - [Phase 6: Deployments](pages/phase_06) (Establishing A Portal)
-    - [6A. Administrative Prerequisites](pages/phase_06#6a)
-    - [6B. Resource Planning & Allocation](pages/phase_06#6b)
-    - [6C. Secrets & Credentials Management](pages/phase_06#6c)
-    - [6D. Resource Provisioning & Configuration](pages/phase_06#6d)
-    - [6E. Branding & Image Publishing](pages/phase_06#6e)
-    - [6F. Deployment Configurations](pages/phase_06#6f)
-    - [6G. Deployments](pages/phase_06#6g)
-    - [6H. Post Deployment](pages/phase_06#6h)
-  - [Phase 7: Operations](pages/phase_07)
-    - [7A. Feature Development & Customization](pages/phase_07#7a)
-    - [7B. Bug Fixes & Patches](pages/phase_07#7b)
-    - [7C. Maintenance & Updates](pages/phase_07#7c)
-    - [7D. Backups & Archiving](pages/phase_07#7d)
-  - [Phase 8: Monitoring](pages/phase_08)
-  - [Phase 9: End of Life](pages/phase_09)
-    - [9A. Deprecation](pages/phase_09#9a)
-    - [9B. Retirement](pages/phase_09#9b)
 - [JIRA Usage](pages/jira-usage.md)
 - [Customization](pages/customization.md)
 - [Resources](pages/resources.md)
@@ -54,3 +27,5 @@ The primary focus of this documentation is on Phases 6 through 8 (_Deployments_,
 - [Contributors](pages/contributors.md)
 - [How to Contribute](pages/how-to-contribute.md)
 - [Licensing](pages/licensing.md)
+
+_Note: This is living documentation and will be updated periodically to reflect changes and updates to TACC workflows, operations and best practices._

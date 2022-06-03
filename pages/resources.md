@@ -8,10 +8,12 @@ Resources, repos and any other useful items or links related to or referenced by
 
 ## Systems & Web Resources
 
-- TACC Github Organization
+- [TACC User Portal](https://portal.tacc.utexas.edu/home) (TUP)
+- [TACC Accounting System](https://tas.tacc.utexas.edu) (TAS)
 
 ## Repositories
 
+- [TACC Github Organization](https://github.com/TACC)
 - [TACC Camino](https://github.com/TACC/Camino)
 - [TACC Core Portal Deployments](https://github.com/TACC/Core-Portal-Deployments)
 - [TACC Core Portal](https://github.com/TACC/Core-Portal)

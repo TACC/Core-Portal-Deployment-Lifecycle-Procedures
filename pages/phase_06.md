@@ -16,13 +16,13 @@ Describe the objectives of this phase of the lifecycle.
 
 ### [6A. Administrative Prerequisites](phase_06_A#top)
 
-- **Action:** [Identify the portal project PI.](phase_06_A#6a-action-01)
-- **Action:** [Identify or establish a `TAS` project and allocation to be used by the Portal for user access control and job submission and resource usage accounting activities.](phase_06_A#6a-action-02)
-- **Action:** [Identify Portal Project TAS GID associated with the portal allocation.](phase_06_A#6a-action-03)
-- **Action:** [Ensure the correct users have admin and access to the `TAS` project.](phase_06_A#6a-action-04)
-- **Action:** [Identify the WMA developers responsible for portal setup, deployment and maintenance.](phase_06_A#6a-action-05)
-- **Action:** [Ensure WMA developers responsible for portal setup have access to requires resources.](phase_06_A#6a-action-06)
-- **Action:** [Identify and acquire the official "vanity" URL to be used by the portal.](phase_06_A#6a-action-07)
+- **Action:** [Identify the Portal Project PI](phase_06_A#6a-action-01)
+- **Action:** [Identify or Establish a TAS Project/Allocation](phase_06_A#6a-action-02)
+- **Action:** [Identify the TAS Project GID for the Portal Allocation](phase_06_A#6a-action-03)
+- **Action:** [Ensure the Correct Users are Added to the TAS Project](phase_06_A#6a-action-04)
+- **Action:** [Identify the WMA Developer(s) Administrating the Portal](phase_06_A#6a-action-05)
+- **Action:** [Verify Developer Access to Required Resources](phase_06_A#6a-action-06)
+- **Action:** [Identify the Public URL for the Portal](phase_06_A#6a-action-07)
 
 <a id="6b"></a>
 
