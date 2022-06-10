@@ -52,19 +52,19 @@ Once the PI has established the portal project and an allocation for resource ac
 
 ## Identify the WMA Developer(s) Administrating the Portal
 
-Description pending.
+The TACC ACI-WMA Leadership Team will assign WMA team members to each portal project as is determined appropriate.
 
 <a id="6a-action-06"></a>
 
 ## Verify Developer Access to Required Resources
 
-Description pending.
+Once WMA developers have been assigned to a portal project, they should verify that they have access to the accounts and systems required to establish and deploy the new portal project.
 
 <a id="6a-action-07"></a>
 
 ## Identify the Public URL for the Portal
 
-Description pending.
+Portal projects can secure a custom domain name for their portal or they can use a tacc subdomain (e.g. `portalname.tacc.utexas.edu`). Acquiring a new domain is not an immediate process.  New domains first have to be purchased using funding from the project account. Once the domain has been purchased, the university ISO has to approve transfer of domain control over to TACC for association with the portal and generating the SSL certificates used to secure access to the system. This process normally takes 3-4 weeks.
 
 <a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
