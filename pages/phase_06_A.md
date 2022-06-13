@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
 
 ---
 
@@ -8,7 +8,7 @@
 
 # Phase 6A: Administrative Prerequisites
 
-<a id="6a-action-01"></a>
+<a id="6a-01"></a>
 
 ## Identify the Portal Project PI
 
@@ -19,7 +19,7 @@ TACC users who qualify for PI status can initiate new projects in the TACC User 
 3. Review the procedures for determining [PI eligibility](https://portal.tacc.utexas.edu/allocations-overview#eligibility).
 4. Once a PI eligible TACC user account has been established, be sure to complete the steps for [MFA pairing](https://portal.tacc.utexas.edu/tutorials/multifactor-authentication).
 
-<a id="6a-action-02"></a>
+<a id="6a-02"></a>
 
 ## Identify or Establish a TAS Project/Allocation
 
@@ -30,7 +30,7 @@ TACC portals are charged against a project that is officially recognized by the 
 3. TACC staff with appropriate access permissions can verify account status by accessing the [TAS](https://tas.tacc.utexas.edu).
 4. Once the allocation request is approved, the remaining procedures for establishing a new portal can commence.
 
-<a id="6a-action-03"></a>
+<a id="6a-03"></a>
 
 ## Identify the TAS Project GID for the Portal Allocation
 
@@ -42,25 +42,25 @@ TACC staff with appropriate access permissions can verify the project TAS GID by
 4. Select the specific project you are examining by clicking the **details** link in the results list.
 5. Look under the **project information** section for the **default gid** value.
 
-<a id="6a-action-04"></a>
+<a id="6a-04"></a>
 
 ## Ensure the Correct Users are Added to the TAS Project
 
 Once the PI has established the portal project and an allocation for resource accounting, they can add users (with active TACC user accounts) to the project via the [TACC User Portal](https://portal.tacc.utexas.edu/home).
 
-<a id="6a-action-05"></a>
+<a id="6a-05"></a>
 
 ## Identify the WMA Developer(s) Administrating the Portal
 
 The TACC ACI-WMA Leadership Team will assign WMA team members to each portal project as is determined appropriate.
 
-<a id="6a-action-06"></a>
+<a id="6a-06"></a>
 
 ## Verify Developer Access to Required Resources
 
 Once WMA developers have been assigned to a portal project, they should verify that they have access to the accounts and systems required to establish and deploy the new portal project.
 
-<a id="6a-action-07"></a>
+<a id="6a-07"></a>
 
 ## Identify the Public URL for the Portal
 
@@ -70,4 +70,4 @@ Portal projects can secure a custom domain name for their portal or they can use
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)

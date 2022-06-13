@@ -1,4 +1,4 @@
-- [Index](../index.md) > [Overview](overview.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md)
 
 ---
 
@@ -16,8 +16,9 @@ Describe the objectives of this phase of the lifecycle.
 
 ### [5A. TBD](phase_05_A#top)
 
-- **Action:** [TBD](phase_05_A#5a-action-01)
+- **Action:** [01](phase_05_A#5a-01)
+- **Action:** [02](phase_05_A#5a-02)
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md)

@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
 
 ---
 
@@ -8,37 +8,37 @@
 
 # Phase 6B: Resource Planning & Allocation
 
-<a id="6b-action-01"></a>
+<a id="6b-01"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6b-action-02"></a>
+<a id="6b-02"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6b-action-03"></a>
+<a id="6b-03"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6b-action-04"></a>
+<a id="6b-04"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6b-action-05"></a>
+<a id="6b-05"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6b-action-06"></a>
+<a id="6b-06"></a>
 
 **Action: TBDI**
 
@@ -48,4 +48,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)

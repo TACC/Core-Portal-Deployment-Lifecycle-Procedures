@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
 
 ---
 
@@ -8,103 +8,103 @@
 
 # Phase 6C: Secrets & Credentials Managements
 
-<a id="6c-action-01"></a>
+<a id="6c-01"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-02"></a>
+<a id="6c-02"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-03"></a>
+<a id="6c-03"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-04"></a>
+<a id="6c-04"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-05"></a>
+<a id="6c-05"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-06"></a>
+<a id="6c-06"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-07"></a>
+<a id="6c-07"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-08"></a>
+<a id="6c-08"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-09"></a>
+<a id="6c-09"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-10"></a>
+<a id="6c-10"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-11"></a>
+<a id="6c-11"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-12"></a>
+<a id="6c-12"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-13"></a>
+<a id="6c-13"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-14"></a>
+<a id="6c-14"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-15"></a>
+<a id="6c-15"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-16"></a>
+<a id="6c-16"></a>
 
 **Action: TBDI**
 
 Description pending.
 
-<a id="6c-action-17"></a>
+<a id="6c-17"></a>
 
 **Action: TBDI**
 
@@ -114,4 +114,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
