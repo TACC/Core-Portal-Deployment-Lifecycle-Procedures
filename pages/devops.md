@@ -5,7 +5,7 @@
 # Lifecycle Overview
 
 <p align="center">
-  <img src="/assets/img/devops-lifecycle.png" alt="devops-lifecycle logo">
+  <img src="/Core-Portal-Lifecycle-Procedures/assets/img/devops-lifecycle.png" alt="devops-lifecycle logo">
   <br/>
   <sub><i>This documentation adheres to the Devops Lifecycle structure.</i></sub>
 </p>
