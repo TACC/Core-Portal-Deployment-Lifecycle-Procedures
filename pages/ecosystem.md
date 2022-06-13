@@ -42,7 +42,7 @@ There will be unique requirements for some portal projects. Any additional porta
 
 ## CEP and the Software Development Life Cycle
 
-Due to the aggregate nature of the multiple codebases used to implement the CEP architecture, the SDLC can not be correlated on a one-to-one basis with the procedures defined in this documentation. Each codebase referenced maintains its own SDLC processes for development and documents the details of those proccesses within its repo-specific documentation. Adherence to the stages of the SDLC are observed here so as to ensure a common structure to the documentation used across the related projects.
+Due to the aggregate nature of the multiple codebases used to implement the CEP architecture, the SDLC can not be correlated on a one-to-one basis with the procedures defined in this documentation. Each codebase referenced maintains its own SDLC processes for development and documents the details of those proccesses within its repo-specific documentation. General adherence to the stages of the SDLC are observed here so as to ensure a common baseline structure for documentation used across all related projects.
 
 ---
 

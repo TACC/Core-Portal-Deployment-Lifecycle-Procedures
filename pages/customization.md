@@ -4,7 +4,7 @@
 
 #  Customization
 
-Description of how we add customizations (features, apps, etc.) to the Core Portal using CMS iframes + containers.
+Description of how we add customizations (features, apps, etc.) to the Core Portal using CMS iframes and containers.
 
 Link from here to the documents detailing:
 
