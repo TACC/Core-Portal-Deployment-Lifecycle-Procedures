@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 - [Index](../index.md) > [DevOps Lifecycle](devops.md)
 
 ---
@@ -159,6 +161,8 @@ Describe the objectives of this phase of the lifecycle.
 
 - **Action:** [Run the ES Indexing management command against each deployed target host VM.](phase_06_H#6h-01)
 - **Action:** [Schedule a QA Review for each deployed target host VM.](phase_06_H#6h-02)
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
 ---
 
