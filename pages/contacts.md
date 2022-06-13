@@ -4,7 +4,7 @@
 
 # Contacts
 
-List points of contact within TACC for the various codebases, respurces, etc. related to CEP.
+List points of contact within TACC for the various departments, systems, codebases and resources related to CEP.
 
 ---
 

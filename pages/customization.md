@@ -6,7 +6,7 @@
 
 ## Applications
 
-Description of how we add custom apps to the Core Portal workbench using TAPIS and the TACC Cloud.
+Description of how we add custom apps to the portal workbench using TAPIS and the TACC Cloud.
 
 Link from here to the documents detailing:
 
@@ -14,7 +14,7 @@ Link from here to the documents detailing:
 
 ## Feature Development
 
-Description of how we add customizations (features, apps, etc.) to the Core Portal using CMS iframes and containers.
+Description of how we add customizations (features, apps, etc.) to the portal using CMS iframes and containers.
 
 Link from here to the documents detailing:
 

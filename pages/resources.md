@@ -4,7 +4,7 @@
 
 # Resources
 
-Resources, repos and any other useful items or links related to or referenced by the procedures.
+Resources, repos and any other useful items or links related to or referenced by the procedures in this documentation.
 
 ## Organizations & Repositories
 
