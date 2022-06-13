@@ -6,7 +6,7 @@
 
 <a id="actions"></a>
 
-# Phase 7B: Feature Development & Customization
+# Phase 7B: Maintenance & Updates
 
 <a id="7b-01"></a>
 

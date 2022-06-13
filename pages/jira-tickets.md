@@ -4,13 +4,15 @@
 
 # JIRA Tickets
 
+## Key Concepts
+
 There are a few key concepts to understand in order to make use of the suggestions in this document.
 
 - Several portal lifecycle phases are comprised of multiple _SubPhases_, indicated by a number and letter combination (e.g. 6A, 7B, 9A).
 - Each **SubPhase** is an aggregation of steps called _Actions_.
 - Each **Action** is a discrete task that must be completed to fulfill the SubPhase objective.
 
-## Deployment Task Tracking
+### Tracking Phase 6 Deployment Tasks
 
 When deploying a new portal (Subphases 6A - 6H), it can be difficult to track the many individual tasks and their status, especially if the tasks are assigned to multiple team members who are working in parallel or across multiple portal projects.
 

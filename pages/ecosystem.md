@@ -36,13 +36,9 @@ Establishing a common codebase for all TACC portals helps maintain alignment bet
 - Search (user generated files & portal content)
 - Notifications (system messages to the user)
 
-## Portal Customization
+### Portal Customization
 
 There will be unique requirements for some portal projects. Any additional portal capabilities required by a project need to be identified and planned for independently. If new or enhanced features are developed for a CEP-based portal, they will be shared across all portal projects based on CEP. Likewise, if a new capability is developed for a CEP-based project using custom containers, TAPIS applications, or in extreme cases - a forked version of the CEP codebase, that capability can be pushed back upstream to the Core ecosystem to be shared by any sibling projects that wish to utilize the new capability.
-
-## CEP and the Software Development Life Cycle
-
-Due to the aggregate nature of the multiple codebases used to implement the CEP architecture, the SDLC can not be correlated on a one-to-one basis with the procedures defined in this documentation. Each codebase referenced maintains its own SDLC processes for development and documents the details of those proccesses within its repo-specific documentation. General adherence to the stages of the SDLC are observed here so as to ensure a common baseline structure for documentation used across all related projects.
 
 ---
 

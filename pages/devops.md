@@ -2,20 +2,13 @@
 
 ---
 
-# Lifecycle Overview
+# The DevOps Lifecycle
 
 <p align="center">
   <img width="50%" src="../assets/img/devops-lifecycle.png" alt="devops-lifecycle logo">
   <br/>
   <sub><i>This documentation adheres to the Devops Lifecycle structure.</i></sub>
 </p>
-
-## Documentation Goals
-
-- To provide adequate information for stakeholders to make decisions about the inclusion and funding of the CEP portal in their research projects.
-- To provide a roadmap for TACC developers and contributing partners who need to support, extend, customize or administrate one of the CEP portal codebases.
-- To codify best-practices and procedures used across related codebases and projects at TACC.
-- To aggregate and maintain a list of all resources, systems and points of contact related to the CEP codebases.
 
 ## Lifecycle Phases
 
@@ -35,20 +28,19 @@
   - [6H. Post Deployment](phase_06#6h)
 - [Phase 7: Operations](phase_07)
   - [7A. Bug Fixes & Patches](phase_07#7a)
-  - [7B. Feature Development & Customization](phase_07#7b)
-  - [7C. Maintenance & Updates](phase_07#7c)
-  - [7D. Backups & Archiving](phase_07#7d)
+  - [7B. Maintenance & Updates](phase_07#7b)
+  - [7C. Backups & Archiving](phase_07#7c)
 - [Phase 8: Monitoring](phase_08)
 - [Phase 9: End of Life](phase_09)
   - [9A. Deprecation](phase_09#9a)
   - [9B. Retirement](phase_09#9b)
 
-**Additional Notes**
+### Additional Notes
 
-- The primary focus of this documentation is on Phases 6 through 8 (_Deployments_, _Operations_ and _Monitoring_).
-- Phases 1 through 5 (_Planning_, _Code_, _Builds_, _Testing_, _Releases_) will only contain documentation that is globally relevant to all `Core-*` projects and codebases.
 - Any documentation detailing codebase specific procedures will be located in the relevant code repository (links to each of which can be found on the [resources](resources#top) page).
-- The procedural documentation for Phase 9 is currently being developed.
+- Phases 1 through 5 (_Planning_, _Code_, _Builds_, _Testing_, _Releases_) will only contain documentation that is globally relevant to all `Core-*` projects and codebases.
+- Phases 6 through 8 (_Deployments_, _Operations_ and _Monitoring_) are the primary focus of this documentation.
+- The procedural documentation for Phase 9 is under development.
 
 ---
 
