@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 - [Index](../index.md) > [DevOps Lifecycle](devops.md)
 
 ---
@@ -18,6 +20,8 @@ Describe the objectives of this phase of the lifecycle.
 
 - **Action:** [01](phase_01_A#1a-01)
 - **Action:** [02](phase_01_A#1a-02)
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
 ---
 

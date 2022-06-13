@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 # Core Portal Lifecycle Procedures
 
 Documentation for the TACC ACI-WMA Core v2 Portal codebases.
@@ -37,3 +39,5 @@ Documentation for the TACC ACI-WMA Core v2 Portal codebases.
 - Additional information relating to development [Resources](pages/resources.md), and primary [Points of Contact](pages/contacts.md).
 
 _Note: This is living documentation and will be updated periodically to reflect changes and updates to TACC workflows, operations and best practices._
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>

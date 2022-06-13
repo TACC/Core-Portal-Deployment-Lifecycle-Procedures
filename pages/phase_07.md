@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 - [Index](../index.md) > [DevOps Lifecycle](devops.md)
 
 ---
@@ -38,6 +40,8 @@ Description pending.
 - **Action:** [02](phase_07_C#7c-02)
 
 Description pending.
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
 ---
 

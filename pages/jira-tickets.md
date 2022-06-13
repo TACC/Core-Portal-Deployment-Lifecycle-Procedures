@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 - [Index](../index.md)
 
 ---
@@ -31,6 +33,8 @@ In order to facilitate the tracking of the deployment procedures, we recommend t
 3. Link each _Action_ **Task** to the parent _SubPhase_ **Task** in JIRA (e.g. Using the  _is a subtask of_ link type).
 4. Track the progress of each _Action_ **Task** to determine progress on the related parent _SubPhase_ **Task**.
 5. Deployment will be succesful when all _Subphase_ **Tasks** have been completed successfully.
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
 ---
 

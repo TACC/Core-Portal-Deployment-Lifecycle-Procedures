@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 - [Index](../index.md)
 
 ---
@@ -39,6 +41,8 @@ Establishing a common codebase for all TACC portals helps maintain alignment bet
 ### Portal Customization
 
 There will be unique requirements for some portal projects. Any additional portal capabilities required by a project need to be identified and planned for independently. If new or enhanced features are developed for a CEP-based portal, they will be shared across all portal projects based on CEP. Likewise, if a new capability is developed for a CEP-based project using custom containers, TAPIS applications, or in extreme cases - a forked version of the CEP codebase, that capability can be pushed back upstream to the Core ecosystem to be shared by any sibling projects that wish to utilize the new capability.
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
 ---
 

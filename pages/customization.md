@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 - [Index](../index.md)
 
 ---
@@ -19,6 +21,8 @@ Description of how we add customizations (features, apps, etc.) to the portal us
 Link from here to the documents detailing:
 
 - How to setup, configure and deploy a custom container in the core portal.
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
 ---
 

@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 - [Index](../index.md)
 
 ---
@@ -17,6 +19,8 @@ List of those who have contributed to this documentation project.
 ## External Contributors
 
 - None.
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
 ---
 
