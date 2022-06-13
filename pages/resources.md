@@ -26,14 +26,19 @@ Resources, repos and any other useful items or links related to or referenced by
 - [TACC WMA Jenkins](https://jenkins01.tacc.utexas.edu/)
 - [TACC Splunk](https://scribe.tacc.utexas.edu:8000/)
 
-## Documentation, Project Management & Communications
+## Documentation
 
 - [TACC Knowledge Base]()
 - [TACC Confluence]()
+
+## Project Management & Ticketing Systems
+
 - [TACC JIRA]()
-- [TACC Slack]()
 - [TACC Tickets]()
 - [TACC Consult]()
+## Communications
+
+- [TACC Slack]()
 
 ---
 
