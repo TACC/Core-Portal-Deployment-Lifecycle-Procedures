@@ -3,22 +3,7 @@
 
 @import "jekyll-theme-minimal";
 
-// Custom Style Overrides.
-body {
-    // background: #111;
-    // color: #fff;
-}
-h1, h2, h3, h4, h5, h6 {
-    // color: #ddd;
-}
-
-h2:before {
-    content: "»";
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding-right: 1rem;
-}
+// Custom Styles & Overrides.
 
 .inline-navlink-page-top {
     font-size: 8px;
