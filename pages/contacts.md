@@ -4,9 +4,9 @@
 
 ---
 
-# Licensing
+# Contacts
 
-Identify _if and how_ TACC [licenses](https://choosealicense.com/) these codebases.
+List points of contact within TACC for the various departments, systems, codebases and resources related to CEP.
 
 <a class="inline-navlink-page-top" href="#top">Back to Top</a>
 

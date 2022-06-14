@@ -1,56 +1,43 @@
+<a id="top"></a>
+
 # Core Portal Lifecycle Procedures
 
-Documentation on the complete TACC ACI-WMA Core v2 Portal lifecycle.
-
-This documentation includes the following:
-
-- A detailed explanation of the portal ecosystem, design decisions and goals driving the evolution of the Core Portal codebase at TACC during development, testing and release phases.
-- The complete list of procedures for planning, resourcing, provisioning, configuring and deploying the portal codebase on TACC infrastructure.
-- The procedures used for maintenance, backups, archiving and sunsetting of deprecated portal projects.
-- A checklist of explicit, discrete actions to convert into JIRA tasks in order to track progress during the deployment phase of the portal lifecycle.
-- Instructions on how to customize the portal branding.
-- Instructions on how to add custom portal capabilities via the use of containers or TAPIS.
-- Instructions on how to report bugs or contribute to the codebase.
-
-This documentation should be referenced throughout all phases of a portal's lifecycle.
-
-### Important
-
-**This is living documentation that will be reviewed and updated regularly.**
-
-The primary focus of this documentation is on Phases 6 through 8 (_Deployments_, _Operations_ and _Monitoring_). Phases 1 through 5 (_Planning_, _Code_, _Builds_, _Testing_, _Releases_) will only contain documentation that is globally relevant to all `Core-*` projects and codebases. The majority of the documentation detailing these procedures is located in other repositories (links to each of which can be found under the [resources](pages/resources#top) page). The procedural documentation for Phase 9 is currently being developed.
+Documentation for the TACC ACI-WMA Core v2 Portal codebases.
 
 ## Table of Contents
 
 - [Core Portal Ecosystem](pages/ecosystem.md)
-- [Lifecycle Overview](pages/overview.md)
-  - [Phase 1: Planning](pages/phase_01)
-  - [Phase 2: Code](pages/phase_02)
-  - [Phase 3: Builds](pages/phase_03)
-  - [Phase 4: Testing](pages/phase_04)
-  - [Phase 5: Releases](pages/phase_05)
-  - [Phase 6: Deployments](pages/phase_06) (Establishing A Portal)
-    - [6A. Administrative Prerequisites](pages/phase_06#6a)
-    - [6B. Resource Planning & Allocation](pages/phase_06#6b)
-    - [6C. Secrets & Credentials Management](pages/phase_06#6c)
-    - [6D. Resource Provisioning & Configuration](pages/phase_06#6d)
-    - [6E. Branding & Image Publishing](pages/phase_06#6e)
-    - [6F. Deployment Configurations](pages/phase_06#6f)
-    - [6G. Deployments](pages/phase_06#6g)
-    - [6H. Post Deployment](pages/phase_06#6h)
-  - [Phase 7: Operations](pages/phase_07)
-    - [7A. Feature Development & Customization](pages/phase_07#7a)
-    - [7B. Bug Fixes & Patches](pages/phase_07#7b)
-    - [7C. Maintenance & Updates](pages/phase_07#7c)
-    - [7D. Backups & Archiving](pages/phase_07#7d)
-  - [Phase 8: Monitoring](pages/phase_08)
-  - [Phase 9: End of Life](pages/phase_09)
-    - [9A. Deprecation](pages/phase_09#9a)
-    - [9B. Retirement](pages/phase_09#9b)
-- [JIRA Usage](pages/jira-usage.md)
+- [DevOps Lifecycle](pages/devops.md)
+- [Portal Branding](pages/branding.md)
 - [Customization](pages/customization.md)
-- [Resources](pages/resources.md)
-- [Versioning Information](pages/versioning-information.md)
-- [Contributors](pages/contributors.md)
-- [How to Contribute](pages/how-to-contribute.md)
+- [JIRA Tickets](pages/jira-tickets.md)
 - [Licensing](pages/licensing.md)
+- [Versioning Information](pages/versioning-information.md)
+- [How to Contribute](pages/how-to-contribute.md)
+- [Contributors](pages/contributors.md)
+- [Resources](pages/resources.md)
+- [Points of Contact](pages/contacts.md)
+
+### Documentation Goals
+
+- To provide adequate information for project stakeholders to make decisions regarding the use and funding of the portal in their research.
+- To provide a roadmap for TACC WMA developers and contributing partners who need to support, extend, customize or administrate the portal codebase.
+- To codify best-practices and procedures used by portal codebases and related projects at TACC.
+- To aggregate and maintain a list of all resources, systems and points of contact relevant to the portal codebases.
+
+### What's Included
+
+- A detailed explanation of the [Core Portal Ecosystem](pages/ecosystem.md), including the design decisions and goals driving the evolution of the portal codebase.
+- The [DevOps Lifecycle](pages/devops.md) procedures for planning, resourcing, provisioning, configuring and deploying the portal codebase on TACC infrastructure.
+- An explanation of how the [Portal Branding](pages/branding.md) is implemented in the portal and CMS.
+- [Customization](pages/customization.md) instructions on extending the portal architecture with published TAPIS applications or additional containers.
+- A strategy for converting discrete actions into [JIRA Tickets](pages/jira-tickets.md) in order to track progress during the phases of the portal lifecycle.
+- The [Operations](pages/phase_07.md) procedures used for bug reporting, portal maintenance, content backups, and data archiving.
+- Information about the portal [Licensing](pages/licensing.md) model.
+- Instructions on how to [How to Contribute](pages/how-to-contribute.md) to the codebase, and the list of current [Contributors](pages/contributors.md).
+- [Versioning Information](pages/versioning-information.md) about this documentation and how it relates to the various codebases.
+- Additional information relating to development [Resources](pages/resources.md), and primary [Points of Contact](pages/contacts.md).
+
+_Note: This is living documentation and will be updated periodically to reflect changes and updates to TACC workflows, operations and best practices._
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>

@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 9](phase_09.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 9](phase_09.md)
 
 ---
 
@@ -8,9 +8,15 @@
 
 # Phase 9B: Retirement
 
-<a id="9b-action-01"></a>
+<a id="9b-01"></a>
 
-**Action: TBD.**
+### Action 01
+
+Description pending.
+
+<a id="9b-02"></a>
+
+### Action 02
 
 Description pending.
 
@@ -18,4 +24,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 9](phase_09.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 9](phase_09.md)

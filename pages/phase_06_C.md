@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
 
 ---
 
@@ -8,105 +8,128 @@
 
 # Phase 6C: Secrets & Credentials Managements
 
-<a id="6c-action-01"></a>
+## Credentials Management
 
-**Action: TBDI**
+<a id="6c-01"></a>
 
-Description pending.
+### Establish new UT Stache entry to store Administrator credentials
 
-<a id="6c-action-02"></a>
+Create a new entry for the admin credentials and secret settings.
+Name the new entry `PROJECTNAME Administrator`.
 
-**Action: TBDI**
+<a id="6c-02"></a>
 
-Description pending.
+### Establish new UT Stache entries to store Portal credentials
 
-<a id="6c-action-03"></a>
+Create new entries for the Portal credentials and secret settings.
+Name the new entries for each deployment target host system:
 
-**Action: TBDI**
+- `PROJECTNAME PROD Portal`
+- `PROJECTNAME PPRD Portal`
 
-Description pending.
+<a id="6c-03"></a>
 
-<a id="6c-action-04"></a>
+### Establish new UT Stache entries to store CMS credentials
 
-**Action: TBDI**
+Create new entries for the CMS credentials and secret settings.
+Name the new entries for each deployment target host system:
 
-Description pending.
+- `PROJECTNAME PROD CMS`
+- `PROJECTNAME PPRD CMS`
 
-<a id="6c-action-05"></a>
+## WSO2 Tenant
 
-**Action: TBDI**
+<a id="6c-04"></a>
 
-Description pending.
-
-<a id="6c-action-06"></a>
-
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-07"></a>
-
-**Action: TBDI**
+### Create a TACC Tenant OAuth client for each host VM
 
 Description pending.
 
-<a id="6c-action-08"></a>
+<a id="6c-05"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-09"></a>
-
-**Action: TBDI**
+### Configure TACC Tenant long lived token for each host VM
 
 Description pending.
 
-<a id="6c-action-10"></a>
+## PostgreSQL
 
-**Action: TBDI**
+<a id="6c-06"></a>
 
-Description pending.
-
-<a id="6c-action-11"></a>
-
-**Action: TBDI**
+### Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM Portal
 
 Description pending.
 
-<a id="6c-action-12"></a>
+<a id="6c-07"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6c-action-13"></a>
-
-**Action: TBDI**
+### Create Database Credentials & a Database in the WMA PostgreSQL Cluster for each host VM CMS
 
 Description pending.
 
-<a id="6c-action-14"></a>
+## ElasticSearch
 
-**Action: TBDI**
+<a id="6c-08"></a>
 
-Description pending.
-
-<a id="6c-action-15"></a>
-
-**Action: TBDI**
+### Create ElasticSearch Credentials in the WMA ES Cluster for each host VM
 
 Description pending.
 
-<a id="6c-action-16"></a>
+<a id="6c-09"></a>
 
-**Action: TBDI**
+### Create ElasticSearch Indeces in the WMA ES Cluster for each host VM Portal and host VM CMS
 
 Description pending.
 
-<a id="6c-action-17"></a>
+## Web Services
 
-**Action: TBDI**
+<a id="6c-10"></a>
+
+### Generate a new Google Analytics property ID for the PROD public domain name
+
+Description pending.
+
+<a id="6c-11"></a>
+
+### Generate a new Google Site Verification token for the PROD public domain name
+
+Description pending.
+
+<a id="6c-12"></a>
+
+### Generate a new reCAPTCHA code for the PROD public domain name
+
+Description pending.
+
+## Document Secrets
+
+<a id="6c-13"></a>
+
+### Populate UT Stache with the secret values for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS
+
+Description pending.
+
+<a id="6c-14"></a>
+
+### Populate UT Stache with the secret values for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal
+
+Description pending.
+
+## Prepare Settings
+
+<a id="6c-15"></a>
+
+### Create a `secrets.py` file for the django CMS container on each host VM
+
+Description pending.
+
+<a id="6c-16"></a>
+
+### Create a `settings_secret.py` file for the django portal container on each host VM
+
+Description pending.
+
+<a id="6c-17"></a>
+
+### Create a `rabbitmq.env` file for each host VM
 
 Description pending.
 
@@ -114,4 +137,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)

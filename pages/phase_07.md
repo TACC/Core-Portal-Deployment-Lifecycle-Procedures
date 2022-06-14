@@ -1,4 +1,6 @@
-- [Index](../index.md) > [Overview](overview.md)
+<a id="top"></a>
+
+- [Index](../index.md) > [DevOps Lifecycle](devops.md)
 
 ---
 
@@ -16,34 +18,31 @@ Describe the objectives of this phase of the lifecycle.
 
 ### [7A. Bug Fixes & Patches](phase_07_A#top)
 
-- **Action:** [TBD.](phase_07_A#7a-action-01)
+- **Action:** [01](phase_07_A#7a-01)
+- **Action:** [02](phase_07_A#7a-02)
 
 Description pending.
 
 <a id="7b"></a>
 
-### [7B. Feature Development & Customization](phase_07_B#top)
+### [7B. Maintenance & Updates](phase_07_B#top)
 
-- **Action:** [TBD.](phase_07_B#7b-action-01)
+- **Action:** [01](phase_07_B#7b-01)
+- **Action:** [02](phase_07_B#7b-02)
 
 Description pending.
 
 <a id="7c"></a>
 
-### [7C. Maintenance & Updates](phase_07_C#top)
+### [7C. Backups & Archiving](phase_07_C#top)
 
-- **Action:** [TBD.](phase_07_C#7c-action-01)
-
-Description pending.
-
-<a id="7d"></a>
-
-### [7D. Backups & Archiving](phase_07_D#top)
-
-- **Action:** [TBD.](phase_07_D#7d-action-01)
+- **Action:** [01](phase_07_C#7c-01)
+- **Action:** [02](phase_07_C#7c-02)
 
 Description pending.
+
+<a class="inline-navlink-page-top" href="#top">Back to Top</a>
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md)
