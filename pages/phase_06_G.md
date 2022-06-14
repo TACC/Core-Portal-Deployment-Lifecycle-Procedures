@@ -14,25 +14,25 @@
 
 <a id="6g-01"></a>
 
-**Action: TBDI**
+### Deploy the Portal via Jenkins CI job on the target host system
 
 Description pending.
 
 <a id="6g-02"></a>
 
-**Action: TBDI**
+### SSH into the deployment target host and become the user `portal`
 
 Description pending.
 
 <a id="6g-03"></a>
 
-**Action: TBDI**
+### Complete the container setup
 
 Description pending.
 
 <a id="6g-04"></a>
 
-**Action: TBDI**
+### Create an index page in the CMS
 
 Description pending.
 
@@ -42,7 +42,7 @@ Description pending.
 
 <a id="6g-05"></a>
 
-**Action: TBDI**
+### Deploy the Portal via Jenkins CI job to each target host system
 
 Description pending.
 

@@ -10,7 +10,7 @@
 
 <a id="6f-01"></a>
 
-**Action: TBDI**
+### Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers
 
 Description pending.
 

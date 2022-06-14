@@ -8,105 +8,113 @@
 
 # Phase 6D: Resource Provisioning & Configuration
 
+## Host Provisioning
+
 <a id="6d-01"></a>
 
-**Action: TBDI**
+### Generate the `dhparam.pem` file on the deployment target host
 
 Description pending.
 
 <a id="6d-02"></a>
 
-**Action: TBDI**
+### On the deployment target host create the user `portal`
 
 Description pending.
 
 <a id="6d-03"></a>
 
-**Action: TBDI**
+### Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file
 
 Description pending.
 
 <a id="6d-04"></a>
 
-**Action: TBDI**
+### Nginx SSL Certs Configuration for containers
 
 Description pending.
 
 <a id="6d-05"></a>
 
-**Action: TBDI**
+### Install host dependencies
 
 Description pending.
 
 <a id="6d-06"></a>
 
-**Action: TBDI**
+## Add the `portal` user to the (new) `docker` group
 
 Description pending.
 
 <a id="6d-07"></a>
 
-**Action: TBDI**
+### Create deployment directories for the Camino workflow in each deployment host VM
 
 Description pending.
 
 <a id="6d-08"></a>
 
-**Action: TBDI**
+### Clone Camino into each deployment host VM
 
 Description pending.
 
 <a id="6d-09"></a>
 
-**Action: TBDI**
+### Request that NSO grant the user `portal` SSH access from the Jenkins Deployer VM IP Address into each deployment host VM
 
 Description pending.
 
+## Placing Secrets
+
 <a id="6d-10"></a>
 
-**Action: TBDI**
+### SCP `secrets.py` into each deployment host VM
 
 Description pending.
 
 <a id="6d-11"></a>
 
-**Action: TBDI**
+### SCP `settings_secret.py` into each deployment host VM
 
 Description pending.
 
 <a id="6d-12"></a>
 
-**Action: TBDI**
+### SCP `rabbitmq.env` into each deployment host VM
 
 Description pending.
+
+## CI/CD Jobs
 
 <a id="6d-13"></a>
 
-**Action: TBDI**
+### Configure the Portal Project Jenkins CI job
 
 Description pending.
 
+## Backend Systems
+
 <a id="6d-14"></a>
 
-**Action: TBDI**
+### Create Default Storage Systems for the project
 
 Description pending.
 
 <a id="6d-15"></a>
 
-**Action: TBDI**
+### Create Default Execution Systems for the project
 
 Description pending.
 
 <a id="6d-16"></a>
 
-**Action: TBDI**
+### Setup a Community Data Project
 
 Description pending.
 
 <a id="6d-17"></a>
 
-**Action: TBDI**
+### Setup a Public Data Project
 
 Description pending.
 

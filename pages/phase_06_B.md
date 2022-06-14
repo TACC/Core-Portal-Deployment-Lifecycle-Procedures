@@ -8,39 +8,47 @@
 
 # Phase 6B: Resource Planning & Allocation
 
+## Host VM Requests
+
 <a id="6b-01"></a>
 
-**Action: TBDI**
+### Request the deployment target host VMs for `PPRD`, `PROD`, `DEV`, etc. via KB
 
 Description pending.
+
+## SSL Certificates
 
 <a id="6b-02"></a>
 
-**Action: TBDI**
+### Request SSL Certificates for each requested host VM via KB
 
 Description pending.
 
+## WSO2 Tenant Request
+
 <a id="6b-03"></a>
 
-**Action: TBDI**
+### Select the Tenant Type for the portal (shared or dedicated)
 
 Description pending.
 
 <a id="6b-04"></a>
 
-**Action: TBDI**
+### Request a dedicated WSO2 tenant for `TAPIS` access
 
 Description pending.
 
 <a id="6b-05"></a>
 
-**Action: TBDI**
+### Install portal service applications on the dedicated tenant
 
 Description pending.
 
+## CPS Exceptions
+
 <a id="6b-06"></a>
 
-**Action: TBDI**
+### Have a CPS exception made for the `PROD` vanity domain name URL
 
 Description pending.
 

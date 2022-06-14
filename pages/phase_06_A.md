@@ -10,7 +10,7 @@
 
 <a id="6a-01"></a>
 
-## Identify the Portal Project PI
+### Identify the Portal Project PI
 
 TACC users who qualify for PI status can initiate new projects in the TACC User Portal and request resource allocations.
 
@@ -23,7 +23,7 @@ TACC users who qualify for PI status can initiate new projects in the TACC User 
 
 <a id="6a-02"></a>
 
-## Identify or Establish a TAS Project/Allocation
+### Identify or Establish a TAS Project/Allocation
 
 TACC portals are charged against a project that is officially recognized by the TACC Accounting System (TAS). Any computational or storage resources used by the portal on behalf of its users will be be charged against an allocation associated with the project. The project and allocation is also used to provide user access controls, job submissions and resource usage accounting activities.
 
@@ -37,7 +37,7 @@ TACC portals are charged against a project that is officially recognized by the 
 
 <a id="6a-03"></a>
 
-## Identify the TAS Project GID for the Portal Allocation
+### Identify the TAS Project GID for the Portal Allocation
 
 TACC staff with appropriate access permissions can verify the project TAS GID by accessing [TAS](https://tas.tacc.utexas.edu).
 
@@ -49,25 +49,25 @@ TACC staff with appropriate access permissions can verify the project TAS GID by
 
 <a id="6a-04"></a>
 
-## Ensure the Correct Users are Added to the TAS Project
+### Ensure the Correct Users are Added to the TAS Project
 
 Once the PI has established the portal project and an allocation for resource accounting, they can add users (with active TACC user accounts) to the project via the [TACC User Portal](https://portal.tacc.utexas.edu/home).
 
 <a id="6a-05"></a>
 
-## Identify the WMA Developer(s) Administrating the Portal
+### Identify the WMA Developer(s) Administrating the Portal
 
 The TACC ACI-WMA Leadership Team will assign WMA team members to each portal project as is determined appropriate.
 
 <a id="6a-06"></a>
 
-## Verify Developer Access to Required Resources
+### Verify Developer Access to Required Resources
 
 Once WMA developers have been assigned to a portal project, they should verify that they have access to the accounts and systems required to establish and deploy the new portal project.
 
 <a id="6a-07"></a>
 
-## Identify the Public URL for the Portal
+### Identify the Public URL for the Portal
 
 Portal projects can secure a custom domain name for their portal or they can use a tacc subdomain (e.g. `portalname.tacc.utexas.edu`). Acquiring a new domain is not an immediate process.  New domains first have to be purchased using funding from the project account. Once the domain has been purchased, the university ISO has to approve transfer of domain control over to TACC for association with the portal and generating the SSL certificates used to secure access to the system. This process normally takes 3-4 weeks.
 

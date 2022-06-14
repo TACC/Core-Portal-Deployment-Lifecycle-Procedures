@@ -10,13 +10,13 @@
 
 <a id="6h-01"></a>
 
-**Action: TBDI**
+### Run the ES Indexing management command against each deployed target host VM
 
 Description pending.
 
 <a id="6h-02"></a>
 
-**Action: TBDI**
+### Schedule a QA Review for each deployed target host VM
 
 Description pending.
 

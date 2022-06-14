@@ -54,11 +54,11 @@ Describe the objectives of this phase of the lifecycle.
 
 #### Credentials Management
 
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for admin: PROJECTNAME ADMIN.](phase_06_C#6c-01)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM CMS: PROJECTNAME DEPLOYMENT_TARGET CMS.](phase_06_C#6c-02)
-- **Action:** [Establish new UT Stache entries to store project credentials and secret settings for each host VM Portal: PROJECTNAME DEPLOYMENT_TARGET Portal.](phase_06_C#6c-03)
+- **Action:** [Establish new UT Stache entry to store Administrator credentials.](phase_06_C#6c-01)
+- **Action:** [Establish new UT Stache entries to store Portal credentials.](phase_06_C#6c-02)
+- **Action:** [Establish new UT Stache entries to store CMS credentials.](phase_06_C#6c-03)
 
-#### Tenant
+#### WSO2 Tenant
 
 - **Action:** [Create a TACC Tenant OAuth client for each host VM.](phase_06_C#6c-04)
 - **Action:** [Configure TACC Tenant long lived token for each host VM.](phase_06_C#6c-05)
