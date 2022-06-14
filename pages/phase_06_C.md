@@ -83,19 +83,19 @@ Description pending.
 
 <a id="6c-10"></a>
 
-### Generate a new Google Analytics property ID for the PROD vanity domain name
+### Generate a new Google Analytics property ID for the PROD public domain name
 
 Description pending.
 
 <a id="6c-11"></a>
 
-### Generate a new Google Site Verification token for the PROD vanity domain name
+### Generate a new Google Site Verification token for the PROD public domain name
 
 Description pending.
 
 <a id="6c-12"></a>
 
-### Generate a new reCAPTCHA code for the PROD vanity domain name
+### Generate a new reCAPTCHA code for the PROD public domain name
 
 Description pending.
 

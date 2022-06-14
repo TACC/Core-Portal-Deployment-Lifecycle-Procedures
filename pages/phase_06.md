@@ -46,7 +46,7 @@ Describe the objectives of this phase of the lifecycle.
 
 #### CPS Exceptions
 
-- **Action:** [Have a CPS exception made for the `PROD` vanity domain name URL.](phase_06_B#6b-06)
+- **Action:** [Have a CPS exception made for the `PROD` public domain name URL.](phase_06_B#6b-06)
 
 <a id="6c"></a>
 
@@ -75,9 +75,9 @@ Describe the objectives of this phase of the lifecycle.
 
 #### Web Services
 
-- **Action:** [Generate a new Google Analytics property ID for the PROD vanity domain name.](phase_06_C#6c-10)
-- **Action:** [Generate a new Google Site Verification token for the PROD vanity domain name.](phase_06_C#6c-11)
-- **Action:** [Generate a new reCAPTCHA code for the PROD vanity domain name.](phase_06_C#6c-12)
+- **Action:** [Generate a new Google Analytics property ID for the PROD public domain name.](phase_06_C#6c-10)
+- **Action:** [Generate a new Google Site Verification token for the PROD public domain name.](phase_06_C#6c-11)
+- **Action:** [Generate a new reCAPTCHA code for the PROD public domain name.](phase_06_C#6c-12)
 
 #### Document Secrets
 

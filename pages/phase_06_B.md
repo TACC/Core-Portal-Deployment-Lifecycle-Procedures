@@ -48,7 +48,7 @@ Description pending.
 
 <a id="6b-06"></a>
 
-### Have a CPS exception made for the `PROD` vanity domain name URL
+### Have a CPS exception made for the `PROD` public domain name URL
 
 Description pending.
 
