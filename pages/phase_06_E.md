@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
 
 ---
 
@@ -8,15 +8,15 @@
 
 # Phase 6E: Branding & Image Publishing
 
-<a id="6e-action-01"></a>
+<a id="6e-01"></a>
 
-**Action: TBDI**
+### Setup the custom branding and navigation bar in Core-CMS-Resources
 
 Description pending.
 
-<a id="6e-action-02"></a>
+<a id="6e-02"></a>
 
-**Action: TBDI**
+### Generate & Publish the Custom Project CMS Image on Dockerhub
 
 Description pending.
 
@@ -24,4 +24,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)

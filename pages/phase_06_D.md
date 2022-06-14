@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
 
 ---
 
@@ -8,105 +8,113 @@
 
 # Phase 6D: Resource Provisioning & Configuration
 
-<a id="6d-action-01"></a>
+## Host Provisioning
 
-**Action: TBDI**
+<a id="6d-01"></a>
 
-Description pending.
-
-<a id="6d-action-02"></a>
-
-**Action: TBDI**
+### Generate the `dhparam.pem` file on the deployment target host
 
 Description pending.
 
-<a id="6d-action-03"></a>
+<a id="6d-02"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-04"></a>
-
-**Action: TBDI**
+### On the deployment target host create the user `portal`
 
 Description pending.
 
-<a id="6d-action-05"></a>
+<a id="6d-03"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-06"></a>
-
-**Action: TBDI**
+### Add the `Jenkins Deployment SSH key` to the target host's `authorized keys` file
 
 Description pending.
 
-<a id="6d-action-07"></a>
+<a id="6d-04"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-08"></a>
-
-**Action: TBDI**
+### Nginx SSL Certs Configuration for containers
 
 Description pending.
 
-<a id="6d-action-09"></a>
+<a id="6d-05"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-10"></a>
-
-**Action: TBDI**
+### Install host dependencies
 
 Description pending.
 
-<a id="6d-action-11"></a>
+<a id="6d-06"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-12"></a>
-
-**Action: TBDI**
+## Add the `portal` user to the (new) `docker` group
 
 Description pending.
 
-<a id="6d-action-13"></a>
+<a id="6d-07"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-14"></a>
-
-**Action: TBDI**
+### Create deployment directories for the Camino workflow in each deployment host VM
 
 Description pending.
 
-<a id="6d-action-15"></a>
+<a id="6d-08"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6d-action-16"></a>
-
-**Action: TBDI**
+### Clone Camino into each deployment host VM
 
 Description pending.
 
-<a id="6d-action-17"></a>
+<a id="6d-09"></a>
 
-**Action: TBDI**
+### Request that NSO grant the user `portal` SSH access from the Jenkins Deployer VM IP Address into each deployment host VM
+
+Description pending.
+
+## Placing Secrets
+
+<a id="6d-10"></a>
+
+### SCP `secrets.py` into each deployment host VM
+
+Description pending.
+
+<a id="6d-11"></a>
+
+### SCP `settings_secret.py` into each deployment host VM
+
+Description pending.
+
+<a id="6d-12"></a>
+
+### SCP `rabbitmq.env` into each deployment host VM
+
+Description pending.
+
+## CI/CD Jobs
+
+<a id="6d-13"></a>
+
+### Configure the Portal Project Jenkins CI job
+
+Description pending.
+
+## Backend Systems
+
+<a id="6d-14"></a>
+
+### Create Default Storage Systems for the project
+
+Description pending.
+
+<a id="6d-15"></a>
+
+### Create Default Execution Systems for the project
+
+Description pending.
+
+<a id="6d-16"></a>
+
+### Setup a Community Data Project
+
+Description pending.
+
+<a id="6d-17"></a>
+
+### Setup a Public Data Project
 
 Description pending.
 
@@ -114,4 +122,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)

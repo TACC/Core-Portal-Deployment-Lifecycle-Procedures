@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
 
 ---
 
@@ -8,9 +8,9 @@
 
 # Phase 6F: Deployment Configurations
 
-<a id="6f-action-01"></a>
+<a id="6f-01"></a>
 
-**Action: TBDI**
+### Update the Core-Portal-Deployments repo with correct docker image tag values for the CMS and Portal containers
 
 Description pending.
 
@@ -18,4 +18,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)

@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)
 
 ---
 
@@ -12,27 +12,27 @@
 
 ## 6G1. First Deployment
 
-<a id="6g-action-01"></a>
+<a id="6g-01"></a>
 
-**Action: TBDI**
-
-Description pending.
-
-<a id="6g-action-02"></a>
-
-**Action: TBDI**
+### Deploy the Portal via Jenkins CI job on the target host system
 
 Description pending.
 
-<a id="6g-action-03"></a>
+<a id="6g-02"></a>
 
-**Action: TBDI**
+### SSH into the deployment target host and become the user `portal`
 
 Description pending.
 
-<a id="6g-action-04"></a>
+<a id="6g-03"></a>
 
-**Action: TBDI**
+### Complete the container setup
+
+Description pending.
+
+<a id="6g-04"></a>
+
+### Create an index page in the CMS
 
 Description pending.
 
@@ -40,9 +40,9 @@ Description pending.
 
 ## 6G2. Regular Deployment
 
-<a id="6g-action-05"></a>
+<a id="6g-05"></a>
 
-**Action: TBDI**
+### Deploy the Portal via Jenkins CI job to each target host system
 
 Description pending.
 
@@ -50,4 +50,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 6](phase_06.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 6](phase_06.md)

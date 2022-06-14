@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 7](phase_07.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 7](phase_07.md)
 
 ---
 
@@ -8,9 +8,15 @@
 
 # Phase 7A: Bug Fixes & Patches
 
-<a id="7a-action-01"></a>
+<a id="7a-01"></a>
 
-**Action: TBD.**
+### Action 01
+
+Description pending.
+
+<a id="7a-02"></a>
+
+### Action 02
 
 Description pending.
 
@@ -18,4 +24,4 @@ Description pending.
 
 ---
 
-- [Index](../index.md) > [Overview](overview.md) > [Phase 7](phase_07.md)
+- [Index](../index.md) > [DevOps Lifecycle](devops.md) > [Phase 7](phase_07.md)
